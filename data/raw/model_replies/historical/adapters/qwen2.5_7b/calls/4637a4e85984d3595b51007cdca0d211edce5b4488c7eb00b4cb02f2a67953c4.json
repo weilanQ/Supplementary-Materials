@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:23:30.4096673Z",
+    "message": {
+      "role": "assistant",
+      "content": "(\"Number of Participants With Treatment-Emergent Adverse Events in Assigned Dose Level 2\", \"is\", \"0\")\n(\"Assigned Dose Level 2\", \"has range\", \"10 to <70 × 10⁹\")\n(\"Assigned Dose Level 2\", \"target\", \"40 × 10⁹ TCR+ Cells\")\n(\"Time Frame\", \"from\", \"initiation of lymphodepletion\")\n(\"Time Frame\", \"to\", \"Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year\")\n(\"Denominator\", \"participants\", \"7\")\n(\"Population\", \"includes\", \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set)\")\n(\"Population\", \"by assigned dose level\", \"DL1 1, DL2 7\")\n(\"No participant\", \"assigned to\", \"DL3\")"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1663052100,
+    "load_duration": 5113300,
+    "prompt_eval_count": 724,
+    "prompt_eval_cached_count": 568,
+    "prompt_eval_duration": 36704000,
+    "eval_count": 191,
+    "eval_duration": 1599450000
+  },
+  "text": "(\"Number of Participants With Treatment-Emergent Adverse Events in Assigned Dose Level 2\", \"is\", \"0\")\n(\"Assigned Dose Level 2\", \"has range\", \"10 to <70 × 10⁹\")\n(\"Assigned Dose Level 2\", \"target\", \"40 × 10⁹ TCR+ Cells\")\n(\"Time Frame\", \"from\", \"initiation of lymphodepletion\")\n(\"Time Frame\", \"to\", \"Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year\")\n(\"Denominator\", \"participants\", \"7\")\n(\"Population\", \"includes\", \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set)\")\n(\"Population\", \"by assigned dose level\", \"DL1 1, DL2 7\")\n(\"No participant\", \"assigned to\", \"DL3\")",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Given an input text, please extract a KG from the text and represent the KG with triples formatted with (\"subject\", \"predicate\", \"object\"), each triplet in a line. Please note that this is an EXTRACTION task, so DO NOT care about whether the content of the candidate answer is factual or not, just extract the triplets from it. Importantly, ensure that the extracted KG does not contain overlapping or redundant information. Each piece of information should be represented in the KG only once, and you should avoid creating triplets that are simply the inverse of another triplet. For example, if you extract the triplet (\"John\", \"owns\", \"Car\"), do not also include (\"Car\", \"owned by\", \"John\") as it represents the same information in reverse.\n\nClarification on redundancy: First, Do not create triplets that reverse the subject and object to state the same fact. Next, Ensure each fact is represented uniquely in the simplest form, and avoid creating multiple triplets that convey the same information.\n\nHere are some in-context examples:\n\n### Input:\nOptimus (or Tesla Bot) is a robotic humanoid under development by Tesla, Inc. It was announced at the company's Artificial Intelligence (AI) Day event on August 19, 2021.\n\n### KG:\n(\"Optimus\", \"is\", \"robotic humanoid\")\n(\"Optimus\", \"under development by\", \"Tesla, Inc.\")\n(\"Optimus\", \"also known as\", \"Tesla Bot\")\n(\"Tesla, Inc.\", \"announced\", \"Optimus\")\n(\"Announcement of Optimus\", \"occurred at\", \"Artificial Intelligence (AI) Day event\")\n(\"Artificial Intelligence (AI) Day event\", \"held on\", \"August 19, 2021\")\n(\"Artificial Intelligence (AI) Day event\", \"organized by\", \"Tesla, Inc.\")\n\n### Input:\nThe song \"Here Comes the Boom\" was originally released by American rock band Nelly in 2002 for the soundtrack of the film \"The Longest Yard.\"\n\n### KG:\n(\"The song 'Here Comes the Boom'\", \"originally released by\", \"American rock band Nelly\")\n(\"The song 'Here Comes the Boom'\", \"released in\", \"2002\")\n(\"The song 'Here Comes the Boom'\", \"featured in\", \"soundtrack of the film 'The Longest Yard'\")\n(\"American rock band Nelly\", \"released\", \"The song 'Here Comes the Boom'\")\n(\"The Longest Yard\", \"had soundtrack featuring\", \"The song 'Here Comes the Boom'\")\n\n\nNow generate the KG for the provided input text:\n\n### Input:\nThe table gives 0 participants as the NUMBER for Number of Participants With Treatment-Emergent Adverse Events in Assigned Dose Level 2 (Target 40 × 10⁹ TCR+ Cells; Range 10 to <70 × 10⁹) (time frame: From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.; denominator: Participants: 7; population: All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.; category: TEAE leading to death).\n\n### KG:\n"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 768,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 1.6671026999974856,
+  "call_id": "4637a4e85984d3595b51007cdca0d211edce5b4488c7eb00b4cb02f2a67953c4"
+}

@@ -1,0 +1,109 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:14:58.8197937Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"Overall Response Rate of Intracranial Disease in Cohort A: Non-small Cell Lung Cancer w/o Corticosteroids\",\n      \"endpoint\": \"COUNT_OF_PARTICIPANTS\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Completion of treatment (estimated to be 6 months)\",\n      \"population\": \"There were not any participants enrolled in Cohort B or Cohort C.\",\n      \"denominator\": \"Participants: 4\",\n      \"category\": \"\",\n      \"value\": 0,\n      \"quotes\": [\n        \"The table gives 0 Participants as the COUNT_OF_PARTICIPANTS\"\n      ]\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1474482700,
+    "load_duration": 5210600,
+    "prompt_eval_count": 322,
+    "prompt_eval_cached_count": 242,
+    "prompt_eval_duration": 32540000,
+    "eval_count": 159,
+    "eval_duration": 1403856000
+  },
+  "text": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"Overall Response Rate of Intracranial Disease in Cohort A: Non-small Cell Lung Cancer w/o Corticosteroids\",\n      \"endpoint\": \"COUNT_OF_PARTICIPANTS\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Completion of treatment (estimated to be 6 months)\",\n      \"population\": \"There were not any participants enrolled in Cohort B or Cohort C.\",\n      \"denominator\": \"Participants: 4\",\n      \"category\": \"\",\n      \"value\": 0,\n      \"quotes\": [\n        \"The table gives 0 Participants as the COUNT_OF_PARTICIPANTS\"\n      ]\n    }\n  ]\n}",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Decompose this claim into ALL atomic numerical outcome relationships, without checking whether they are true. Return JSON with keys complete (boolean) and records (array). Each record must describe one group, endpoint, point value and its conditions. Resolve cross-sentence references from this claim only. Copy the group, endpoint, time frame, analysis population, category and denominator strings exactly as stated, removing only quotation delimiters. Do not omit a numeric relationship. Do not invent missing conditions: use empty string. A denominator such as Participants: 15 is NOT an analysis population. If no population description is stated, population MUST be empty. Do not copy a denominator into population. Preserve conditions shared by multiple records. A comparison, negation, approximate value or derived arithmetic that cannot be expressed as exact point records must set complete=false, never silently drop it.\nEvery record has string fields: group, endpoint, value (decimal only), unit, statistic, time, population, denominator, category; and quotes: an array of exact verbatim substrings from the claim supporting this decomposition. Statistic is mean, median, or count if stated. Return only JSON.\nCLAIM:\nThe table gives 0 Participants as the COUNT_OF_PARTICIPANTS for Overall Response Rate of Intracranial Disease in Cohort A: Non-small Cell Lung Cancer w/o Corticosteroids (time frame: Completion of treatment (estimated to be 6 months); denominator: Participants: 4; population: There were not any participants enrolled in Cohort B or Cohort C.)."
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 1024,
+      "num_ctx": 16384
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "group": {
+                "type": "string"
+              },
+              "endpoint": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "statistic": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "quotes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "group",
+              "endpoint",
+              "value",
+              "unit",
+              "statistic",
+              "time",
+              "population",
+              "denominator",
+              "category",
+              "quotes"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "records"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 1.4782224000082351,
+  "call_id": "136cb2b4758d58252bb069d2bb6514a4182906f2ea7cb51e047d6e0b74bf3aab"
+}

@@ -1,0 +1,54 @@
+{
+  "llama3.1_8b": {
+    "direct": 59,
+    "second": 59,
+    "fusion": 59,
+    "seconds": 117,
+    "tokens": 125978,
+    "calls": 160,
+    "abstentions": 0,
+    "second_vs_direct": {
+      "gained": 1,
+      "lost": 1,
+      "ci_pp": [
+        -3.75,
+        3.75
+      ]
+    },
+    "fusion_vs_second": {
+      "gained": 1,
+      "lost": 1,
+      "ci_pp": [
+        -3.75,
+        3.75
+      ]
+    },
+    "fusion_fixes_also_fixed_by_second": 0
+  },
+  "qwen2.5_7b": {
+    "direct": 58,
+    "second": 56,
+    "fusion": 60,
+    "seconds": 135,
+    "tokens": 132881,
+    "calls": 160,
+    "abstentions": 0,
+    "second_vs_direct": {
+      "gained": 7,
+      "lost": 9,
+      "ci_pp": [
+        -8.75,
+        3.75
+      ]
+    },
+    "fusion_vs_second": {
+      "gained": 11,
+      "lost": 7,
+      "ci_pp": [
+        -1.25,
+        11.25
+      ]
+    },
+    "fusion_fixes_also_fixed_by_second": 0
+  }
+}

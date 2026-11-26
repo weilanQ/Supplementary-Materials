@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:30:41.2956986Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The COUNT_OF_PARTICIPANTS for Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC was reported as 4 (irSD) and 2 (Confirmed irPD)."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 496999300,
+    "load_duration": 5317200,
+    "prompt_eval_count": 393,
+    "prompt_eval_cached_count": 346,
+    "prompt_eval_duration": 18304000,
+    "eval_count": 54,
+    "eval_duration": 461439000
+  },
+  "text": "True. The COUNT_OF_PARTICIPANTS for Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC was reported as 4 (irSD) and 2 (Confirmed irPD).",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 10: Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC\nDescription: Disease control is defined as subjects with a confirmed CR, PR, or SD lasting for at least 2 months.\nTime frame: Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\nAnalysis population: \nStatistic: COUNT_OF_PARTICIPANTS\nUnit of measure: Participants\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Confirmed irCR\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Confirmed irPR\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Unconfirmed irCR\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Unconfirmed irPR\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: irSD\nDenominator: Participants: 6\nValue: 4\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Unconfirmed irPD\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Confirmed irPD\nDenominator: Participants: 6\nValue: 2\n\nInput: The COUNT_OF_PARTICIPANTS for Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC was reported. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.5015295000048354,
+  "call_id": "e86150ce58e5b28761139266df09da889a47d02c81786abb584c6332358ba54b"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:24:52.1452261Z",
+    "message": {
+      "role": "assistant",
+      "content": "True."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 51811900,
+    "load_duration": 4716800,
+    "prompt_eval_count": 157,
+    "prompt_eval_cached_count": 129,
+    "prompt_eval_duration": 15458000,
+    "eval_count": 3,
+    "eval_duration": 20227000
+  },
+  "text": "True.",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 2: Number of Participants With Stable Disease\nDescription: Participants will be evaluated at 6 and 12 weeks for response.\nTime frame: 6 weeks, 12 weeks\nAnalysis population: \nStatistic: NUMBER\nUnit of measure: participants\nGroup: Autologous TIL\nCategory: Stable Disease at 6 weeks\nDenominator: Participants: 16\nValue: 10\nGroup: Autologous TIL\nCategory: Stable Disease at 12 weeks\nDenominator: Participants: 16\nValue: 5\n\nInput: The time frame for the consideration of stable disease is 6 weeks and 12 weeks. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.05682589999923948,
+  "call_id": "40882e22052baab617b0c22229ec968e39d544ed9727ee94fe09faa1de22ec3a"
+}

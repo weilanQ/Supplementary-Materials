@@ -1,0 +1,150 @@
+{"id": "abd83d4d-ac75-4626-928d-1b511a61d2b7", "type": "mixed assertion", "claim_sha256": "f45323a497a757fe1d93931a3a35a43d3a2c78f87833f5d56d97e52070a6c835"}
+{"id": "4a54e780-0828-40c0-9f30-1ed06b66275a", "type": "mixed assertion", "claim_sha256": "b7858cff39536495a0cd835d11e874e2d94f98c255eb16a422eefd98196d02a6"}
+{"id": "5c253fd8-303a-4b91-b21f-e7e77c30f14a", "type": "mixed assertion", "claim_sha256": "5ec2684f94637d51a27e73906cabaf69e7cd73aa420d1078d4ce0158072daf15"}
+{"id": "a9e14c3b-bf03-4ca1-b9d9-4693b231902c", "type": "mixed assertion", "claim_sha256": "d576a8c5987e2b7074762da5b3563f3855ed0edbfcdddf86504839fdcab72a88"}
+{"id": "1de04bd7-e1e7-42a6-a898-ae626a24b25b", "type": "comparison/arithmetic", "claim_sha256": "4fdfa4d914897b1335e5312b1901ec30ee2e72aa672e4a8655f3b7e0b71eae7c"}
+{"id": "e40080bc-499c-4af9-a437-be6688894d22", "type": "comparison/arithmetic", "claim_sha256": "00718ccb7dd0f7d9145adc4f3df95eec9afc452097c78a1ac816100eb382ebd9"}
+{"id": "fa12778d-4f82-4dd9-8ac0-decbef38472b", "type": "mixed assertion", "claim_sha256": "1e4a52f1263360c49eb27595bc908e10828411df81f8c1f6d1b991c927499171"}
+{"id": "b4db304d-9445-44e0-9f0a-a4df38c1301b", "type": "mixed assertion", "claim_sha256": "e6cea3f2bba02b68e85c9c5c1f59c54017847c67af97fd80e63e51b4c975c2a9"}
+{"id": "22aed38a-d9c2-4e5e-b738-07f75968c45a", "type": "negation", "claim_sha256": "658b40503b0ba4d611190246237ad1532181534dbd827a0c5d587e35d2178b85"}
+{"id": "73e39e6d-e688-4372-85d4-dbb3cbc7a7cb", "type": "other", "claim_sha256": "35ca2264906334bc09e17a92899aedee6db26358ea1dfb6ddb792a0fcc54abfe"}
+{"id": "4dca77c0-d73d-4205-9d8e-8c2e897049d5", "type": "mixed assertion", "claim_sha256": "40ff7a71bb0bf32088043e4366b5a1d4f5a62b53420f2b0c42c016b26db24c45"}
+{"id": "6a119107-7a0d-421f-bfea-3671d97ed082", "type": "mixed assertion", "claim_sha256": "a8baad6166cede42b4cbb9934488f722e4a4cfaf1a227cafb9392c2d22bf5500"}
+{"id": "709bff7a-2384-4cac-ac70-00b4e91a6bce", "type": "mixed assertion", "claim_sha256": "6a9eefa139995713a65a0a0ba44bfb888412c922c2a8244a576a9009312ee27f"}
+{"id": "cfef163a-3390-4b89-9a6f-7c351262625d", "type": "other", "claim_sha256": "d7117856963c6bd19126b7d367aa7635c226578d3028f6fbd7838b0e1dc899e7"}
+{"id": "fbd6b437-ba96-46fd-933f-8299e0efb0e5", "type": "mixed assertion", "claim_sha256": "b67d0b4dfad8788901f48bb7d81234bcc3d5b195c0159a6dee4d5b6400928b16"}
+{"id": "a9d41a93-5857-4a56-89f2-46cf6bef36e1", "type": "comparison/arithmetic", "claim_sha256": "c9f125c5270da5fd26c745d7f3991cec8d5a4e83da0c5a74d8f6b97d101a8b2c"}
+{"id": "6232508a-0f99-485f-9b84-af5692dac27b", "type": "negation", "claim_sha256": "2a226ed2cbb3f4933783054d16ce046abb6775ab7dc52fc6720cff4c33eea6b8"}
+{"id": "04178e95-d808-4a96-ab85-61eb52c17720", "type": "point-shaped", "claim_sha256": "eae0efac1a1195c7a941a2d1836bb10619ae1e59062995f831e6982ee2d035bf"}
+{"id": "2e16531b-70c8-4302-8747-761859ad7946", "type": "comparison/arithmetic", "claim_sha256": "4ab0d055fac3de6de87768be7e880c1debfc135dccf0533a8950c3569894aaee"}
+{"id": "585b42d5-c81a-482a-a6bf-b7db6c6edcfb", "type": "point-shaped", "claim_sha256": "aceac9d1c5f57e9507db03390163f5b1f0e299450c7f50c1be079dcddec3e99e"}
+{"id": "290fc77b-03cb-4ca6-877f-4117ea462ac6", "type": "mixed assertion", "claim_sha256": "71703b5a4d39262dd7dd77efabbcb84409c587b4ef942540c56c61ad5ff7f44e"}
+{"id": "43e968bb-7167-4c0a-8105-8f3e854408af", "type": "comparison/arithmetic", "claim_sha256": "df2806fcd7ad72f38b77117ca47d7660f5d875364c253a72497feca78a9b75bb"}
+{"id": "8953caa7-492f-4fbb-b5a6-5cff95a5650c", "type": "mixed assertion", "claim_sha256": "11650918ba9cb4c37ad4102b2a10aa0405a22eefeb6fd27780b7be59d886f8a8"}
+{"id": "f68789cf-7d4d-4186-b3f0-a6b47127379b", "type": "negation", "claim_sha256": "2d3f3980e21572a29a4bc6df2565de9094454c52c272548423e236358a67e0c0"}
+{"id": "745a2452-3a24-4e39-971f-3f7fe661f999", "type": "mixed assertion", "claim_sha256": "048bf03bafa46d4150408d84cba30d618f20249d54cf977f0ce0ab3539620490"}
+{"id": "2855e123-6fa3-44b7-9eda-09603be206aa", "type": "point-shaped", "claim_sha256": "e84fcb53796d7890273f430d517a73b1eefe6906e2d4f5e191093178c72bc2db"}
+{"id": "679f8ab4-38a4-4c6c-b85f-800e645e5bb8", "type": "mixed assertion", "claim_sha256": "a0b60d326850cf875ae67d1862b3b0863d4baf16d77f40aa7e7d6680855e0826"}
+{"id": "8fcaece4-a0c7-44bf-82b0-50e494825b81", "type": "comparison/arithmetic", "claim_sha256": "2636f0147b3c189b30ab6c038a154e3b03e844e73de2b8efe1cae5adac909855"}
+{"id": "c6b37d94-f63f-4cf7-b86c-a8147ff618d9", "type": "point-shaped", "claim_sha256": "8314edb7d9c36a703fb5ec39b1a579eb1d99dae95a5e9111c7fa2135d56e2d4f"}
+{"id": "c3609a19-01f6-4add-a0af-7d92263d822c", "type": "mixed assertion", "claim_sha256": "26bb2275bc2a7071b09a936411ec3b40c84d243fca811ec7894118127b07cd48"}
+{"id": "0eba9989-3611-49a8-958f-ea696ba94b3e", "type": "comparison/arithmetic", "claim_sha256": "6cdc57bb756839136dd040452b2ec5cc154334dbb22adc33108d41bef5891a9d"}
+{"id": "ae1b63ed-25c5-484a-8221-3bee0af17594", "type": "mixed assertion", "claim_sha256": "32827519e90e3b93801335515cb3b031bf6316e4e4dbc81edbdd691c59006573"}
+{"id": "10818b02-4a1d-438a-8f90-7aded2b826ec", "type": "mixed assertion", "claim_sha256": "e73a41a48352e76e2e83e12d342f7f4035834fc2f569123bba8ad215e5e352dc"}
+{"id": "f41f7611-7c20-4f71-8b2d-433e36f840de", "type": "mixed assertion", "claim_sha256": "0a7cea7dd4b5c46555a21f3c3be118a7a4003dfba1835bb450f804652bfe8022"}
+{"id": "6d01a773-922b-483a-94b1-f3bda6f2e498", "type": "comparison/arithmetic", "claim_sha256": "b9e6309b894632be841a16cecda867ecc6aaa3f6ec85b067a3a88456f8c12dff"}
+{"id": "96042d49-2f5a-44af-8899-2d5ba24c0f6f", "type": "comparison/arithmetic", "claim_sha256": "18b0865df12107a3892207c6ecea1af88120e22e4ca626343925dc12e6d2c975"}
+{"id": "29d8fc44-5636-4633-9651-2d30521a2755", "type": "comparison/arithmetic", "claim_sha256": "e530d8c16981e3491f6f7449fc206bee810f92e93401b5f8360c77973e5b0cb1"}
+{"id": "241dc060-83e9-41a9-b937-d9715c16137a", "type": "mixed assertion", "claim_sha256": "790adea12749572dbf7327a8fcc59aca5542b2d9be4a0fde2a85694f921830ea"}
+{"id": "28efc57b-6732-4778-84e9-81d1cea1a43e", "type": "mixed assertion", "claim_sha256": "7acae11b6be31f475b28175d7e140ba5d49f29d8f4552f18cf872a2b2f2302c3"}
+{"id": "ee7fc1bb-98fe-4f43-9ea0-076b7fc7eeca", "type": "other", "claim_sha256": "59f3413b43132af06022049886e5dadaff1f057b858138288cafbe0352ad5a69"}
+{"id": "33641401-b713-4800-86a9-aa7766b456f5", "type": "comparison/arithmetic", "claim_sha256": "4a78cdbfa812932fd268f36a6149c99ef20922534ec54d6e053f3ac064d12eb3"}
+{"id": "d542b63b-a355-4a0e-8ec9-3c74bb1e0dcb", "type": "comparison/arithmetic", "claim_sha256": "81026f3c55e73ab427dd6b5298c2fe5821bc0a36d90cb2edda1b9082a791f169"}
+{"id": "4b545fd1-a4d1-486a-aece-201400e9c1f5", "type": "mixed assertion", "claim_sha256": "4560e40424af41938a9894e996eb74492a6ffd8b8de755ee9913ebe272f5eb5e"}
+{"id": "51220352-fff0-4e70-b36d-7f9e87498a58", "type": "point-shaped", "claim_sha256": "1941a01ec1178ae8f82a1ceb60856f628160c4b0713023abd47e09c8e82e7a97"}
+{"id": "37f9db0b-4ea9-4952-bf6f-a748ac802a15", "type": "comparison/arithmetic", "claim_sha256": "61c3868c52d18ec1886530638b818592e0e64cc1b7befb55326fee127c62f3fa"}
+{"id": "1616266d-e1bf-4327-9523-f584f713b265", "type": "point-shaped", "claim_sha256": "9a734624c37ff8c7ca414a4139a58f1f1188781f95e378562d382a15382aeb09"}
+{"id": "ca09a15d-86a6-4a7e-9dfb-ff195702e0d4", "type": "point-shaped", "claim_sha256": "a5e66e41c8929e40684af9977bbe8a3b76ff1c2c7b56baa410fa78c830c205b3"}
+{"id": "fc37e929-f3f3-43fb-b0c4-86521a18592f", "type": "mixed assertion", "claim_sha256": "f6543cd283c051a571cb7b8719623387f46c2d561fdbb1edad5733dfaf52e9b1"}
+{"id": "3f4231c5-0eae-43eb-b0df-b270cea08476", "type": "negation", "claim_sha256": "b19df2635c1138619693a4cfccc16c13803bdae9fdd13418bff8234c271a9517"}
+{"id": "d083c9b8-decf-41ac-a3b0-ba8b6eedb32d", "type": "mixed assertion", "claim_sha256": "dc476eef188a5a439e3bd5a76a6d9ef7c40c886a143b60af876cef30afc0176b"}
+{"id": "523d79a3-ee67-4b2a-a1cb-20ed4ed45dc6", "type": "comparison/arithmetic", "claim_sha256": "948ffb7a5addbd661dd30d64bab172d6ffe5d7d7eb3d810ca1aaf89f816e5ae9"}
+{"id": "53b41c0c-179c-45ce-90e6-3f444681b41e", "type": "mixed assertion", "claim_sha256": "56d08bf521d7998de62c3f115c74c8412d763f6cfdff46b1c93d1f86d4345ed3"}
+{"id": "c21d49da-c66f-45cc-af8a-22174568d0dd", "type": "mixed assertion", "claim_sha256": "102e93e9e4285899e328a38aca51d9b7fe1c41dde58c0acc1851b9fa2a4ce6f1"}
+{"id": "098f7c20-8543-4de6-b236-341c4cdea28e", "type": "point-shaped", "claim_sha256": "9f5c8b523c35562d5565ce2bf37ec0e1e359828d55b6d7f23fd810bb3ebe2e4a"}
+{"id": "7bad3ae8-835f-401c-b50d-10e2f2773cc7", "type": "comparison/arithmetic", "claim_sha256": "447c305ac52af69cb35ab803dbdc370188f39b08653864fecaf72e9d012b6df0"}
+{"id": "22f97249-204f-4d0e-a76f-eb9b8441c8da", "type": "comparison/arithmetic", "claim_sha256": "c916935982b3fd3ffa3d778f74b2d98c8e30badb90c7e6d5fb51235eebf341b6"}
+{"id": "41cbc4ea-37f8-468e-bfd2-f0a71e8856b5", "type": "point-shaped", "claim_sha256": "75f9f820c423211732a099ccf99fc55799b0b801cfe026d40e89c1729bff81b5"}
+{"id": "d08f014d-7d1b-45a1-b1c2-f68f12591f15", "type": "mixed assertion", "claim_sha256": "168e06b935c041cd123a34eef420a63f278f379327bc2a2d7a87a862a9cab5ea"}
+{"id": "3c2994b1-74be-4fe4-9262-00a5a8e42caa", "type": "comparison/arithmetic", "claim_sha256": "5b165694f300e47c0f03d71aed5ddf209c94f4534f05a516d213bbba7c9ccf3c"}
+{"id": "9730b1a6-e9cd-4fd6-b1e4-9916b5903c63", "type": "comparison/arithmetic", "claim_sha256": "31163deefd36b8c80a472e212e7f8b338a5415df29cd4452d657085556383a3d"}
+{"id": "c696105a-b6a3-4d13-9410-2b3f05346f96", "type": "comparison/arithmetic", "claim_sha256": "49823033f8fd1ea8e69eea3da550e12e84e2998f6c3f17e1c4b01a828b42d8c4"}
+{"id": "b7c9455e-db3b-438d-bcb0-04bf52fb530d", "type": "mixed assertion", "claim_sha256": "9aac441d4de563f3eb0eeacab2a1cadefd8d0d00519f4c5b5e22a6a9f5edd0c5"}
+{"id": "4872d505-a3f8-44bb-a023-aa41e27b49b3", "type": "comparison/arithmetic", "claim_sha256": "b1f234bd89c2ae2a6087d3fe14552b9578223f745e6d4a3daaf00428114372b8"}
+{"id": "cded013b-d994-410b-9b42-c4a852978cfc", "type": "mixed assertion", "claim_sha256": "21143e6e225b725f1783a79a4b7c90df9f13422ebf3f5f21b48c3df03604380c"}
+{"id": "86a8919e-ee7f-40ba-9186-9dcbdbb06018", "type": "comparison/arithmetic", "claim_sha256": "122a10a2ee4a14687a2c91b02f3c903093d084ac7e499de1a91054a5bc926e44"}
+{"id": "33377a5a-a2d0-4881-b4eb-93fe650e900a", "type": "mixed assertion", "claim_sha256": "61db629f25a4aa4482cd3d51a3c926d946b3d0cc796646017e900c90fc81c75e"}
+{"id": "d9dff3a0-537b-4297-bc58-766d366ba5a0", "type": "mixed assertion", "claim_sha256": "4946419a2abf996b6b53da65397502bf33bba8d3be43d95a6c3434925af6de62"}
+{"id": "efe8b336-1781-4777-a1a0-fe34c59c63ab", "type": "mixed assertion", "claim_sha256": "85cabbe606b0cb37396acc7b2919ec68be9016ac9bb801f959db6eae1e030852"}
+{"id": "8f31a3bf-d5a9-4f2c-95bb-c9ff01de6d42", "type": "negation", "claim_sha256": "5cb562d8f8efd0f9f5a250bbd63894d553d3c4d230293f28cdd684df44b44f84"}
+{"id": "b4a7bcbe-6c7b-4e37-be25-35f2dd042bce", "type": "comparison/arithmetic", "claim_sha256": "629eb95674fee94840d6709b68726de8eb218139d793d16424131d0b01dcb652"}
+{"id": "ee42e602-9409-49fa-a454-7a2637ed9d7a", "type": "other", "claim_sha256": "deb336a9d96c810f049c95ab1e114c7f8ba2161a3932cff00734d62c211bba68"}
+{"id": "b17ff44f-d9dc-4be7-b087-4329493d1c95", "type": "mixed assertion", "claim_sha256": "2410ca13eaf3470f28d819b95c7b0a8ef8e44e85cec21037efe7b12e5e02d0b7"}
+{"id": "2a4b11b1-b14f-4fd8-a810-b6ad2f60e9fb", "type": "negation", "claim_sha256": "b07e3b077d762a1979b67c82d84bbcad162c7c8b0660485eae11ec63b23615fe"}
+{"id": "c2c4cbf5-1469-42bf-b243-9080648b458b", "type": "point-shaped", "claim_sha256": "6edfbf3724ba3e013d71d5893627a33676f35d6d4eac7666706418a7e98533ec"}
+{"id": "a4e6bb5b-69f1-451b-b278-0ce9c3e43bdf", "type": "point-shaped", "claim_sha256": "b7597f0331f9684c6e4dd69d20f2695d63483060fbd730f12600591e66313f00"}
+{"id": "8f319cf4-ec84-4f34-a4d8-2af54adbaab9", "type": "mixed assertion", "claim_sha256": "2f93069b2b0bd0b9bd8b61365607f0d07917bf06007b3a2fca54dcf3cccbde99"}
+{"id": "dc9267c3-b1ab-45d1-8a22-a9ec8e7ba673", "type": "mixed assertion", "claim_sha256": "f6205757750edd95edaa7e5646bb1147cb93a03acd6b5ac038cc53423ba0dc59"}
+{"id": "38ea3ca5-d5b1-4432-b6f6-52e8ca0d3e41", "type": "comparison/arithmetic", "claim_sha256": "b25fe7a82eb944ec14bcdffa4107eb2d400dcb1d4c600dad523ff60d3bc0c503"}
+{"id": "d6f4c977-a5fa-49c9-ba6c-a40dfe0f3b30", "type": "mixed assertion", "claim_sha256": "019b9de11c05cc3445744b0a1435bef949e019b33d11e7ad71b7b0f611c8e69e"}
+{"id": "46c7e5c7-0834-45dd-952c-872502314fea", "type": "mixed assertion", "claim_sha256": "79a45ac1812e9452423b77f259324779fa1e0e2005d8d49b8401e7bfb361758a"}
+{"id": "4318ce37-10b6-4318-868e-f533a1fd000e", "type": "point-shaped", "claim_sha256": "97addab04e3267a6caeb1ecf767d467c5d32c1f9304d152a379308a258fb49cc"}
+{"id": "5ba46a49-9158-4409-815d-0830526da5c4", "type": "point-shaped", "claim_sha256": "0c3fdb26374cdb25b32f4c206a43b7a5bbe64fd54e39c0fa7b1f047d6838b8e4"}
+{"id": "1aa7e1a8-707d-4c18-bdec-a750f59ffd1b", "type": "mixed assertion", "claim_sha256": "301663053ae03df07e8b47fabd42dcce9aa8f8283d29534c9f45bf73e7866359"}
+{"id": "197bf729-04f4-46f0-a746-8b55c088f0d6", "type": "point-shaped", "claim_sha256": "89f181da29bbb1a7d2a4d6543b4bdfb5868c356a67ac96a4ef083d072b660560"}
+{"id": "b1d81c75-d076-45f3-8de6-6a23fc4f3832", "type": "mixed assertion", "claim_sha256": "98c0ba95c19553abf011e022fb1b23027abaf9cb2152352b2550b032155f9c59"}
+{"id": "4edb9b25-9a95-4a00-ae99-ebd722187d63", "type": "comparison/arithmetic", "claim_sha256": "785d04a80a3432034e0cd6eb6c2791bf5f100c15dbb7c54d2b47791d5061cb1e"}
+{"id": "2c7901c7-b03b-4b92-852d-d182187dd2b1", "type": "point-shaped", "claim_sha256": "817c79b82149f40ef71c5d46fafb92f302e9ef7ed6345854bcda5772112d2d9d"}
+{"id": "87c5ee7a-a65a-4633-9efc-b51e2956db27", "type": "mixed assertion", "claim_sha256": "3e193cadfeced4a9e2f37a65f5278e5832ffc206ddd075f7e95dd4fb57aa69c4"}
+{"id": "c441ac74-f9ef-493c-bcfb-03959f9bf7e3", "type": "comparison/arithmetic", "claim_sha256": "67f074005a39ee85de2703d4da92a3ddbbf681240374768220473a90c98c53e9"}
+{"id": "09df9e5c-cc03-4c01-858b-0886376e9b7a", "type": "comparison/arithmetic", "claim_sha256": "ca84dfcf77dc2131723d881e974bbd97b4a76fed88720c707cbaa58d57857e61"}
+{"id": "da18ab3b-cf80-4867-b3b9-0dccf4c523a2", "type": "comparison/arithmetic", "claim_sha256": "f987b900b512864d2f9ec603cceedc6012fb3ecea346ec13029f15b4f544a2d4"}
+{"id": "e3caa52b-259d-498a-926b-fbfd15eb1bc6", "type": "negation", "claim_sha256": "e98e4b1a0d716ce0060f35d1b4470f2bfa92c8846c4f75880ecc1b745996eca5"}
+{"id": "4d36fe39-7874-4174-853e-dc6406bf9e0b", "type": "negation", "claim_sha256": "a205f28861eccca5795a76d6fd19f9126c574cd5e92d83582ca30332ccf9a8b9"}
+{"id": "d0212d75-c952-4ad3-ae36-bbf675eae985", "type": "comparison/arithmetic", "claim_sha256": "74811283c640183632047c354a3a10b8f3eb8c9ff00dbf0fb0161e696c0f3e38"}
+{"id": "916340c0-cd97-4e2e-bd31-ded7bd2d1a56", "type": "comparison/arithmetic", "claim_sha256": "f18ca42a209ad1813952bd3863a190ff412571c80a915381531d6245506173f1"}
+{"id": "f8f0d036-16aa-4a9f-816e-c52940709126", "type": "mixed assertion", "claim_sha256": "637d0e0d9464aeb88e0e414ff364a851a7fbcc76c45f498bb41afce9ad4b8a23"}
+{"id": "08920163-ef22-4242-b9bf-b70af58c91c2", "type": "point-shaped", "claim_sha256": "c6f8939dedb404eed8a2352c939d9ed6615b7d1c83aa3432d84e23e868c12663"}
+{"id": "b3fc2b80-128b-4236-b1d5-a89b93e54b48", "type": "mixed assertion", "claim_sha256": "95e9bf192b1eed987333cc156637b9e66efcd5d130959b5b3c4c3202dde942b9"}
+{"id": "06609fde-0f22-485a-ba1c-78c2677d8783", "type": "mixed assertion", "claim_sha256": "0966568ea1daef69a9e12f47c9746fb15eeb3242734c235ca97c97b2185ed1bb"}
+{"id": "8ee8670b-6200-4309-8fd6-545572945b7c", "type": "mixed assertion", "claim_sha256": "52d423c55f6197569e10d7216bb79b27d537b7c75990d1027cd2a465b9c064e8"}
+{"id": "eb088d03-7fdc-48bd-9175-0e7a9cfc7b9a", "type": "point-shaped", "claim_sha256": "e4ba4771f2733261296562e3df941f13ac8cdcc3be6dd529f70ac96d821dacb6"}
+{"id": "d464fa4d-58ea-47ff-b4fa-19fbedb40740", "type": "negation", "claim_sha256": "6ea7692dd4a8bfa7da5acc214924383a006828f382986ba210391d70499af799"}
+{"id": "d620b526-d227-42a4-a6cc-800df41f854a", "type": "comparison/arithmetic", "claim_sha256": "16562acf8eff402cd59be2e56c676d16e94607815ba7f0de568026bba22a3e29"}
+{"id": "86ed4db6-24fe-4a88-ba9b-6be3f98e0525", "type": "comparison/arithmetic", "claim_sha256": "6065d0473bc292d62713c659c0f7c22b850fd2c778c7d208cfe8692f53c823e3"}
+{"id": "4acaf50b-e6af-497a-a0d2-709e5780dd0b", "type": "comparison/arithmetic", "claim_sha256": "c0944a8d7e8955642d536605618a464c26abc70fd751d497e0357130576ca7cd"}
+{"id": "71f1d2c6-7ab2-45d2-bb54-a0cad79d244b", "type": "mixed assertion", "claim_sha256": "985cde23a620752d15ae860c8d320f7302d5233e9a9710e43ba28446bb7481bd"}
+{"id": "ab848536-4d43-4af3-9489-59b7608b7ecf", "type": "point-shaped", "claim_sha256": "19f3befccaca6f40b4a5d08850e7a2b67ad42d4bc54a4f1f0397258062716c2d"}
+{"id": "3f5b9c7d-ae3e-4484-88c7-c7562c2f974a", "type": "mixed assertion", "claim_sha256": "435f2e811441d3f70753af468fe1bb84f4e8ef9f4cb081917dfd3979eac1641d"}
+{"id": "ccc4b1dc-30f5-46d4-9251-6bb1dbe514ce", "type": "negation", "claim_sha256": "026368b0310ff374982b0ef5ad71c8847021245f6d99d29e41da7648944525c6"}
+{"id": "cbbd5644-6e63-4f6d-b948-fe52b5df89c7", "type": "comparison/arithmetic", "claim_sha256": "727dffcb36b08a78dbc7fba4071200e32bd6a90c93323598f6f639a593bec475"}
+{"id": "d2c3690c-11a2-40de-b077-acf5f53fdb10", "type": "mixed assertion", "claim_sha256": "f7b8a8cec6293787415dc4e677acb7f650767db21c9d2eeb7317663aefcf537e"}
+{"id": "6af06b3f-dbbc-4679-a4a3-fe4b3757fdc0", "type": "comparison/arithmetic", "claim_sha256": "6e3354993bd047e6716b623243589233c9409a35e76e7086691c3de67456a891"}
+{"id": "966efbd3-dce6-400c-b5bc-87ca468c7225", "type": "comparison/arithmetic", "claim_sha256": "0a3fbfa91180be8d880028df28ce4e81fdc1b1dfacdffb5d2c8d9b393793b1ec"}
+{"id": "47bb2ffb-2cee-418b-acd6-cdecee318d70", "type": "comparison/arithmetic", "claim_sha256": "fa70956a088ed9fcc07de83ffac98d5d4db544026ca0b5124df7b45825be582f"}
+{"id": "eba82ab1-0348-4090-81e6-fcb63ac45537", "type": "comparison/arithmetic", "claim_sha256": "a99b85dfab0be47336b59cc4b110643580145d5052580e57ac1d03bc9cae50e7"}
+{"id": "1f8bd45e-480f-4244-9515-e1249b5b842a", "type": "mixed assertion", "claim_sha256": "76b78ab1886677d619bccd63916fad39ab3e96792970897b180b94cebe6f1124"}
+{"id": "eca608f4-6f65-4fc9-96cb-d1bb45749048", "type": "other", "claim_sha256": "63e155fa9932054d79cd82dd635a882d5055fc4456b201eba094857296c5fe15"}
+{"id": "e4eba352-415f-44bd-8fe0-244240a80513", "type": "comparison/arithmetic", "claim_sha256": "6a364a2dd33e27d970ae95e952ecc1aeaccbc5947c6b9b990844d4fb6de6e5b8"}
+{"id": "ed8ee6d6-5a37-4338-af72-e87bb50ec4d9", "type": "comparison/arithmetic", "claim_sha256": "58630f3e5a3caa46500a1a332e6e99c1da578574c5407220f264fe08579c9f8e"}
+{"id": "82e2e80d-2a88-4d12-82a9-4d77d1bf0bb6", "type": "mixed assertion", "claim_sha256": "29bfdf85a1df8270da0a76725081f7326da41c3fe3169eab4287e433bec289eb"}
+{"id": "06a1adac-dee0-4d9b-83c6-0996391e40d0", "type": "point-shaped", "claim_sha256": "dadc5cebb4828afd37df3150847438891955e8d37752e4c8f317f53b3aafc1ac"}
+{"id": "6fa670ed-56af-4b06-b7f1-ab7429106d0d", "type": "comparison/arithmetic", "claim_sha256": "588bea2f7a4fd2ae9eac95dc75e1383e7b56f623cedcd3cf403fa93ba3fdd70a"}
+{"id": "bbb1b8c1-c9b1-40c9-b744-a2ae519032c3", "type": "mixed assertion", "claim_sha256": "550bb62dae04134e9e06058de4c618712ee3c4efd4aa58a64baaf5e920afce0d"}
+{"id": "2f813222-a2b6-488e-96e6-f1a3d8713550", "type": "mixed assertion", "claim_sha256": "a0295a24a2288436efef23807b4cd252766e2c4908650648396d34bebd399aff"}
+{"id": "04e554aa-1522-4fd6-a508-e0f13fa38832", "type": "mixed assertion", "claim_sha256": "0dfdfa53b6cded3715dbe26754b15e82b5bf771965d3e227f078960a02a5e571"}
+{"id": "9a7f95d5-8fb7-4f77-a921-00a2633e8cc4", "type": "point-shaped", "claim_sha256": "527f6ea0173c3b5286937280c23723d88e361deaf1a792d940ae397d4b2c7c62"}
+{"id": "0c561a05-4615-4578-aff2-745d9c9761c0", "type": "comparison/arithmetic", "claim_sha256": "8c80351c001c883c3a8ad9ad77ece5b699c5fdac06aa71aa167e49f8b6ee733c"}
+{"id": "267240f0-f381-4c67-adf6-3121eea9396d", "type": "comparison/arithmetic", "claim_sha256": "79a7a83e0e8543c27c6619e00186f2997236d72392f7a2d21e1e467949d96297"}
+{"id": "4e9a0d19-c8b1-4ea4-9c73-2cf93b46f6a4", "type": "comparison/arithmetic", "claim_sha256": "04282aa268890ac351a79d66f8c44edb2881f4c1319284c910cbfc8d1c8cef15"}
+{"id": "2f57e639-546c-4e7a-b562-77338563d472", "type": "point-shaped", "claim_sha256": "8741a8bd83c27795baab8948076d41137fbfebc6dd9aea52783264b2a3485387"}
+{"id": "cd8d5a6a-0365-410c-8f85-815a67c0d11b", "type": "point-shaped", "claim_sha256": "a21a5ea1c104c0ee9ddc25b662b991e3186a6ce3f4bb0b9884513ccceadfd402"}
+{"id": "a67f344b-aa15-4e94-819b-515df442eaf0", "type": "comparison/arithmetic", "claim_sha256": "5eb0c8d2870f601ab9dee1f53cc947b158384fc5d53bd50aeafbdbe0fdcdf816"}
+{"id": "75e0a9f9-003d-4bfe-a720-4f84d2d0e7b4", "type": "point-shaped", "claim_sha256": "f4b23b6c2a96b2ce9b9ac3cf06667446aa4adaa7c9c80d59bb2f72618df0e0a3"}
+{"id": "d48955a5-78eb-4a53-9495-1a363c7b8e05", "type": "comparison/arithmetic", "claim_sha256": "9ce0e11314b1a3466e6ac5a21b5c27ce2415e68b5db796934b576cb8833765c3"}
+{"id": "73052d5e-1a3a-4479-9ada-e69963c84b77", "type": "point-shaped", "claim_sha256": "a57cc6420200693be3e567e8d961f860647da32c8fac023e81496270be5a6d53"}
+{"id": "aa2706a4-b145-400f-8e8c-23e70f006360", "type": "comparison/arithmetic", "claim_sha256": "b5bb8c4618a8b40cb6e7e59aa781a2f78df1412e8a9ff758ae6b4be3cdc9eb6e"}
+{"id": "603ee9e3-5213-4121-97d8-4369641e9b00", "type": "mixed assertion", "claim_sha256": "8f6c08febecdf5021b3c768e320b6d8479e720e23f14551334a96481724e69a2"}
+{"id": "5a91060d-576b-405f-a8a6-c74cc3c24c62", "type": "comparison/arithmetic", "claim_sha256": "eb4f0fa097ee491c302714027bd466e9ac139d50e29bde8c037cdc5052161c52"}
+{"id": "f42c5f78-bcb9-46e9-8b77-a8b9cbb81b13", "type": "comparison/arithmetic", "claim_sha256": "b14b9832776d4ed46d729f0943649e2f0625132981042d223aabceec0d9da59d"}
+{"id": "6d595852-44de-4516-9ac8-441283808f1f", "type": "negation", "claim_sha256": "73274bf032b77ef87e92ce07447284447cd17399a235c360b5afc3397e9c4ce4"}
+{"id": "7b507eae-bfd5-4546-993b-6dd936ab41e5", "type": "other", "claim_sha256": "856bd4f35f16e7e61c8b8a81f8945ee44daaf91992c8efd2c9bd2da6e833b84c"}
+{"id": "ed50607e-8c46-4565-9192-4d5c4ca5fea5", "type": "mixed assertion", "claim_sha256": "32f91df786c6f27253bdc5ce44cae09181b73be905435a3eef58757291d42634"}
+{"id": "670ba789-279e-420d-b45e-c63836169e9b", "type": "comparison/arithmetic", "claim_sha256": "79aa4a90efd3cb7444762cd57a993968bbc18bcf2df468b8bfb05c4b5ec95e3f"}
+{"id": "36a5e0dd-7e3a-4362-9726-0836f7a4c64e", "type": "mixed assertion", "claim_sha256": "36ef952b91d138f9c574bd93c92f27d256f9f812af3596713ec759fe33f6863e"}
+{"id": "ad477da6-f950-49b8-a882-0c1dfbc4751f", "type": "point-shaped", "claim_sha256": "e5863ddbdc39edf4f1c70d2a12a462d6ad7dc7b34a7aa9b8aa6a6bfee3dd4957"}
+{"id": "8bf215f3-5795-4b6b-b193-354c87bc9496", "type": "comparison/arithmetic", "claim_sha256": "10b9ab6f3031b40691e8e0731ee73c34d1e749fe6e1d6a6d3bb19bf7e955f66a"}
+{"id": "efbc4408-7a74-4857-8265-d1bf4eab4080", "type": "point-shaped", "claim_sha256": "dd6aaa737744fa6683b31bd5d9b46789dfb5d4e0d238e02fdb98302141496326"}
+{"id": "0f9e0c7c-a021-4aeb-9309-ab2d6f1d78f8", "type": "mixed assertion", "claim_sha256": "5c82ecedd2d519f4b4abb2f2ff6f45c55e7563ce73151395dd3d11a5ac4bd323"}
+{"id": "822bd855-46b1-4290-ac89-f3a92e96f523", "type": "other", "claim_sha256": "a7a3cd0ca52102a9824dcc23bd61f113dd7dd03ace564e40fbde8607134eb62b"}
+{"id": "3670694c-a13e-4639-bc3d-e51db3bf8149", "type": "mixed assertion", "claim_sha256": "7196091b1d988a487314f1e53b1bcace6afce5d551d0ef853cb3660875e0aa81"}

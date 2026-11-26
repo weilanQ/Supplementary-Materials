@@ -1,0 +1,98 @@
+{
+  "id": "80dd52cded506bba",
+  "model": "llama3.1:8b",
+  "method": "select",
+  "service": "0.40.17",
+  "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Verify each stated outcome against numbered trial rows. Source outcome values are withheld during selection. Select rows by the group, endpoint, statistic, unit and every stated reporting condition, never by the outcome value. For each stated outcome return the chosen row_id (integer, 0 for no match, -1 for ambiguity), the numeric result as a string and value_quote copied exactly from the claim. Also copy the entire stated time, population, denominator and category as exact substrings from the claim, omitting field labels like \"time frame:\"; use an empty string for each absent condition. List all numerical outcomes separately, not participant counts used as denominators. Set complete false if the claim cannot be represented or any relation was missed. Output JSON only."
+      },
+      {
+        "role": "user",
+        "content": "{\"statement\": \"For Part 1: SM-88 920 mg, the reported MEDIAN for Overall Survival (OS) was 15.7 Weeks (time frame: Up to 12 months; denominator: Participants: 17; population: Evaluable Population included all participants enrolled in the study who received at least 1 cycle (28 days) of study drug. Here, 'Overall number of participants analyzed' = participants evaluable for this Outcome Measure.).\", \"rows\": [{\"row_id\": 1, \"group\": \"Part 1: SM-88 460 mg\", \"endpoint\": \"Overall Survival (OS)\", \"unit\": \"Weeks\", \"statistic\": \"MEDIAN\", \"time\": \"Up to 12 months\", \"population\": \"Evaluable Population included all participants enrolled in the study who received at least 1 cycle (28 days) of study drug. Here, 'Overall number of participants analyzed' = participants evaluable for this Outcome Measure.\", \"denominator\": \"Participants: 20\", \"category\": \"\"}, {\"row_id\": 2, \"group\": \"Part 1: SM-88 920 mg\", \"endpoint\": \"Overall Survival (OS)\", \"unit\": \"Weeks\", \"statistic\": \"MEDIAN\", \"time\": \"Up to 12 months\", \"population\": \"Evaluable Population included all participants enrolled in the study who received at least 1 cycle (28 days) of study drug. Here, 'Overall number of participants analyzed' = participants evaluable for this Outcome Measure.\", \"denominator\": \"Participants: 17\", \"category\": \"\"}, {\"row_id\": 3, \"group\": \"Part 2: SM-88 920 mg\", \"endpoint\": \"Overall Survival (OS)\", \"unit\": \"Weeks\", \"statistic\": \"MEDIAN\", \"time\": \"Up to 12 months\", \"population\": \"Evaluable Population included all participants enrolled in the study who received at least 1 cycle (28 days) of study drug. Here, 'Overall number of participants analyzed' = participants evaluable for this Outcome Measure.\", \"denominator\": \"Participants: 33\", \"category\": \"\"}, {\"row_id\": 4, \"group\": \"Part 2: Physician's Choice\", \"endpoint\": \"Overall Survival (OS)\", \"unit\": \"Weeks\", \"statistic\": \"MEDIAN\", \"time\": \"Up to 12 months\", \"population\": \"Evaluable Population included all participants enrolled in the study who received at least 1 cycle (28 days) of study drug. Here, 'Overall number of participants analyzed' = participants evaluable for this Outcome Measure.\", \"denominator\": \"Participants: 27\", \"category\": \"\"}]}"
+      }
+    ],
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "row_id": {
+                "type": "integer"
+              },
+              "value": {
+                "type": "string"
+              },
+              "value_quote": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "row_id",
+              "value",
+              "value_quote",
+              "time",
+              "population",
+              "denominator",
+              "category"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "relations"
+      ],
+      "additionalProperties": false
+    },
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 17,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "keep_alive": "10m"
+  },
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-21T16:28:35.4342412Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": true,\n  \"relations\": [\n    {\n      \"row_id\": 2,\n      \"value\": \"15.7\",\n      \"value_quote\": \"15.7 Weeks\",\n      \"time\": \"Up to 12 months\",\n      \"population\": \"Evaluable Population included all participants enrolled in the study who received at least 1 cycle (28 days) of study drug. Here, 'Overall number of participants analyzed' = participants evaluable for this Outcome Measure.\",\n      \"denominator\": \"Participants: 17\",\n      \"category\": \"\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1263566800,
+    "load_duration": 3323500,
+    "prompt_eval_count": 733,
+    "prompt_eval_cached_count": 164,
+    "prompt_eval_duration": 114731000,
+    "eval_count": 124,
+    "eval_duration": 1126539000
+  },
+  "seconds": 1.2929880000010598
+}

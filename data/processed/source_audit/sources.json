@@ -1,0 +1,30 @@
+{
+ "CTGov query": "https://clinicaltrials.gov/api/v2/studies?query.cond=Pancreatic%20Cancer&filter.advanced=AREA%5BHasResults%5DYes&sort=ResultsFirstPostDate%3Adesc",
+ "source records": [
+  {
+   "name": "EU TRYBECA",
+   "source": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-000572-15/results",
+   "snapshot_sha256": "b44740842a3fddf99afdbfae897af17f9646b10b2683f7406b49b1c655bb3fad"
+  },
+  {
+   "name": "VIRAGE sponsor",
+   "source": "https://therivabio.com/press_releases/theriva-biologics-announces-primary-endpoints-for-efficacy-and-safety-achieved-in-virage-phase-2b-clinical-trial-of-vcn-01-with-gemcitabine-nab-paclitaxel-in-newly-diagnosed-metastatic-pancre/",
+   "snapshot_sha256": "0661bc81a1a7a770ec2afab1bbb53cf291e84d5b1b58c8c41fbfc64aeea8f4a9"
+  },
+  {
+   "name": "VIRAGE CSR",
+   "source": "https://euclinicaltrials.eu/ctis-public-api/documents/2024-511290-30-00/afce07cb-7e5f-4004-b63a-4a5f1e5e870a/download",
+   "snapshot_sha256": "cd9a3eabf196be6f07146deaf7fbe518053f23bed421418ce96bffcb490e7505"
+  },
+  {
+   "name": "PET article",
+   "source": "https://doi.org/10.1038/s41598-025-10740-5",
+   "snapshot_sha256": "3847732c3dc07ff12c73a49565d988e872741c0a35e7dfe289ae327cd7358c09"
+  },
+  {
+   "name": "PET supplementary worksheet",
+   "source": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-025-10740-5/MediaObjects/41598_2025_10740_MOESM1_ESM.xlsx",
+   "snapshot_sha256": "5550f6cf8846ee7e52e47cc7c97acb93f1e99445e13d62e6f0b742abe75fc116"
+  }
+ ]
+}

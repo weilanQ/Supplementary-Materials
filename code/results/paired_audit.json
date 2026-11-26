@@ -1,0 +1,174 @@
+{
+  "qwen2.5_7b": {
+    "compared_to_original_fallback": {
+      "corrected": 5,
+      "lost": 1
+    },
+    "direct_errors_corrected_by_pair_type": {
+      "category": 4,
+      "endpoint": 2
+    },
+    "changed_from_original_fallback": [
+      {
+        "id": "30110659f9d529aa",
+        "trial": "NCT03610490",
+        "change": "corrected",
+        "pair_type": "category",
+        "gold": "mismatch"
+      },
+      {
+        "id": "a8bb3611cbd0c981",
+        "trial": "NCT02669914",
+        "change": "corrected",
+        "pair_type": "endpoint",
+        "gold": "mismatch"
+      },
+      {
+        "id": "3a28a0c7061620dc",
+        "trial": "NCT05692323",
+        "change": "corrected",
+        "pair_type": "category",
+        "gold": "consistent"
+      },
+      {
+        "id": "032ad94ed1454575",
+        "trial": "NCT03329248",
+        "change": "corrected",
+        "pair_type": "category",
+        "gold": "consistent"
+      },
+      {
+        "id": "7773e38c16096cc4",
+        "trial": "NCT04659603",
+        "change": "corrected",
+        "pair_type": "endpoint",
+        "gold": "mismatch"
+      },
+      {
+        "id": "db402666d49926c0",
+        "trial": "NCT03525392",
+        "change": "lost",
+        "pair_type": "group",
+        "gold": "consistent"
+      }
+    ],
+    "explicit_ambiguity_in_multi_relation_replies": [],
+    "changed_by_ambiguity_first": [],
+    "later_invalidity_for_incomplete_nonempty": {
+      "invalid_value_quote": 5,
+      "invalid_condition_quote": 1
+    }
+  },
+  "llama3.1_8b": {
+    "compared_to_original_fallback": {
+      "corrected": 11
+    },
+    "direct_errors_corrected_by_pair_type": {
+      "category": 8,
+      "group": 1,
+      "endpoint": 2
+    },
+    "changed_from_original_fallback": [
+      {
+        "id": "11d38c493f1117a1",
+        "trial": "NCT03610490",
+        "change": "corrected",
+        "pair_type": "category",
+        "gold": "consistent"
+      },
+      {
+        "id": "ecb141a54c0299a0",
+        "trial": "NCT02608229",
+        "change": "corrected",
+        "pair_type": "group",
+        "gold": "mismatch"
+      },
+      {
+        "id": "91c19e358ee64e88",
+        "trial": "NCT02669914",
+        "change": "corrected",
+        "pair_type": "endpoint",
+        "gold": "consistent"
+      },
+      {
+        "id": "1cfcb48b21687cfa",
+        "trial": "NCT05525286",
+        "change": "corrected",
+        "pair_type": "endpoint",
+        "gold": "consistent"
+      },
+      {
+        "id": "3a28a0c7061620dc",
+        "trial": "NCT05692323",
+        "change": "corrected",
+        "pair_type": "category",
+        "gold": "consistent"
+      },
+      {
+        "id": "032ad94ed1454575",
+        "trial": "NCT03329248",
+        "change": "corrected",
+        "pair_type": "category",
+        "gold": "consistent"
+      },
+      {
+        "id": "a8d123b080e53ee3",
+        "trial": "NCT05169437",
+        "change": "corrected",
+        "pair_type": "category",
+        "gold": "consistent"
+      },
+      {
+        "id": "74c61e4afb8cbc6d",
+        "trial": "NCT05692323",
+        "change": "corrected",
+        "pair_type": "category",
+        "gold": "consistent"
+      },
+      {
+        "id": "6341ce7cf1fdf18f",
+        "trial": "NCT03681951",
+        "change": "corrected",
+        "pair_type": "category",
+        "gold": "consistent"
+      },
+      {
+        "id": "527b221cec5dab9f",
+        "trial": "NCT03723915",
+        "change": "corrected",
+        "pair_type": "category",
+        "gold": "consistent"
+      },
+      {
+        "id": "b5b2aa49e3281471",
+        "trial": "NCT03736720",
+        "change": "corrected",
+        "pair_type": "category",
+        "gold": "consistent"
+      }
+    ],
+    "explicit_ambiguity_in_multi_relation_replies": [],
+    "changed_by_ambiguity_first": [],
+    "later_invalidity_for_incomplete_nonempty": {}
+  },
+  "synthetic_ambiguity": {
+    "source_example": "30110659f9d529aa",
+    "row_ids": [
+      1,
+      -1
+    ],
+    "original_aggregation": "mismatch",
+    "ambiguity_first": "unclear"
+  },
+  "synthetic_format": {
+    "development_id": "049012335cf1205e",
+    "observed_model_output": false,
+    "wrapped_text": "```json\n{\"complete\": false, \"records\": []}\n```",
+    "after_strip": "{\"complete\": false, \"records\": []}",
+    "parsed_payload": {
+      "complete": false,
+      "records": []
+    },
+    "semantically_complete": false
+  }
+}

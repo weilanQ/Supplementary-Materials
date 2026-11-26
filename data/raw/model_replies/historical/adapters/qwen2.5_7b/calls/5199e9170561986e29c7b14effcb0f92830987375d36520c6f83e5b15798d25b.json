@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:24:17.4080009Z",
+    "message": {
+      "role": "assistant",
+      "content": "(\"PF-06952229 80mg Monotherapy\", \"reported MEDIAN for\", \"Time of Observed Maximum Plasma Concentration (Tmax)\")\n(\"Time of Observed Maximum Plasma Concentration (Tmax)\", \"value\", \"2.17 hour (hr)\")\n(\"PF-06952229 80mg Monotherapy\", \"time frame for measurement\", \"0 (pre dose), 0.5, 1, 2, 4, 6 and 12 hours (post dose) on Day 1 and 7 of cycle 1, 0 (pre dose), 0.5, 1, 2, 4, 6 and 12 hours (post dose) on Day 1 of cycle 2\")\n(\"PF-06952229 80mg Monotherapy\", \"number of participants\", \"1\")\n(\"Participants\", \"evaluable for\", \"each row of data\")\n(\"Participants\", \"condition\", \"advanced/metastatic tumors\")\n(\"Participants\", \"phase\", \"PF-06952229 single agent dose escalation phase\")\n(\"PF-06952229 80mg Monotherapy\", \"category\", \"Cycle 1 Day 1\")"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2378867000,
+    "load_duration": 5525200,
+    "prompt_eval_count": 799,
+    "prompt_eval_cached_count": 564,
+    "prompt_eval_duration": 49398000,
+    "eval_count": 275,
+    "eval_duration": 2303769000
+  },
+  "text": "(\"PF-06952229 80mg Monotherapy\", \"reported MEDIAN for\", \"Time of Observed Maximum Plasma Concentration (Tmax)\")\n(\"Time of Observed Maximum Plasma Concentration (Tmax)\", \"value\", \"2.17 hour (hr)\")\n(\"PF-06952229 80mg Monotherapy\", \"time frame for measurement\", \"0 (pre dose), 0.5, 1, 2, 4, 6 and 12 hours (post dose) on Day 1 and 7 of cycle 1, 0 (pre dose), 0.5, 1, 2, 4, 6 and 12 hours (post dose) on Day 1 of cycle 2\")\n(\"PF-06952229 80mg Monotherapy\", \"number of participants\", \"1\")\n(\"Participants\", \"evaluable for\", \"each row of data\")\n(\"Participants\", \"condition\", \"advanced/metastatic tumors\")\n(\"Participants\", \"phase\", \"PF-06952229 single agent dose escalation phase\")\n(\"PF-06952229 80mg Monotherapy\", \"category\", \"Cycle 1 Day 1\")",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Given an input text, please extract a KG from the text and represent the KG with triples formatted with (\"subject\", \"predicate\", \"object\"), each triplet in a line. Please note that this is an EXTRACTION task, so DO NOT care about whether the content of the candidate answer is factual or not, just extract the triplets from it. Importantly, ensure that the extracted KG does not contain overlapping or redundant information. Each piece of information should be represented in the KG only once, and you should avoid creating triplets that are simply the inverse of another triplet. For example, if you extract the triplet (\"John\", \"owns\", \"Car\"), do not also include (\"Car\", \"owned by\", \"John\") as it represents the same information in reverse.\n\nClarification on redundancy: First, Do not create triplets that reverse the subject and object to state the same fact. Next, Ensure each fact is represented uniquely in the simplest form, and avoid creating multiple triplets that convey the same information.\n\nHere are some in-context examples:\n\n### Input:\nOptimus (or Tesla Bot) is a robotic humanoid under development by Tesla, Inc. It was announced at the company's Artificial Intelligence (AI) Day event on August 19, 2021.\n\n### KG:\n(\"Optimus\", \"is\", \"robotic humanoid\")\n(\"Optimus\", \"under development by\", \"Tesla, Inc.\")\n(\"Optimus\", \"also known as\", \"Tesla Bot\")\n(\"Tesla, Inc.\", \"announced\", \"Optimus\")\n(\"Announcement of Optimus\", \"occurred at\", \"Artificial Intelligence (AI) Day event\")\n(\"Artificial Intelligence (AI) Day event\", \"held on\", \"August 19, 2021\")\n(\"Artificial Intelligence (AI) Day event\", \"organized by\", \"Tesla, Inc.\")\n\n### Input:\nThe song \"Here Comes the Boom\" was originally released by American rock band Nelly in 2002 for the soundtrack of the film \"The Longest Yard.\"\n\n### KG:\n(\"The song 'Here Comes the Boom'\", \"originally released by\", \"American rock band Nelly\")\n(\"The song 'Here Comes the Boom'\", \"released in\", \"2002\")\n(\"The song 'Here Comes the Boom'\", \"featured in\", \"soundtrack of the film 'The Longest Yard'\")\n(\"American rock band Nelly\", \"released\", \"The song 'Here Comes the Boom'\")\n(\"The Longest Yard\", \"had soundtrack featuring\", \"The song 'Here Comes the Boom'\")\n\n\nNow generate the KG for the provided input text:\n\n### Input:\nFor Part 1A: PF-06952229 80mg Monotherapy, the reported MEDIAN for Time of Observed Maximum Plasma Concentration (Tmax) of PF-06952229 (Part 1A) was 2.17 hour (hr) (time frame: 0 (pre dose), 0.5, 1, 2, 4, 6 and 12 hours (post dose) on Day 1 and 7 of cycle 1, 0 (pre dose), 0.5, 1, 2, 4, 6 and 12 hours (post dose) on Day 1 of cycle 2.; denominator: Participants: 1; population: Participants with advanced/metastatic tumors in PF-06952229 single agent dose escalation phase, who had sufficient information to estimate at least 1 of the PK parameters of interest. Here, \"number analyzed\" signifies participant evaluable for each row.; category: Cycle 1 Day 1).\n\n### KG:\n"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 768,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 2.382529800001066,
+  "call_id": "5199e9170561986e29c7b14effcb0f92830987375d36520c6f83e5b15798d25b"
+}

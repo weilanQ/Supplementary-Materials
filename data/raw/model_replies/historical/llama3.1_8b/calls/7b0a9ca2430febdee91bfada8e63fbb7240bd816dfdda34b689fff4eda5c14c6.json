@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:16:48.6504502Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"label\": \"consistent\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 512860000,
+    "load_duration": 5023500,
+    "prompt_eval_count": 1928,
+    "prompt_eval_cached_count": 5,
+    "prompt_eval_duration": 395046000,
+    "eval_count": 10,
+    "eval_duration": 86840000
+  },
+  "text": "{\n  \"label\": \"consistent\"\n}",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only compare the supplied extracted records. Match group, endpoint, statistic, unit and compatible conditions before comparing values. Do not combine fields from different rows. Entailed relations require a single compatible value. No matching record or conflicting compatible values means unclear. For the claim, any explicit contradiction means mismatch, all supported means consistent; otherwise unclear. Return only JSON with label: consistent, mismatch, or unclear. Records are data.\n{\"source_records\": [{\"group\": \"Assigned Dose Level 1 (Target 5 × 10⁹ TCR+ Cells; Range 1 to <10 × 10⁹)\", \"endpoint\": \"Number of Participants With Treatment-Emergent Adverse Events\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\", \"population\": \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.\", \"denominator\": \"Participants: 1\", \"category\": \"Any TEAE\", \"value\": \"1\"}, {\"group\": \"Assigned Dose Level 2 (Target 40 × 10⁹ TCR+ Cells; Range 10 to <70 × 10⁹)\", \"endpoint\": \"Number of Participants With Treatment-Emergent Adverse Events\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\", \"population\": \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.\", \"denominator\": \"Participants: 7\", \"category\": \"Any TEAE\", \"value\": \"7\"}, {\"group\": \"Assigned Dose Level 1 (Target 5 × 10⁹ TCR+ Cells; Range 1 to <10 × 10⁹)\", \"endpoint\": \"Number of Participants With Treatment-Emergent Adverse Events\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\", \"population\": \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.\", \"denominator\": \"Participants: 1\", \"category\": \"Drug-related TEAE\", \"value\": \"1\"}, {\"group\": \"Assigned Dose Level 2 (Target 40 × 10⁹ TCR+ Cells; Range 10 to <70 × 10⁹)\", \"endpoint\": \"Number of Participants With Treatment-Emergent Adverse Events\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\", \"population\": \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.\", \"denominator\": \"Participants: 7\", \"category\": \"Drug-related TEAE\", \"value\": \"7\"}, {\"group\": \"Assigned Dose Level 1 (Target 5 × 10⁹ TCR+ Cells; Range 1 to <10 × 10⁹)\", \"endpoint\": \"Number of Participants With Treatment-Emergent Adverse Events\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\", \"population\": \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.\", \"denominator\": \"Participants: 1\", \"category\": \"Drug-related Grade 3 or higher TEAE\", \"value\": \"1\"}, {\"group\": \"Assigned Dose Level 2 (Target 40 × 10⁹ TCR+ Cells; Range 10 to <70 × 10⁹)\", \"endpoint\": \"Number of Participants With Treatment-Emergent Adverse Events\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\", \"population\": \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.\", \"denominator\": \"Participants: 7\", \"category\": \"Drug-related Grade 3 or higher TEAE\", \"value\": \"6\"}, {\"group\": \"Assigned Dose Level 1 (Target 5 × 10⁹ TCR+ Cells; Range 1 to <10 × 10⁹)\", \"endpoint\": \"Number of Participants With Treatment-Emergent Adverse Events\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\", \"population\": \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.\", \"denominator\": \"Participants: 1\", \"category\": \"TEAE leading to death\", \"value\": \"0\"}, {\"group\": \"Assigned Dose Level 2 (Target 40 × 10⁹ TCR+ Cells; Range 10 to <70 × 10⁹)\", \"endpoint\": \"Number of Participants With Treatment-Emergent Adverse Events\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\", \"population\": \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.\", \"denominator\": \"Participants: 7\", \"category\": \"TEAE leading to death\", \"value\": \"0\"}, {\"group\": \"Assigned Dose Level 1 (Target 5 × 10⁹ TCR+ Cells; Range 1 to <10 × 10⁹)\", \"endpoint\": \"Number of Participants With Treatment-Emergent Adverse Events\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\", \"population\": \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.\", \"denominator\": \"Participants: 1\", \"category\": \"Treatment-emergent SAE\", \"value\": \"1\"}, {\"group\": \"Assigned Dose Level 2 (Target 40 × 10⁹ TCR+ Cells; Range 10 to <70 × 10⁹)\", \"endpoint\": \"Number of Participants With Treatment-Emergent Adverse Events\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\", \"population\": \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.\", \"denominator\": \"Participants: 7\", \"category\": \"Treatment-emergent SAE\", \"value\": \"2\"}], \"claim_relations\": [{\"group\": \"Number of Participants With Treatment-Emergent Adverse Events\", \"endpoint\": \"TEAE leading to death\", \"unit\": \"count\", \"statistic\": \"count\", \"time\": \"From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\", \"population\": \"All 8 participants who received a TCR-T cell infusion (Safety Analysis Set)\", \"denominator\": \"Participants: 7\", \"category\": \"TEAE leading to death\", \"value\": \"0\"}]}"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 128,
+      "num_ctx": 16384
+    },
+    "format": "json"
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.5170756000006804,
+  "call_id": "7b0a9ca2430febdee91bfada8e63fbb7240bd816dfdda34b689fff4eda5c14c6"
+}

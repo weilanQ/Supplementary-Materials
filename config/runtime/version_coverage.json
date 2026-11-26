@@ -1,0 +1,112 @@
+{
+  "unit": "One distributed model-reply file, not an estimate of unique requests across every experiment.",
+  "interpretation": "Independent receipts include a service field. Initial selector receipts have an accompanying model_config snapshot, not per-call proof. Historical receipts cannot be assigned a patch from the runtime snapshots or from their dates. Recorded seconds are logged request times.",
+  "runtime_snapshots": {
+    "config/runtime/runtime_receipt.json": "0.40.11",
+    "config/runtime/runtime_receipt_20261030.json": "0.40.13",
+    "config/models/model_config.json": "0.40.17"
+  },
+  "counts": {
+    "not_recorded": 2757,
+    "per_call": 320,
+    "batch_snapshot_only": 200
+  },
+  "by_method_and_model": [
+    {
+      "branch": "historical",
+      "method": "historical/adapters/llama3.1_8b/calls",
+      "model": "llama3.1:8b",
+      "receipts": 1229,
+      "evidence": "not_recorded",
+      "per_call_version": null
+    },
+    {
+      "branch": "historical",
+      "method": "historical/adapters/qwen2.5_7b/calls",
+      "model": "qwen2.5:7b",
+      "receipts": 953,
+      "evidence": "not_recorded",
+      "per_call_version": null
+    },
+    {
+      "branch": "historical",
+      "method": "historical/llama3.1_8b/calls",
+      "model": "llama3.1:8b",
+      "receipts": 214,
+      "evidence": "not_recorded",
+      "per_call_version": null
+    },
+    {
+      "branch": "historical",
+      "method": "historical/qwen2.5_7b/calls",
+      "model": "qwen2.5:7b",
+      "receipts": 201,
+      "evidence": "not_recorded",
+      "per_call_version": null
+    },
+    {
+      "branch": "historical",
+      "method": "historical/second/responses",
+      "model": "llama3.1:8b",
+      "receipts": 80,
+      "evidence": "not_recorded",
+      "per_call_version": null
+    },
+    {
+      "branch": "historical",
+      "method": "historical/second/responses",
+      "model": "qwen2.5:7b",
+      "receipts": 80,
+      "evidence": "not_recorded",
+      "per_call_version": null
+    },
+    {
+      "branch": "independent",
+      "method": "direct",
+      "model": "llama3.1:8b",
+      "receipts": 80,
+      "evidence": "per_call",
+      "per_call_version": "0.40.17"
+    },
+    {
+      "branch": "independent",
+      "method": "direct",
+      "model": "qwen2.5:7b",
+      "receipts": 80,
+      "evidence": "per_call",
+      "per_call_version": "0.40.17"
+    },
+    {
+      "branch": "independent",
+      "method": "select",
+      "model": "llama3.1:8b",
+      "receipts": 80,
+      "evidence": "per_call",
+      "per_call_version": "0.40.17"
+    },
+    {
+      "branch": "independent",
+      "method": "select",
+      "model": "qwen2.5:7b",
+      "receipts": 80,
+      "evidence": "per_call",
+      "per_call_version": "0.40.17"
+    },
+    {
+      "branch": "initial",
+      "method": "selector",
+      "model": "llama3.1:8b",
+      "receipts": 100,
+      "evidence": "batch_snapshot_only",
+      "per_call_version": null
+    },
+    {
+      "branch": "initial",
+      "method": "selector",
+      "model": "qwen2.5:7b",
+      "receipts": 100,
+      "evidence": "batch_snapshot_only",
+      "per_call_version": null
+    }
+  ]
+}

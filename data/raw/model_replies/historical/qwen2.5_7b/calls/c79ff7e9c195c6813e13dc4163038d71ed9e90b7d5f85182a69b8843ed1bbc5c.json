@@ -1,0 +1,109 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:11:37.9429897Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": false,\n  \"records\": [\n    {\n      \"group\": \"NANT Pancreatic Cancer Vaccine\",\n      \"endpoint\": \"COUNT_OF_PARTICIPANTS for Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by RECIST Version 1.1\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\",\n      \"population\": \"\",\n      \"denominator\": \"Participants: 6\",\n      \"category\": \"Progressive Disease\",\n      \"value\": 0,\n      \"quotes\": [\n        \"The table gives 0 Participants as the COUNT_OF_PARTICIPANTS for Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by RECIST Version 1.1.\"\n      ]\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2001676800,
+    "load_duration": 5525200,
+    "prompt_eval_count": 380,
+    "prompt_eval_cached_count": 262,
+    "prompt_eval_duration": 38418000,
+    "eval_count": 229,
+    "eval_duration": 1934384000
+  },
+  "text": "{\n  \"complete\": false,\n  \"records\": [\n    {\n      \"group\": \"NANT Pancreatic Cancer Vaccine\",\n      \"endpoint\": \"COUNT_OF_PARTICIPANTS for Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by RECIST Version 1.1\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\",\n      \"population\": \"\",\n      \"denominator\": \"Participants: 6\",\n      \"category\": \"Progressive Disease\",\n      \"value\": 0,\n      \"quotes\": [\n        \"The table gives 0 Participants as the COUNT_OF_PARTICIPANTS for Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by RECIST Version 1.1.\"\n      ]\n    }\n  ]\n}",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Decompose this claim into ALL atomic numerical outcome relationships, without checking whether they are true. Return JSON with keys complete (boolean) and records (array). Each record must describe one group, endpoint, point value and its conditions. Resolve cross-sentence references from this claim only. Copy the group, endpoint, time frame, analysis population, category and denominator strings exactly as stated, removing only quotation delimiters. Do not omit a numeric relationship. Do not invent missing conditions: use empty string. A denominator such as Participants: 15 is NOT an analysis population. If no population description is stated, population MUST be empty. Do not copy a denominator into population. Preserve conditions shared by multiple records. A comparison, negation, approximate value or derived arithmetic that cannot be expressed as exact point records must set complete=false, never silently drop it.\nEvery record has string fields: group, endpoint, value (decimal only), unit, statistic, time, population, denominator, category; and quotes: an array of exact verbatim substrings from the claim supporting this decomposition. Statistic is mean, median, or count if stated. Return only JSON.\nCLAIM:\nThe table gives 0 Participants as the COUNT_OF_PARTICIPANTS for Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by RECIST Version 1.1. in NANT Pancreatic Cancer Vaccine (time frame: Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days; denominator: Participants: 6; category: Progressive Disease)."
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 1024,
+      "num_ctx": 16384
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "group": {
+                "type": "string"
+              },
+              "endpoint": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "statistic": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "quotes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "group",
+              "endpoint",
+              "value",
+              "unit",
+              "statistic",
+              "time",
+              "population",
+              "denominator",
+              "category",
+              "quotes"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "records"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 2.004999400000088,
+  "call_id": "c79ff7e9c195c6813e13dc4163038d71ed9e90b7d5f85182a69b8843ed1bbc5c"
+}

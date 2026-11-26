@@ -1,0 +1,58 @@
+[
+  {
+    "pair": "NCT02549937-R1",
+    "id": "3408b2a5ca86ca92",
+    "partition": "development",
+    "stated": "7",
+    "cap": "3"
+  },
+  {
+    "pair": "NCT00842348-R2",
+    "id": "c8c248d5ea0a2895",
+    "partition": "development",
+    "stated": "46",
+    "cap": "42"
+  },
+  {
+    "pair": "NCT01020006-R1",
+    "id": "86178b8f7db0305b",
+    "partition": "development",
+    "stated": "18",
+    "cap": "8"
+  },
+  {
+    "pair": "NCT02723331-R3",
+    "id": "f8d33e4c5599c2ce",
+    "partition": "retrospective",
+    "stated": "29",
+    "cap": "19"
+  },
+  {
+    "pair": "NCT00461708-R1",
+    "id": "0711aeb4598209b3",
+    "partition": "retrospective",
+    "stated": "69",
+    "cap": "38"
+  },
+  {
+    "pair": "NCT02289898-R1",
+    "id": "1d6493803068b7f8",
+    "partition": "retrospective",
+    "stated": "70",
+    "cap": "68"
+  },
+  {
+    "pair": "NCT01303172-R2",
+    "id": "3f555b4449c85a9b",
+    "partition": "retrospective",
+    "stated": "43",
+    "cap": "35"
+  },
+  {
+    "pair": "NCT01303172-R3",
+    "id": "e6e8ce1137928278",
+    "partition": "retrospective",
+    "stated": "38",
+    "cap": "35"
+  }
+]

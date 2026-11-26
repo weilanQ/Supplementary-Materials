@@ -1,0 +1,109 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:13:57.5793564Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"Treatment (Liposomal Irinotecan, Leucovorin, Fluorouracil)\",\n      \"endpoint\": \"Objective Response Rate (ORR) as Assessed by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Within 6 months of treatment initiation\",\n      \"population\": \"2 patients were not evaluable for response.\",\n      \"denominator\": \"Participants: 9\",\n      \"category\": \"Objective Response (CR+PR)\",\n      \"value\": 1,\n      \"quotes\": [\n        \"For Treatment (Liposomal Irinotecan, Leucovorin, Fluorouracil),\",\n        \"the reported COUNT_OF_PARTICIPANTS\",\n        \"for Objective Response Rate (ORR) as Assessed by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1\",\n        \"was 1 Participants\"\n      ]\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2109673100,
+    "load_duration": 5163700,
+    "prompt_eval_count": 346,
+    "prompt_eval_cached_count": 239,
+    "prompt_eval_duration": 37017000,
+    "eval_count": 232,
+    "eval_duration": 2038544000
+  },
+  "text": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"Treatment (Liposomal Irinotecan, Leucovorin, Fluorouracil)\",\n      \"endpoint\": \"Objective Response Rate (ORR) as Assessed by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Within 6 months of treatment initiation\",\n      \"population\": \"2 patients were not evaluable for response.\",\n      \"denominator\": \"Participants: 9\",\n      \"category\": \"Objective Response (CR+PR)\",\n      \"value\": 1,\n      \"quotes\": [\n        \"For Treatment (Liposomal Irinotecan, Leucovorin, Fluorouracil),\",\n        \"the reported COUNT_OF_PARTICIPANTS\",\n        \"for Objective Response Rate (ORR) as Assessed by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1\",\n        \"was 1 Participants\"\n      ]\n    }\n  ]\n}",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Decompose this claim into ALL atomic numerical outcome relationships, without checking whether they are true. Return JSON with keys complete (boolean) and records (array). Each record must describe one group, endpoint, point value and its conditions. Resolve cross-sentence references from this claim only. Copy the group, endpoint, time frame, analysis population, category and denominator strings exactly as stated, removing only quotation delimiters. Do not omit a numeric relationship. Do not invent missing conditions: use empty string. A denominator such as Participants: 15 is NOT an analysis population. If no population description is stated, population MUST be empty. Do not copy a denominator into population. Preserve conditions shared by multiple records. A comparison, negation, approximate value or derived arithmetic that cannot be expressed as exact point records must set complete=false, never silently drop it.\nEvery record has string fields: group, endpoint, value (decimal only), unit, statistic, time, population, denominator, category; and quotes: an array of exact verbatim substrings from the claim supporting this decomposition. Statistic is mean, median, or count if stated. Return only JSON.\nCLAIM:\nFor Treatment (Liposomal Irinotecan, Leucovorin, Fluorouracil), the reported COUNT_OF_PARTICIPANTS for Objective Response Rate (ORR) as Assessed by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 was 1 Participants (time frame: Within 6 months of treatment initiation; denominator: Participants: 9; population: 2 patients were not evaluable for response.; category: Objective Response (CR+PR))."
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 1024,
+      "num_ctx": 16384
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "group": {
+                "type": "string"
+              },
+              "endpoint": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "statistic": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "quotes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "group",
+              "endpoint",
+              "value",
+              "unit",
+              "statistic",
+              "time",
+              "population",
+              "denominator",
+              "category",
+              "quotes"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "records"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 2.1135926999995718,
+  "call_id": "4f5600b1b453474e7f5e04e954e2582663a7d1530f0f440ed6e6ce9a6ae19d2e"
+}

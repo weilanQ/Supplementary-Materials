@@ -1,0 +1,52 @@
+[
+  {
+    "trial": "NCT02293954",
+    "kind": "visit",
+    "value_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/3/classes/0/categories/0/measurements/0/value",
+    "value": "3.3",
+    "correct_visit": "Day 1",
+    "donor_visit": "Day 2",
+    "donor_value": "6.5",
+    "donor_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/3/classes/1/categories/0/measurements/0/value"
+  },
+  {
+    "trial": "NCT03576131",
+    "kind": "scoped denominator",
+    "value_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/9/classes/1/categories/0/measurements/1/value",
+    "value": "3.03",
+    "correct_count": "4",
+    "substituted_count": "7",
+    "scope": "class",
+    "raw_outcome_count": "7"
+  },
+  {
+    "trial": "NCT01782690",
+    "kind": "scoped denominator",
+    "value_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/12/classes/1/categories/0/measurements/0/value",
+    "value": "2.9",
+    "correct_count": "140",
+    "substituted_count": "338",
+    "scope": "class",
+    "raw_outcome_count": "338"
+  },
+  {
+    "trial": "NCT03586869",
+    "kind": "scoped denominator",
+    "value_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/8/classes/15/categories/0/measurements/0/value",
+    "value": "20.5",
+    "correct_count": "2",
+    "substituted_count": "3",
+    "scope": "class",
+    "raw_outcome_count": "3"
+  },
+  {
+    "trial": "NCT03207867",
+    "kind": "scoped denominator",
+    "value_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/44/classes/2/categories/0/measurements/0/value",
+    "value": "1.97",
+    "correct_count": "11",
+    "substituted_count": "206",
+    "scope": "class",
+    "raw_outcome_count": "206"
+  }
+]

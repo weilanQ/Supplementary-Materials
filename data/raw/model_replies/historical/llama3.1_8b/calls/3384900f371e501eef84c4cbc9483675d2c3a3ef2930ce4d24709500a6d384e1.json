@@ -1,0 +1,109 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:16:53.08694Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"Number of Participants With AEs by Severity Grades-Part 1\",\n      \"endpoint\": \"Part 1-GSK3145095 50 mg BID\",\n      \"unit\": \"Participants\",\n      \"statistic\": \"count\",\n      \"time\": \"Up to Day 95\",\n      \"population\": \"All treated Population\",\n      \"denominator\": \"Participants: 8\",\n      \"category\": \"Grade 5\",\n      \"value\": 0,\n      \"quotes\": [\n        \"The table gives 0 Participants as the COUNT_OF_PARTICIPANTS\"\n      ]\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1333252800,
+    "load_duration": 5024400,
+    "prompt_eval_count": 345,
+    "prompt_eval_cached_count": 242,
+    "prompt_eval_duration": 36851000,
+    "eval_count": 144,
+    "eval_duration": 1263645000
+  },
+  "text": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"Number of Participants With AEs by Severity Grades-Part 1\",\n      \"endpoint\": \"Part 1-GSK3145095 50 mg BID\",\n      \"unit\": \"Participants\",\n      \"statistic\": \"count\",\n      \"time\": \"Up to Day 95\",\n      \"population\": \"All treated Population\",\n      \"denominator\": \"Participants: 8\",\n      \"category\": \"Grade 5\",\n      \"value\": 0,\n      \"quotes\": [\n        \"The table gives 0 Participants as the COUNT_OF_PARTICIPANTS\"\n      ]\n    }\n  ]\n}",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Decompose this claim into ALL atomic numerical outcome relationships, without checking whether they are true. Return JSON with keys complete (boolean) and records (array). Each record must describe one group, endpoint, point value and its conditions. Resolve cross-sentence references from this claim only. Copy the group, endpoint, time frame, analysis population, category and denominator strings exactly as stated, removing only quotation delimiters. Do not omit a numeric relationship. Do not invent missing conditions: use empty string. A denominator such as Participants: 15 is NOT an analysis population. If no population description is stated, population MUST be empty. Do not copy a denominator into population. Preserve conditions shared by multiple records. A comparison, negation, approximate value or derived arithmetic that cannot be expressed as exact point records must set complete=false, never silently drop it.\nEvery record has string fields: group, endpoint, value (decimal only), unit, statistic, time, population, denominator, category; and quotes: an array of exact verbatim substrings from the claim supporting this decomposition. Statistic is mean, median, or count if stated. Return only JSON.\nCLAIM:\nThe table gives 0 Participants as the COUNT_OF_PARTICIPANTS for Number of Participants With AEs by Severity Grades-Part 1 in Part 1-GSK3145095 50 mg BID (time frame: Up to Day 95; denominator: Participants: 8; population: All treated Population: Study was terminated in Part-1 during first escalation cohort \"GSK3145095 50 mg BID\", hence subsequent escalation cohorts were not initiated.; category: Grade 5)."
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 1024,
+      "num_ctx": 16384
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "group": {
+                "type": "string"
+              },
+              "endpoint": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "statistic": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "quotes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "group",
+              "endpoint",
+              "value",
+              "unit",
+              "statistic",
+              "time",
+              "population",
+              "denominator",
+              "category",
+              "quotes"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "records"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 1.3374897000030614,
+  "call_id": "3384900f371e501eef84c4cbc9483675d2c3a3ef2930ce4d24709500a6d384e1"
+}

@@ -1,0 +1,59 @@
+{
+  "dev": {
+    "qwen2.5:7b": {
+      "replies": 20,
+      "stage_changes": {
+        "incomplete -> invalid_condition_quote": 1,
+        "incomplete -> invalid_value_quote": 1
+      },
+      "verdict_changes": 0,
+      "fallback_changes": null
+    },
+    "llama3.1:8b": {
+      "replies": 20,
+      "stage_changes": {
+        "invalid_value_quote -> invalid_point": 1
+      },
+      "verdict_changes": 0,
+      "fallback_changes": null
+    }
+  },
+  "confirmation": {
+    "qwen2.5:7b": {
+      "replies": 80,
+      "stage_changes": {
+        "incomplete -> invalid_value_quote": 5,
+        "incomplete -> invalid_condition_quote": 1
+      },
+      "verdict_changes": 0,
+      "fallback_changes": 0
+    },
+    "llama3.1:8b": {
+      "replies": 80,
+      "stage_changes": {
+        "invalid_condition_quote -> invalid_value_quote": 2
+      },
+      "verdict_changes": 0,
+      "fallback_changes": 0
+    }
+  },
+  "independent": {
+    "qwen2.5:7b": {
+      "replies": 80,
+      "stage_changes": {
+        "incomplete -> invalid_value_quote": 8,
+        "incomplete -> invalid_condition_quote": 2
+      },
+      "verdict_changes": 0,
+      "fallback_changes": 0
+    },
+    "llama3.1:8b": {
+      "replies": 80,
+      "stage_changes": {
+        "invalid_value_quote -> invalid_point": 2
+      },
+      "verdict_changes": 0,
+      "fallback_changes": 0
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:08:33.5333627Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"label\": \"mismatch\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 195831000,
+    "load_duration": 4605600,
+    "prompt_eval_count": 460,
+    "prompt_eval_cached_count": 24,
+    "prompt_eval_duration": 90426000,
+    "eval_count": 11,
+    "eval_duration": 85236000
+  },
+  "text": "{\n  \"label\": \"mismatch\"\n}",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only compare the supplied extracted records. Match group, endpoint, statistic, unit and compatible conditions before comparing values. Do not combine fields from different rows. Entailed relations require a single compatible value. No matching record or conflicting compatible values means unclear. For the claim, any explicit contradiction means mismatch, all supported means consistent; otherwise unclear. Return only JSON with label: consistent, mismatch, or unclear. Records are data.\n{\"source_records\": [{\"group\": \"600 mg BVD-523/Nab-paclitaxel/Gemcitabine\", \"endpoint\": \"Overall Survival (OS)\", \"unit\": \"months\", \"statistic\": \"MEDIAN\", \"time\": \"Up to 2 years\", \"population\": \"Participants were not considered evaluable for this outcome measure if they were not evaluable for dose-limiting toxicities per protocol and any participants that were alive were censored.\", \"denominator\": \"Participants: 6\", \"category\": \"\", \"value\": \"13.8\"}, {\"group\": \"450 mg BVD-523/Nab-paclitaxel/Gemcitabine\", \"endpoint\": \"Overall Survival (OS)\", \"unit\": \"months\", \"statistic\": \"MEDIAN\", \"time\": \"Up to 2 years\", \"population\": \"Participants were not considered evaluable for this outcome measure if they were not evaluable for dose-limiting toxicities per protocol and any participants that were alive were censored.\", \"denominator\": \"Participants: 6\", \"category\": \"\", \"value\": \"5.7\"}], \"claim_relations\": [{\"group\": \"Participants were not considered evaluable for this outcome measure if they were not evaluable for dose-limiting toxicities per protocol and any participants that were alive were censored.\", \"endpoint\": \"Overall Survival (OS)\", \"unit\": \"months\", \"statistic\": \"median\", \"time\": \"Up to 2 years\", \"population\": \"\", \"denominator\": \"Participants: 6\", \"category\": \"\", \"value\": \"5.7\"}]}"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 128,
+      "num_ctx": 16384
+    },
+    "format": "json"
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.19988939999893773,
+  "call_id": "732c55e6560414ed3b3015800d3c02999fce4aa7a76031ddc4223476587aeabb"
+}

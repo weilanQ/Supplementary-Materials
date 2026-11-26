@@ -1,0 +1,109 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:13:40.4851436Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"Placebo Plus Capecitabine\",\n      \"endpoint\": \"Overall Survival (OS)\",\n      \"unit\": \"Participants\",\n      \"statistic\": \"count\",\n      \"time\": \"Randomization until death due to any cause\",\n      \"population\": \"The intent-to-treat (ITT) population consisted of all participants randomized to the study.\",\n      \"denominator\": \"Participants: 160\",\n      \"category\": \"Censored\",\n      \"value\": 48,\n      \"quotes\": [\n        \"For Placebo Plus Capecitabine, the reported COUNT_OF_PARTICIPANTS for Overall Survival (OS) was 48 Participants\"\n      ]\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1472494800,
+    "load_duration": 5098000,
+    "prompt_eval_count": 328,
+    "prompt_eval_cached_count": 239,
+    "prompt_eval_duration": 33313000,
+    "eval_count": 160,
+    "eval_duration": 1404951000
+  },
+  "text": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"Placebo Plus Capecitabine\",\n      \"endpoint\": \"Overall Survival (OS)\",\n      \"unit\": \"Participants\",\n      \"statistic\": \"count\",\n      \"time\": \"Randomization until death due to any cause\",\n      \"population\": \"The intent-to-treat (ITT) population consisted of all participants randomized to the study.\",\n      \"denominator\": \"Participants: 160\",\n      \"category\": \"Censored\",\n      \"value\": 48,\n      \"quotes\": [\n        \"For Placebo Plus Capecitabine, the reported COUNT_OF_PARTICIPANTS for Overall Survival (OS) was 48 Participants\"\n      ]\n    }\n  ]\n}",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Decompose this claim into ALL atomic numerical outcome relationships, without checking whether they are true. Return JSON with keys complete (boolean) and records (array). Each record must describe one group, endpoint, point value and its conditions. Resolve cross-sentence references from this claim only. Copy the group, endpoint, time frame, analysis population, category and denominator strings exactly as stated, removing only quotation delimiters. Do not omit a numeric relationship. Do not invent missing conditions: use empty string. A denominator such as Participants: 15 is NOT an analysis population. If no population description is stated, population MUST be empty. Do not copy a denominator into population. Preserve conditions shared by multiple records. A comparison, negation, approximate value or derived arithmetic that cannot be expressed as exact point records must set complete=false, never silently drop it.\nEvery record has string fields: group, endpoint, value (decimal only), unit, statistic, time, population, denominator, category; and quotes: an array of exact verbatim substrings from the claim supporting this decomposition. Statistic is mean, median, or count if stated. Return only JSON.\nCLAIM:\nFor Placebo Plus Capecitabine, the reported COUNT_OF_PARTICIPANTS for Overall Survival (OS) was 48 Participants (time frame: Randomization until death due to any cause; up to the data cutoff 11FEB2016.; denominator: Participants: 160; population: The intent-to-treat (ITT) population consisted of all participants randomized to the study.; category: Censored)."
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 1024,
+      "num_ctx": 16384
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "group": {
+                "type": "string"
+              },
+              "endpoint": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "statistic": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "quotes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "group",
+              "endpoint",
+              "value",
+              "unit",
+              "statistic",
+              "time",
+              "population",
+              "denominator",
+              "category",
+              "quotes"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "records"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 1.476506299994071,
+  "call_id": "3a1f09ef8a262a658d5df6ce0f0a5030fb6a570ea63b0d1c2038763773d14b47"
+}

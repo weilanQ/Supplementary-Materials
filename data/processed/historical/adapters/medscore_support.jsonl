@@ -1,0 +1,12 @@
+{"cohort": "New", "model": "qwen2.5_7b", "reference": "consistent", "n": 40, "supported": 6, "unsupported": 31, "unscored": 3}
+{"cohort": "New", "model": "qwen2.5_7b", "reference": "mismatch", "n": 40, "supported": 1, "unsupported": 32, "unscored": 7}
+{"cohort": "New", "model": "llama3.1_8b", "reference": "consistent", "n": 40, "supported": 13, "unsupported": 16, "unscored": 11}
+{"cohort": "New", "model": "llama3.1_8b", "reference": "mismatch", "n": 40, "supported": 6, "unsupported": 22, "unscored": 12}
+{"cohort": "Registry", "model": "qwen2.5_7b", "reference": "consistent", "n": 113, "supported": 24, "unsupported": 72, "unscored": 17}
+{"cohort": "Registry", "model": "qwen2.5_7b", "reference": "mismatch", "n": 113, "supported": 4, "unsupported": 97, "unscored": 12}
+{"cohort": "Registry", "model": "llama3.1_8b", "reference": "consistent", "n": 113, "supported": 58, "unsupported": 32, "unscored": 23}
+{"cohort": "Registry", "model": "llama3.1_8b", "reference": "mismatch", "n": 113, "supported": 30, "unsupported": 59, "unscored": 24}
+{"cohort": "Public", "model": "qwen2.5_7b", "reference": "consistent", "n": 47, "supported": 9, "unsupported": 14, "unscored": 24}
+{"cohort": "Public", "model": "qwen2.5_7b", "reference": "mismatch", "n": 103, "supported": 4, "unsupported": 48, "unscored": 51}
+{"cohort": "Public", "model": "llama3.1_8b", "reference": "consistent", "n": 47, "supported": 17, "unsupported": 8, "unscored": 22}
+{"cohort": "Public", "model": "llama3.1_8b", "reference": "mismatch", "n": 103, "supported": 17, "unsupported": 56, "unscored": 30}

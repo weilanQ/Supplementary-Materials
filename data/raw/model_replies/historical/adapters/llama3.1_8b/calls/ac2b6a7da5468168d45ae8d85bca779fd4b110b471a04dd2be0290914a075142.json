@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:28:18.5603265Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. According to the table, for the category Grade 3, the value is 4, indicating that 4 participants had adverse events with a severity grade of 3."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 345256000,
+    "load_duration": 4886100,
+    "prompt_eval_count": 455,
+    "prompt_eval_cached_count": 429,
+    "prompt_eval_duration": 16100000,
+    "eval_count": 37,
+    "eval_duration": 313168000
+  },
+  "text": "True. According to the table, for the category Grade 3, the value is 4, indicating that 4 participants had adverse events with a severity grade of 3.",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 3: Number of Participants With AEs by Severity Grades-Part 1\nDescription: All adverse events were analyzed using National Cancer Institute-Common Terminology Criteria for Adverse Events (NCI-CTCAE) Version 5.0. Graded from Grade 1: mild asymptomatic or mild symptoms; clinical or diagnostic observations only; intervention not indicated, Grade 2: Moderate; minimal, local or noninvasive intervention indicated; limiting age-appropriate instrumental activities of daily living (ADL), Grade 3: Severe or medically significant but not immediately life-threatening; hospitalization or prolongation of hospitalization indicated; disabling; limiting self care ADL, Grade 4: Life-threatening consequences; urgent intervention indicated, Grade 5: death related AE. Higher grade indicates more severe condition. Number of participants with maximum severity grades were presented.\nTime frame: Up to Day 95\nAnalysis population: All treated Population: Study was terminated in Part-1 during first escalation cohort \"GSK3145095 50 mg BID\", hence subsequent escalation cohorts were not initiated.\nStatistic: COUNT_OF_PARTICIPANTS\nUnit of measure: Participants\nGroup: Part 1-GSK3145095 50 mg BID\nCategory: Grade 1\nDenominator: Participants: 8\nValue: 0\nGroup: Part 1-GSK3145095 50 mg BID\nCategory: Grade 2\nDenominator: Participants: 8\nValue: 3\nGroup: Part 1-GSK3145095 50 mg BID\nCategory: Grade 3\nDenominator: Participants: 8\nValue: 4\nGroup: Part 1-GSK3145095 50 mg BID\nCategory: Grade 4\nDenominator: Participants: 8\nValue: 1\nGroup: Part 1-GSK3145095 50 mg BID\nCategory: Grade 5\nDenominator: Participants: 8\nValue: 0\n\nInput: The category for the reported COUNT_OF_PARTICIPANTS is Grade 3. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.3501828000007663,
+  "call_id": "ac2b6a7da5468168d45ae8d85bca779fd4b110b471a04dd2be0290914a075142"
+}

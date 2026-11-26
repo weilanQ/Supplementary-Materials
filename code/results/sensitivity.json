@@ -1,0 +1,102 @@
+[
+  {
+    "cohort": "Registry",
+    "model": "qwen2.5_7b",
+    "total": 226,
+    "excluded": 4,
+    "n": 222,
+    "trials": 40,
+    "direct": 180,
+    "fusion": 188
+  },
+  {
+    "cohort": "Registry",
+    "model": "llama3.1_8b",
+    "total": 226,
+    "excluded": 4,
+    "n": 222,
+    "trials": 40,
+    "direct": 173,
+    "fusion": 187
+  },
+  {
+    "cohort": "First",
+    "model": "qwen2.5_7b",
+    "total": 80,
+    "excluded": 0,
+    "n": 80,
+    "trials": 20,
+    "direct": 65,
+    "fusion": 66
+  },
+  {
+    "cohort": "First",
+    "model": "llama3.1_8b",
+    "total": 80,
+    "excluded": 0,
+    "n": 80,
+    "trials": 20,
+    "direct": 67,
+    "fusion": 74
+  },
+  {
+    "cohort": "Holdout",
+    "model": "qwen2.5_7b",
+    "total": 80,
+    "excluded": 2,
+    "n": 78,
+    "trials": 20,
+    "direct": 64,
+    "fusion": 72
+  },
+  {
+    "cohort": "Holdout",
+    "model": "llama3.1_8b",
+    "total": 80,
+    "excluded": 2,
+    "n": 78,
+    "trials": 20,
+    "direct": 59,
+    "fusion": 64
+  },
+  {
+    "cohort": "New",
+    "model": "qwen2.5_7b",
+    "total": 80,
+    "excluded": 0,
+    "n": 80,
+    "trials": 20,
+    "direct": 58,
+    "fusion": 60
+  },
+  {
+    "cohort": "New",
+    "model": "llama3.1_8b",
+    "total": 80,
+    "excluded": 0,
+    "n": 80,
+    "trials": 20,
+    "direct": 59,
+    "fusion": 59
+  },
+  {
+    "cohort": "Public",
+    "model": "qwen2.5_7b",
+    "total": 150,
+    "excluded": 0,
+    "n": 150,
+    "trials": 30,
+    "direct": 116,
+    "fusion": 116
+  },
+  {
+    "cohort": "Public",
+    "model": "llama3.1_8b",
+    "total": 150,
+    "excluded": 0,
+    "n": 150,
+    "trials": 30,
+    "direct": 113,
+    "fusion": 113
+  }
+]

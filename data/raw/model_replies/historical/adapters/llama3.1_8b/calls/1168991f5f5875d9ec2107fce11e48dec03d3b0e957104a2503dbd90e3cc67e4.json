@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:25:13.2504235Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The table states that at 6 weeks, 10 out of 16 participants had stable disease."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 275764500,
+    "load_duration": 5417800,
+    "prompt_eval_count": 149,
+    "prompt_eval_cached_count": 129,
+    "prompt_eval_duration": 14827000,
+    "eval_count": 23,
+    "eval_duration": 193420000
+  },
+  "text": "True. The table states that at 6 weeks, 10 out of 16 participants had stable disease.",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 2: Number of Participants With Stable Disease\nDescription: Participants will be evaluated at 6 and 12 weeks for response.\nTime frame: 6 weeks, 12 weeks\nAnalysis population: \nStatistic: NUMBER\nUnit of measure: participants\nGroup: Autologous TIL\nCategory: Stable Disease at 6 weeks\nDenominator: Participants: 16\nValue: 10\nGroup: Autologous TIL\nCategory: Stable Disease at 12 weeks\nDenominator: Participants: 16\nValue: 5\n\nInput: The table gives a number of 10 participants. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.28146460000425577,
+  "call_id": "1168991f5f5875d9ec2107fce11e48dec03d3b0e957104a2503dbd90e3cc67e4"
+}

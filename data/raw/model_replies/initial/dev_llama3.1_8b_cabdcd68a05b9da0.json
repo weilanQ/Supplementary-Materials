@@ -1,0 +1,97 @@
+{
+  "id": "cabdcd68a05b9da0",
+  "split": "dev",
+  "model": "llama3.1:8b",
+  "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Verify each stated outcome against numbered trial rows. Source outcome values are withheld during selection. Select rows by the group, endpoint, statistic, unit and every stated reporting condition, never by the outcome value. For each stated outcome return the chosen row_id (integer, 0 for no match, -1 for ambiguity), the numeric result as a string and value_quote copied exactly from the claim. Also copy the entire stated time, population, denominator and category as exact substrings from the claim, omitting field labels like \"time frame:\"; use an empty string for each absent condition. List all numerical outcomes separately, not participant counts used as denominators. Set complete false if the claim cannot be represented or any relation was missed. Output JSON only."
+      },
+      {
+        "role": "user",
+        "content": "{\"statement\": \"For group \\\"Cohort A - 300mg BID LY3475070\\\", the number for \\\"Disease Control Rate (DCR): Percentage of Participants With a Best Overall Response of CR, PR, and Stable Disease (SD)\\\" was 50 Percentage of participants (time frame \\\"Baseline through Measured Progressive Disease (Estimated at up to 10.4 Months)\\\"; analysis population \\\"All enrolled participants in phase1a who received at least one dose of LY3475070.\\\"; denominator \\\"Participants: 6\\\").\", \"rows\": [{\"row_id\": 1, \"group\": \"Cohort A - 150mg QD LY3475070\", \"endpoint\": \"Disease Control Rate (DCR): Percentage of Participants With a Best Overall Response of CR, PR, and Stable Disease (SD)\", \"unit\": \"Percentage of participants\", \"statistic\": \"NUMBER\", \"time\": \"Baseline through Measured Progressive Disease (Estimated at up to 10.4 Months)\", \"population\": \"All enrolled participants in phase1a who received at least one dose of LY3475070.\", \"denominator\": \"Participants: 4\", \"category\": \"\"}, {\"row_id\": 2, \"group\": \"Cohort A - 300mg QD LY3475070\", \"endpoint\": \"Disease Control Rate (DCR): Percentage of Participants With a Best Overall Response of CR, PR, and Stable Disease (SD)\", \"unit\": \"Percentage of participants\", \"statistic\": \"NUMBER\", \"time\": \"Baseline through Measured Progressive Disease (Estimated at up to 10.4 Months)\", \"population\": \"All enrolled participants in phase1a who received at least one dose of LY3475070.\", \"denominator\": \"Participants: 6\", \"category\": \"\"}, {\"row_id\": 3, \"group\": \"Cohort A - 300mg BID LY3475070\", \"endpoint\": \"Disease Control Rate (DCR): Percentage of Participants With a Best Overall Response of CR, PR, and Stable Disease (SD)\", \"unit\": \"Percentage of participants\", \"statistic\": \"NUMBER\", \"time\": \"Baseline through Measured Progressive Disease (Estimated at up to 10.4 Months)\", \"population\": \"All enrolled participants in phase1a who received at least one dose of LY3475070.\", \"denominator\": \"Participants: 6\", \"category\": \"\"}, {\"row_id\": 4, \"group\": \"Cohort A - 600mg QD LY3475070\", \"endpoint\": \"Disease Control Rate (DCR): Percentage of Participants With a Best Overall Response of CR, PR, and Stable Disease (SD)\", \"unit\": \"Percentage of participants\", \"statistic\": \"NUMBER\", \"time\": \"Baseline through Measured Progressive Disease (Estimated at up to 10.4 Months)\", \"population\": \"All enrolled participants in phase1a who received at least one dose of LY3475070.\", \"denominator\": \"Participants: 4\", \"category\": \"\"}, {\"row_id\": 5, \"group\": \"Cohort B - 150mg QD LY3475070 + Pembrolizumab\", \"endpoint\": \"Disease Control Rate (DCR): Percentage of Participants With a Best Overall Response of CR, PR, and Stable Disease (SD)\", \"unit\": \"Percentage of participants\", \"statistic\": \"NUMBER\", \"time\": \"Baseline through Measured Progressive Disease (Estimated at up to 10.4 Months)\", \"population\": \"All enrolled participants in phase1a who received at least one dose of LY3475070.\", \"denominator\": \"Participants: 3\", \"category\": \"\"}, {\"row_id\": 6, \"group\": \"Cohort B - 150mg BID LY3475070 + Pembrolizumab\", \"endpoint\": \"Disease Control Rate (DCR): Percentage of Participants With a Best Overall Response of CR, PR, and Stable Disease (SD)\", \"unit\": \"Percentage of participants\", \"statistic\": \"NUMBER\", \"time\": \"Baseline through Measured Progressive Disease (Estimated at up to 10.4 Months)\", \"population\": \"All enrolled participants in phase1a who received at least one dose of LY3475070.\", \"denominator\": \"Participants: 11\", \"category\": \"\"}, {\"row_id\": 7, \"group\": \"Cohort B - 300mg QD LY3475070 + Pembrolizumab\", \"endpoint\": \"Disease Control Rate (DCR): Percentage of Participants With a Best Overall Response of CR, PR, and Stable Disease (SD)\", \"unit\": \"Percentage of participants\", \"statistic\": \"NUMBER\", \"time\": \"Baseline through Measured Progressive Disease (Estimated at up to 10.4 Months)\", \"population\": \"All enrolled participants in phase1a who received at least one dose of LY3475070.\", \"denominator\": \"Participants: 1\", \"category\": \"\"}, {\"row_id\": 8, \"group\": \"Cohort B - 300mg BID LY3475070 + Pembrolizumab\", \"endpoint\": \"Disease Control Rate (DCR): Percentage of Participants With a Best Overall Response of CR, PR, and Stable Disease (SD)\", \"unit\": \"Percentage of participants\", \"statistic\": \"NUMBER\", \"time\": \"Baseline through Measured Progressive Disease (Estimated at up to 10.4 Months)\", \"population\": \"All enrolled participants in phase1a who received at least one dose of LY3475070.\", \"denominator\": \"Participants: 17\", \"category\": \"\"}]}"
+      }
+    ],
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "row_id": {
+                "type": "integer"
+              },
+              "value": {
+                "type": "string"
+              },
+              "value_quote": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "row_id",
+              "value",
+              "value_quote",
+              "time",
+              "population",
+              "denominator",
+              "category"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "relations"
+      ],
+      "additionalProperties": false
+    },
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 17,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "keep_alive": "10m"
+  },
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-21T15:12:29.7754396Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": true,\n  \"relations\": [\n    {\n      \"row_id\": 3,\n      \"value\": \"50\",\n      \"value_quote\": \"50 Percentage of participants\",\n      \"time\": \"Baseline through Measured Progressive Disease (Estimated at up to 10.4 Months)\",\n      \"population\": \"All enrolled participants in phase1a who received at least one dose of LY3475070.\",\n      \"denominator\": \"Participants: 6\",\n      \"category\": \"\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1308102500,
+    "load_duration": 2655000,
+    "prompt_eval_count": 1356,
+    "prompt_eval_cached_count": 167,
+    "prompt_eval_duration": 239082000,
+    "eval_count": 111,
+    "eval_duration": 1037544000
+  },
+  "seconds": 1.313083999993978
+}

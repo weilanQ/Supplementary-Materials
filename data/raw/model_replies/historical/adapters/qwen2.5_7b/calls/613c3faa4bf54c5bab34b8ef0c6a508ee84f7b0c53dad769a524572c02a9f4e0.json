@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:21:12.746648Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The denominator for the group \"Part 1: V941 Monotherapy\" is Participants: 3."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 247703400,
+    "load_duration": 6300300,
+    "prompt_eval_count": 450,
+    "prompt_eval_cached_count": 432,
+    "prompt_eval_duration": 14914000,
+    "eval_count": 26,
+    "eval_duration": 213619000
+  },
+  "text": "True. The denominator for the group \"Part 1: V941 Monotherapy\" is Participants: 3.",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 3: Number of Participants Who Discontinued Study Treatment Due to an AE\nDescription: An AE is defined as any unfavorable and unintended sign including an abnormal laboratory finding, symptom or disease associated with the use of a medical treatment or procedure, regardless of whether it is considered related to the medical treatment or procedure, that occurs during the course of the study. The number of participants who discontinued study treatment due to an AE is reported.\nTime frame: Up to approximately 24 months\nAnalysis population: All participants who received at least 1 dose of study treatment. For AEs which occurred during Part 1 prior to switch-over, the information is in the Part 1: V941 Monotherapy column. For AEs which occurred during Part 1 subsequent to switch-over, the information is in the Part 1: V941 + Pembrolizumab column.\nStatistic: COUNT_OF_PARTICIPANTS\nUnit of measure: Participants\nGroup: Part 1: V941 Monotherapy\nCategory: \nDenominator: Participants: 3\nValue: 0\nGroup: Part 1: V941 + Pembrolizumab\nCategory: \nDenominator: Participants: 16\nValue: 1\nGroup: Part 2: Expansion Cohort 1 Non-small Cell Lung Cancer (V941 + Pembrolizumab)\nCategory: \nDenominator: Participants: 20\nValue: 1\nGroup: Part 2: Expansion Cohort 2 Colorectal Cancer (V941 + Pembrolizumab)\nCategory: \nDenominator: Participants: 16\nValue: 2\nGroup: Part 2: Expansion Cohort 3 Pancreatic Adenocarcinoma (V941 + Pembrolizumab)\nCategory: \nDenominator: Participants: 16\nValue: 3\n\nInput: The denominator is Participants: 3. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.2512010000064038,
+  "call_id": "613c3faa4bf54c5bab34b8ef0c6a508ee84f7b0c53dad769a524572c02a9f4e0"
+}

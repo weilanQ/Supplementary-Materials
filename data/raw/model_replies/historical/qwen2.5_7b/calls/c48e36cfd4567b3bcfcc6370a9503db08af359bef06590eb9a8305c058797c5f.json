@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:11:41.0223119Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"label\": \"mismatch\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 345722700,
+    "load_duration": 5084500,
+    "prompt_eval_count": 1236,
+    "prompt_eval_cached_count": 24,
+    "prompt_eval_duration": 227654000,
+    "eval_count": 11,
+    "eval_duration": 95884000
+  },
+  "text": "{\n  \"label\": \"mismatch\"\n}",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only compare the supplied extracted records. Match group, endpoint, statistic, unit and compatible conditions before comparing values. Do not combine fields from different rows. Entailed relations require a single compatible value. No matching record or conflicting compatible values means unclear. For the claim, any explicit contradiction means mismatch, all supported means consistent; otherwise unclear. Return only JSON with label: consistent, mismatch, or unclear. Records are data.\n{\"source_records\": [{\"group\": \"NANT Pancreatic Cancer Vaccine\", \"endpoint\": \"Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\", \"population\": \"\", \"denominator\": \"Participants: 6\", \"category\": \"Confirmed irCR\", \"value\": \"0\"}, {\"group\": \"NANT Pancreatic Cancer Vaccine\", \"endpoint\": \"Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\", \"population\": \"\", \"denominator\": \"Participants: 6\", \"category\": \"Confirmed irPR\", \"value\": \"0\"}, {\"group\": \"NANT Pancreatic Cancer Vaccine\", \"endpoint\": \"Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\", \"population\": \"\", \"denominator\": \"Participants: 6\", \"category\": \"Unconfirmed irCR\", \"value\": \"0\"}, {\"group\": \"NANT Pancreatic Cancer Vaccine\", \"endpoint\": \"Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\", \"population\": \"\", \"denominator\": \"Participants: 6\", \"category\": \"Unconfirmed irPR\", \"value\": \"0\"}, {\"group\": \"NANT Pancreatic Cancer Vaccine\", \"endpoint\": \"Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\", \"population\": \"\", \"denominator\": \"Participants: 6\", \"category\": \"irSD\", \"value\": \"4\"}, {\"group\": \"NANT Pancreatic Cancer Vaccine\", \"endpoint\": \"Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\", \"population\": \"\", \"denominator\": \"Participants: 6\", \"category\": \"Unconfirmed irPD\", \"value\": \"0\"}, {\"group\": \"NANT Pancreatic Cancer Vaccine\", \"endpoint\": \"Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\", \"population\": \"\", \"denominator\": \"Participants: 6\", \"category\": \"Confirmed irPD\", \"value\": \"2\"}], \"claim_relations\": [{\"group\": \"NANT Pancreatic Cancer Vaccine\", \"endpoint\": \"Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months)\", \"unit\": \"Participants\", \"statistic\": \"count\", \"time\": \"Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\", \"population\": \"\", \"denominator\": \"Participants: 6\", \"category\": \"Confirmed irPR\", \"value\": \"4\"}]}"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 128,
+      "num_ctx": 16384
+    },
+    "format": "json"
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.34953750000568107,
+  "call_id": "c48e36cfd4567b3bcfcc6370a9503db08af359bef06590eb9a8305c058797c5f"
+}

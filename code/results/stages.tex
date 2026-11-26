@@ -1,0 +1,20 @@
+\begin{table}[!htbp]\centering\small\caption{Where verification stopped on the initial 80 statements per model. Each block assigns one first stopping point per statement. The row selector tests completeness before validating individual quotations. A reply can have additional errors after its first stopping point.}\label{tab:stage}
+\begin{tabular}{@{}lrr@{}}\toprule Stage & Qwen & Llama\\\midrule
+\multicolumn{3}{@{}l}{Original Joint}\\
+Transport, truncation, JSON, schema or invalid point & 0 & 0\\
+Missing identity field & 28 & 25\\
+Quoted passage absent from the statement & 7 & 0\\
+Value outside quoted span & 1 & 1\\
+Incomplete or empty extraction & 3 & 0\\
+No compatible source row & 28 & 51\\
+Conflicting candidate values & 0 & 0\\
+Definite decision & 13 & 3\\
+\midrule
+\multicolumn{3}{@{}l}{Row selection}\\
+Truncated JSON & 0 & 2\\
+Incomplete or empty relation list & 33 & 0\\
+Invalid value quotation & 4 & 6\\
+Invalid condition quotation & 5 & 13\\
+Selection unresolved after validation & 1 & 6\\
+Definite decision & 37 & 53\\
+\bottomrule\end{tabular}\end{table}

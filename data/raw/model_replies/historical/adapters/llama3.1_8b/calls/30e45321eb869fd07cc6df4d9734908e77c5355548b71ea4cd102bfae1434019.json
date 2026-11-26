@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:28:35.8010593Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The table provides information about the number of participants with treatment-emergent adverse events (TEAEs) in a clinical trial."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 339316100,
+    "load_duration": 5601900,
+    "prompt_eval_count": 787,
+    "prompt_eval_cached_count": 759,
+    "prompt_eval_duration": 16577000,
+    "eval_count": 29,
+    "eval_duration": 252530000
+  },
+  "text": "True. The table provides information about the number of participants with treatment-emergent adverse events (TEAEs) in a clinical trial.",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 1: Number of Participants With Treatment-Emergent Adverse Events\nDescription: Treatment-emergent adverse events (TEAEs) were defined as any adverse event that began or worsened after initiation of lymphodepletion and up to 28 days following TCR-T cell infusion. TEAEs were coded using MedDRA and summarized by system organ class and preferred term, severity, and relationship to study treatment. Participants were followed for delayed or ongoing toxicities for up to 1 year.\nTime frame: From initiation of lymphodepletion through Day 28 after TCR-T cell infusion, and through long-term follow-up for up to 1 year.\nAnalysis population: All 8 participants who received a TCR-T cell infusion (Safety Analysis Set), shown by assigned dose level: DL1 1, DL2 7. No participant was assigned to DL3.\nStatistic: NUMBER\nUnit of measure: participants\nGroup: Assigned Dose Level 1 (Target 5 × 10⁹ TCR+ Cells; Range 1 to <10 × 10⁹)\nCategory: Any TEAE\nDenominator: Participants: 1\nValue: 1\nGroup: Assigned Dose Level 2 (Target 40 × 10⁹ TCR+ Cells; Range 10 to <70 × 10⁹)\nCategory: Any TEAE\nDenominator: Participants: 7\nValue: 7\nGroup: Assigned Dose Level 1 (Target 5 × 10⁹ TCR+ Cells; Range 1 to <10 × 10⁹)\nCategory: Drug-related TEAE\nDenominator: Participants: 1\nValue: 1\nGroup: Assigned Dose Level 2 (Target 40 × 10⁹ TCR+ Cells; Range 10 to <70 × 10⁹)\nCategory: Drug-related TEAE\nDenominator: Participants: 7\nValue: 7\nGroup: Assigned Dose Level 1 (Target 5 × 10⁹ TCR+ Cells; Range 1 to <10 × 10⁹)\nCategory: Drug-related Grade 3 or higher TEAE\nDenominator: Participants: 1\nValue: 1\nGroup: Assigned Dose Level 2 (Target 40 × 10⁹ TCR+ Cells; Range 10 to <70 × 10⁹)\nCategory: Drug-related Grade 3 or higher TEAE\nDenominator: Participants: 7\nValue: 6\nGroup: Assigned Dose Level 1 (Target 5 × 10⁹ TCR+ Cells; Range 1 to <10 × 10⁹)\nCategory: TEAE leading to death\nDenominator: Participants: 1\nValue: 0\nGroup: Assigned Dose Level 2 (Target 40 × 10⁹ TCR+ Cells; Range 10 to <70 × 10⁹)\nCategory: TEAE leading to death\nDenominator: Participants: 7\nValue: 0\nGroup: Assigned Dose Level 1 (Target 5 × 10⁹ TCR+ Cells; Range 1 to <10 × 10⁹)\nCategory: Treatment-emergent SAE\nDenominator: Participants: 1\nValue: 1\nGroup: Assigned Dose Level 2 (Target 40 × 10⁹ TCR+ Cells; Range 10 to <70 × 10⁹)\nCategory: Treatment-emergent SAE\nDenominator: Participants: 7\nValue: 2\n\nInput: The table provides information about the number of participants with treatment-emergent adverse events. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.3428310000017518,
+  "call_id": "30e45321eb869fd07cc6df4d9734908e77c5355548b71ea4cd102bfae1434019"
+}

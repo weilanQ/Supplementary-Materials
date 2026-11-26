@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:12:51.0514685Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"label\": \"mismatch\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 237915200,
+    "load_duration": 5162600,
+    "prompt_eval_count": 631,
+    "prompt_eval_cached_count": 24,
+    "prompt_eval_duration": 119892000,
+    "eval_count": 11,
+    "eval_duration": 97328000
+  },
+  "text": "{\n  \"label\": \"mismatch\"\n}",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only compare the supplied extracted records. Match group, endpoint, statistic, unit and compatible conditions before comparing values. Do not combine fields from different rows. Entailed relations require a single compatible value. No matching record or conflicting compatible values means unclear. For the claim, any explicit contradiction means mismatch, all supported means consistent; otherwise unclear. Return only JSON with label: consistent, mismatch, or unclear. Records are data.\n{\"source_records\": [{\"group\": \"Patients Operated for Pancreatic Endocrine Neoplasms\", \"endpoint\": \"Nonfunctioning and Malignant Pancreatic Endocrine Neoplasms\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"Each participant was followed up for a period of 5 years\", \"population\": \"\", \"denominator\": \"Participants: 40\", \"category\": \"Nonfunctioning Tumours\", \"value\": \"28\"}, {\"group\": \"Patients Operated for Pancreatic Endocrine Neoplasms\", \"endpoint\": \"Nonfunctioning and Malignant Pancreatic Endocrine Neoplasms\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"Each participant was followed up for a period of 5 years\", \"population\": \"\", \"denominator\": \"Participants: 40\", \"category\": \"Functioning Tumours\", \"value\": \"12\"}, {\"group\": \"Patients Operated for Pancreatic Endocrine Neoplasms\", \"endpoint\": \"Nonfunctioning and Malignant Pancreatic Endocrine Neoplasms\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"Each participant was followed up for a period of 5 years\", \"population\": \"\", \"denominator\": \"Participants: 40\", \"category\": \"Benign Tumours\", \"value\": \"22\"}, {\"group\": \"Patients Operated for Pancreatic Endocrine Neoplasms\", \"endpoint\": \"Nonfunctioning and Malignant Pancreatic Endocrine Neoplasms\", \"unit\": \"participants\", \"statistic\": \"NUMBER\", \"time\": \"Each participant was followed up for a period of 5 years\", \"population\": \"\", \"denominator\": \"Participants: 40\", \"category\": \"Malignant Tumours\", \"value\": \"18\"}], \"claim_relations\": [{\"group\": \"Patients Operated for Pancreatic Endocrine Neoplasms\", \"endpoint\": \"Nonfunctioning and Malignant Pancreatic Endocrine Neoplasms\", \"unit\": \"participants\", \"statistic\": \"count\", \"time\": \"Each participant was followed up for a period of 5 years\", \"population\": \"\", \"denominator\": \"Participants: 40\", \"category\": \"Nonfunctioning Tumours\", \"value\": \"22\"}]}"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 128,
+      "num_ctx": 16384
+    },
+    "format": "json"
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.24153810000279918,
+  "call_id": "ca91c12c0945ca64596798ba8ef3ffb31568fe5f6db797c33fb28d39d6d881f8"
+}

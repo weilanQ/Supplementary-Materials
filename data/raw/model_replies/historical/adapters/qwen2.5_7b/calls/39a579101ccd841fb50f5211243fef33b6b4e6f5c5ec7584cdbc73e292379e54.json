@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:21:52.822003Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The category being reported was Overall Survival (OS)."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 132986100,
+    "load_duration": 4841000,
+    "prompt_eval_count": 162,
+    "prompt_eval_cached_count": 142,
+    "prompt_eval_duration": 14532000,
+    "eval_count": 13,
+    "eval_duration": 101992000
+  },
+  "text": "True. The category being reported was Overall Survival (OS).",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 3: Progression-free Survival (PFS) and Overall Survival (OS)\nDescription: \nTime frame: 44.8 months\nAnalysis population: \nStatistic: MEDIAN\nUnit of measure: months\nGroup: Autologous TIL\nCategory: PFS\nDenominator: Participants: 16\nValue: 2.53\nGroup: Autologous TIL\nCategory: OS\nDenominator: Participants: 16\nValue: 18.86\n\nInput: The category being reported was Overall Survival (OS). True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.13771989999804646,
+  "call_id": "39a579101ccd841fb50f5211243fef33b6b4e6f5c5ec7584cdbc73e292379e54"
+}

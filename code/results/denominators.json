@@ -1,0 +1,29 @@
+{
+  "extractions": {
+    "claim": 1316,
+    "source": 300
+  },
+  "public": {
+    "qwen2.5_7b": {
+      "n": 150,
+      "claim": 137,
+      "source": 86,
+      "both": 77,
+      "matched": 1
+    },
+    "llama3.1_8b": {
+      "n": 150,
+      "claim": 140,
+      "source": 50,
+      "both": 50,
+      "matched": 10
+    }
+  },
+  "public_scope": {
+    "direct": 9,
+    "different construct": 7,
+    "mixed or altered identity": 4,
+    "derived change": 3,
+    "conversion": 3
+  }
+}

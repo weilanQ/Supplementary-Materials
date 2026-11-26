@@ -1,0 +1,105 @@
+{
+  "qwen2.5_7b": {
+    "original_first": {
+      "missing_identity": 28,
+      "incomplete": 3,
+      "no_compatible_row": 28,
+      "quote_not_found": 7,
+      "decided": 13,
+      "value_not_quoted": 1
+    },
+    "repaired_first": {
+      "missing_identity": 28,
+      "incomplete": 3,
+      "no_compatible_row": 28,
+      "quote_not_found": 7,
+      "decided": 13,
+      "value_not_quoted": 1
+    },
+    "selection_stage": {
+      "decided": 37,
+      "incomplete": 33,
+      "invalid_condition_quote": 5,
+      "invalid_value_quote": 4,
+      "selection_unresolved": 1
+    },
+    "offline_differences": {
+      "population": 23,
+      "group": 14,
+      "unit": 5,
+      "endpoint": 7,
+      "time": 10,
+      "relation count": 2
+    },
+    "valid_original": 41,
+    "groups_overlapping": {
+      "count": 2,
+      "identity_or_value": 18,
+      "conditions": 24
+    },
+    "selection_checks": {
+      "json_valid": 80,
+      "valid": 38,
+      "one_positive_id": 72,
+      "exact_selection": 65
+    },
+    "valid_exact": 35,
+    "decision_by_selection": {
+      "row_right_verdict_right": 35,
+      "row_right_verdict_abstain": 30,
+      "row_other_verdict_abstain": 13,
+      "row_other_verdict_right": 1,
+      "row_other_verdict_wrong": 1
+    }
+  },
+  "llama3.1_8b": {
+    "original_first": {
+      "no_compatible_row": 51,
+      "missing_identity": 25,
+      "decided": 3,
+      "value_not_quoted": 1
+    },
+    "repaired_first": {
+      "no_compatible_row": 51,
+      "missing_identity": 25,
+      "decided": 3,
+      "value_not_quoted": 1
+    },
+    "selection_stage": {
+      "decided": 53,
+      "invalid_value_quote": 6,
+      "selection_unresolved": 6,
+      "invalid_condition_quote": 13,
+      "truncated": 2
+    },
+    "offline_differences": {
+      "group": 28,
+      "endpoint": 28,
+      "time": 15,
+      "unit": 20,
+      "statistic": 7,
+      "category": 9,
+      "population": 18,
+      "relation count": 7
+    },
+    "valid_original": 54,
+    "groups_overlapping": {
+      "count": 7,
+      "identity_or_value": 40,
+      "conditions": 32
+    },
+    "selection_checks": {
+      "json_valid": 78,
+      "valid": 59,
+      "one_positive_id": 75,
+      "exact_selection": 59
+    },
+    "valid_exact": 52,
+    "decision_by_selection": {
+      "row_right_verdict_right": 52,
+      "row_right_verdict_abstain": 7,
+      "row_other_verdict_abstain": 20,
+      "row_other_verdict_wrong": 1
+    }
+  }
+}

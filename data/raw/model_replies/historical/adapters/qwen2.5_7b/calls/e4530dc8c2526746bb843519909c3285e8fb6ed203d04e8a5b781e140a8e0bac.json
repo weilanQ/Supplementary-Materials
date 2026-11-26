@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:21:52.3554027Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The time frame for the reported median was 44.8 months, as stated in the context provided."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 234300500,
+    "load_duration": 5031300,
+    "prompt_eval_count": 167,
+    "prompt_eval_cached_count": 142,
+    "prompt_eval_duration": 15649000,
+    "eval_count": 25,
+    "eval_duration": 201136000
+  },
+  "text": "True. The time frame for the reported median was 44.8 months, as stated in the context provided.",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 3: Progression-free Survival (PFS) and Overall Survival (OS)\nDescription: \nTime frame: 44.8 months\nAnalysis population: \nStatistic: MEDIAN\nUnit of measure: months\nGroup: Autologous TIL\nCategory: PFS\nDenominator: Participants: 16\nValue: 2.53\nGroup: Autologous TIL\nCategory: OS\nDenominator: Participants: 16\nValue: 18.86\n\nInput: The time frame for the reported median was 44.8 months. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.2389683000074001,
+  "call_id": "e4530dc8c2526746bb843519909c3285e8fb6ed203d04e8a5b781e140a8e0bac"
+}

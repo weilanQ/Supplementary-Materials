@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:18:52.2194721Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The category Nonfunctioning Tumours is mentioned in the provided statistics, with a value of 28 out of 40 participants."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 289180200,
+    "load_duration": 4470700,
+    "prompt_eval_count": 334,
+    "prompt_eval_cached_count": 314,
+    "prompt_eval_duration": 14772000,
+    "eval_count": 32,
+    "eval_duration": 258493000
+  },
+  "text": "True. The category Nonfunctioning Tumours is mentioned in the provided statistics, with a value of 28 out of 40 participants.",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 1: Nonfunctioning and Malignant Pancreatic Endocrine Neoplasms\nDescription: Of the 40 patients operated for Pancreatic Endocrine Neoplasms, using clinical criteria, histopathological analysis and preoperative imaging as gold standard, nonfunctioning and functioning tumours were identified. Similarly the number of benign and malignant lesions identified were recorded as per the WHO Classification of pancreatic endocrine tumours.\nTime frame: Each participant was followed up for a period of 5 years\nAnalysis population: \nStatistic: NUMBER\nUnit of measure: participants\nGroup: Patients Operated for Pancreatic Endocrine Neoplasms\nCategory: Nonfunctioning Tumours\nDenominator: Participants: 40\nValue: 28\nGroup: Patients Operated for Pancreatic Endocrine Neoplasms\nCategory: Functioning Tumours\nDenominator: Participants: 40\nValue: 12\nGroup: Patients Operated for Pancreatic Endocrine Neoplasms\nCategory: Benign Tumours\nDenominator: Participants: 40\nValue: 22\nGroup: Patients Operated for Pancreatic Endocrine Neoplasms\nCategory: Malignant Tumours\nDenominator: Participants: 40\nValue: 18\n\nInput: The category is Nonfunctioning Tumours. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.29384340000979137,
+  "call_id": "625d958aa70307633266d4233114a42060286b4e0457c5240a00e408da63658b"
+}

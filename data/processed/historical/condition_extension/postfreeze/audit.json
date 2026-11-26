@@ -1,0 +1,196 @@
+{
+  "verified_records": [
+    {
+      "pair": "4cb881618ae767aefb1d84f870610a6410f64e899ff45d767371eed65b6a61cb",
+      "trial": "NCT02293954",
+      "kind": "visit",
+      "target_value_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/3/classes/0/categories/0/measurements/0/value",
+      "target_value": "3.3",
+      "donor_value_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/3/classes/1/categories/0/measurements/0/value",
+      "donor_value": "6.5"
+    },
+    {
+      "pair": "0024ec81a38fb0a34f45da2d6478707817309c9d8885d915aada4f08b0c69a07",
+      "trial": "NCT03576131",
+      "kind": "scoped denominator",
+      "target_value_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/9/classes/1/categories/0/measurements/1/value",
+      "target_value": "3.03",
+      "correct_denominator": "4",
+      "correct_denominator_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/9/classes/1/denoms/0/counts/1/value",
+      "substituted_denominator": "7",
+      "substituted_denominator_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/9/denoms/0/counts/1/value"
+    },
+    {
+      "pair": "0c5dcb91cc9d2f5407171ef978c2581d246cc0868debcd56ceb2c56fd69b5e30",
+      "trial": "NCT01782690",
+      "kind": "scoped denominator",
+      "target_value_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/12/classes/1/categories/0/measurements/0/value",
+      "target_value": "2.9",
+      "correct_denominator": "140",
+      "correct_denominator_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/12/classes/1/denoms/0/counts/0/value",
+      "substituted_denominator": "338",
+      "substituted_denominator_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/12/denoms/0/counts/0/value"
+    },
+    {
+      "pair": "10909198139d58f7ec215f587f060001fcde801e7f2e5443c823f100ede98fb9",
+      "trial": "NCT03586869",
+      "kind": "scoped denominator",
+      "target_value_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/8/classes/15/categories/0/measurements/0/value",
+      "target_value": "20.5",
+      "correct_denominator": "2",
+      "correct_denominator_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/8/classes/15/denoms/0/counts/0/value",
+      "substituted_denominator": "3",
+      "substituted_denominator_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/8/denoms/0/counts/0/value"
+    },
+    {
+      "pair": "2c29af8fb882795b0d5e591a71b2dee9636a61421882985765f51e3199ff3544",
+      "trial": "NCT03207867",
+      "kind": "scoped denominator",
+      "target_value_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/44/classes/2/categories/0/measurements/0/value",
+      "target_value": "1.97",
+      "correct_denominator": "11",
+      "correct_denominator_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/44/classes/2/denoms/0/counts/0/value",
+      "substituted_denominator": "206",
+      "substituted_denominator_pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/44/denoms/0/counts/0/value"
+    }
+  ],
+  "reference_decisions": [
+    {
+      "id": "a5756bc1e8786bc5",
+      "kind": "visit",
+      "gold": "consistent",
+      "prediction": "consistent",
+      "reason": "one compatible record supports relation"
+    },
+    {
+      "id": "15f427b86c2f3b02",
+      "kind": "visit",
+      "gold": "mismatch",
+      "prediction": "mismatch",
+      "reason": "same identity and conditions have an explicitly different value"
+    },
+    {
+      "id": "bbd9c970423786f2",
+      "kind": "scoped denominator",
+      "gold": "consistent",
+      "prediction": "consistent",
+      "reason": "one compatible record supports relation"
+    },
+    {
+      "id": "eb9ac142207f59f5",
+      "kind": "scoped denominator",
+      "gold": "mismatch",
+      "prediction": "unclear",
+      "reason": "no record with matching identity and conditions"
+    },
+    {
+      "id": "a66b8a1808ccc153",
+      "kind": "scoped denominator",
+      "gold": "consistent",
+      "prediction": "consistent",
+      "reason": "one compatible record supports relation"
+    },
+    {
+      "id": "c696a7c518d11bb1",
+      "kind": "scoped denominator",
+      "gold": "mismatch",
+      "prediction": "unclear",
+      "reason": "no record with matching identity and conditions"
+    },
+    {
+      "id": "6d9c9c3db712e5cf",
+      "kind": "scoped denominator",
+      "gold": "consistent",
+      "prediction": "consistent",
+      "reason": "one compatible record supports relation"
+    },
+    {
+      "id": "eedbe3200def7bc0",
+      "kind": "scoped denominator",
+      "gold": "mismatch",
+      "prediction": "unclear",
+      "reason": "no record with matching identity and conditions"
+    },
+    {
+      "id": "c718b1913baf8f33",
+      "kind": "scoped denominator",
+      "gold": "consistent",
+      "prediction": "consistent",
+      "reason": "one compatible record supports relation"
+    },
+    {
+      "id": "cb648fc8a2e54d3b",
+      "kind": "scoped denominator",
+      "gold": "mismatch",
+      "prediction": "unclear",
+      "reason": "no record with matching identity and conditions"
+    }
+  ],
+  "model_replay": {
+    "qwen2.5:7b": {
+      "raw_calls": 28,
+      "scores": {
+        "direct": 6,
+        "joint": 2,
+        "record_llm": 7,
+        "fusion": 7
+      },
+      "changed": [
+        "a5756bc1e8786bc5"
+      ],
+      "denominator_abstentions": 8
+    },
+    "llama3.1:8b": {
+      "raw_calls": 27,
+      "scores": {
+        "direct": 5,
+        "joint": 2,
+        "record_llm": 2,
+        "fusion": 6
+      },
+      "changed": [
+        "a5756bc1e8786bc5"
+      ],
+      "denominator_abstentions": 8
+    }
+  },
+  "number_quote_probe": [
+    {
+      "text": "5 or more",
+      "value": "5",
+      "accepted": false
+    },
+    {
+      "text": "between 3 and 5",
+      "value": "3",
+      "accepted": false
+    },
+    {
+      "text": "5 days or more",
+      "value": "5",
+      "accepted": true
+    },
+    {
+      "text": "between 3 days and 5 days",
+      "value": "3",
+      "accepted": true
+    },
+    {
+      "text": "between 3 days and 5 days",
+      "value": "5",
+      "accepted": true
+    }
+  ],
+  "historical_20_trials": {
+    "llama3.1_8b": {
+      "direct": 59,
+      "joint": 3,
+      "fusion": 59
+    },
+    "qwen2.5_7b": {
+      "direct": 58,
+      "joint": 13,
+      "fusion": 60
+    }
+  }
+}

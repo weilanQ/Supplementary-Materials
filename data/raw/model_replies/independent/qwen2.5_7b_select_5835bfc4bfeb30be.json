@@ -1,0 +1,98 @@
+{
+  "id": "5835bfc4bfeb30be",
+  "model": "qwen2.5:7b",
+  "method": "select",
+  "service": "0.40.17",
+  "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Verify each stated outcome against numbered trial rows. Source outcome values are withheld during selection. Select rows by the group, endpoint, statistic, unit and every stated reporting condition, never by the outcome value. For each stated outcome return the chosen row_id (integer, 0 for no match, -1 for ambiguity), the numeric result as a string and value_quote copied exactly from the claim. Also copy the entire stated time, population, denominator and category as exact substrings from the claim, omitting field labels like \"time frame:\"; use an empty string for each absent condition. List all numerical outcomes separately, not participant counts used as denominators. Set complete false if the claim cannot be represented or any relation was missed. Output JSON only."
+      },
+      {
+        "role": "user",
+        "content": "{\"statement\": \"For mFOLFIRINOX + NIS793, the reported MEDIAN for Median Progression-free Survival (PFS) was 122 days (time frame: From randomization (or registration) to the earlier of progression or death due to any cause, up to 9 months. Participants alive without disease progression are censored at date of last disease evaluation.; denominator: Participants: 4; population: 4 participants received scans for PFS analysis in Arm A and 1 participant received a scan for PFS analysis in Arm B.).\", \"rows\": [{\"row_id\": 1, \"group\": \"mFOLFIRINOX + NIS793\", \"endpoint\": \"Median Progression-free Survival (PFS)\", \"unit\": \"days\", \"statistic\": \"MEDIAN\", \"time\": \"From randomization (or registration) to the earlier of progression or death due to any cause, up to 9 months. Participants alive without disease progression are censored at date of last disease evaluation.\", \"population\": \"4 participants received scans for PFS analysis in Arm A and 1 participant received a scan for PFS analysis in Arm B.\", \"denominator\": \"Participants: 4\", \"category\": \"\"}, {\"row_id\": 2, \"group\": \"mFOLFIRINOX\", \"endpoint\": \"Median Progression-free Survival (PFS)\", \"unit\": \"days\", \"statistic\": \"MEDIAN\", \"time\": \"From randomization (or registration) to the earlier of progression or death due to any cause, up to 9 months. Participants alive without disease progression are censored at date of last disease evaluation.\", \"population\": \"4 participants received scans for PFS analysis in Arm A and 1 participant received a scan for PFS analysis in Arm B.\", \"denominator\": \"Participants: 1\", \"category\": \"\"}]}"
+      }
+    ],
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "row_id": {
+                "type": "integer"
+              },
+              "value": {
+                "type": "string"
+              },
+              "value_quote": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "row_id",
+              "value",
+              "value_quote",
+              "time",
+              "population",
+              "denominator",
+              "category"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "relations"
+      ],
+      "additionalProperties": false
+    },
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 17,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "keep_alive": "10m"
+  },
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-21T16:26:03.2825532Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"complete\": true, \"relations\": [{\"row_id\": 1, \"value\": \"122\", \"value_quote\": \"122 days\", \"time\": \"From randomization (or registration) to the earlier of progression or death due to any cause, up to 9 months. Participants alive without disease progression are censored at date of last disease evaluation.\", \"population\": \"4 participants received scans for PFS analysis in Arm A and 1 participant received a scan for PFS analysis in Arm B.\", \"denominator\": \"Participants: 4\", \"category\": \"\"}]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1133942400,
+    "load_duration": 3501800,
+    "prompt_eval_count": 560,
+    "prompt_eval_cached_count": 193,
+    "prompt_eval_duration": 67764000,
+    "eval_count": 124,
+    "eval_duration": 1049255000
+  },
+  "seconds": 1.1678226999938488
+}

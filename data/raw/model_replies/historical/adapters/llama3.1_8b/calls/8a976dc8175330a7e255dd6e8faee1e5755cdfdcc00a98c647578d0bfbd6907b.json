@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:31:57.1329609Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. According to the output, 1 participant had Progressive Disease."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 172380600,
+    "load_duration": 6316200,
+    "prompt_eval_count": 335,
+    "prompt_eval_cached_count": 318,
+    "prompt_eval_duration": 16329999,
+    "eval_count": 15,
+    "eval_duration": 133306999
+  },
+  "text": "True. According to the output, 1 participant had Progressive Disease.",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 8: Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by RECIST Version 1.1.\nDescription: Disease control is defined as subjects with a confirmed CR, PR, or SD lasting for at least 2 months.\nTime frame: Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\nAnalysis population: \nStatistic: COUNT_OF_PARTICIPANTS\nUnit of measure: Participants\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Confirmed Complete Response\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Confirmed Partial Response\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Unconfirmed Complete Response\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Unconfirmed Partial Response\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Stable Disease\nDenominator: Participants: 6\nValue: 5\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Progressive Disease\nDenominator: Participants: 6\nValue: 1\n\nInput: The category is Progressive Disease. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.17818309999711346,
+  "call_id": "8a976dc8175330a7e255dd6e8faee1e5755cdfdcc00a98c647578d0bfbd6907b"
+}

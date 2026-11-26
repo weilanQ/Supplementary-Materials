@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:17:32.2873063Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The total number of participants is 16, as stated in both the denominators for the categories \"Stable Disease at 6 weeks\" and \"Stable Disease at 12 weeks.\""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 381228700,
+    "load_duration": 4955700,
+    "prompt_eval_count": 174,
+    "prompt_eval_cached_count": 154,
+    "prompt_eval_duration": 15649000,
+    "eval_count": 43,
+    "eval_duration": 348329000
+  },
+  "text": "True. The total number of participants is 16, as stated in both the denominators for the categories \"Stable Disease at 6 weeks\" and \"Stable Disease at 12 weeks.\"",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 2: Number of Participants With Stable Disease\nDescription: Participants will be evaluated at 6 and 12 weeks for response.\nTime frame: 6 weeks, 12 weeks\nAnalysis population: \nStatistic: NUMBER\nUnit of measure: participants\nGroup: Autologous TIL\nCategory: Stable Disease at 6 weeks\nDenominator: Participants: 16\nValue: 10\nGroup: Autologous TIL\nCategory: Stable Disease at 12 weeks\nDenominator: Participants: 16\nValue: 5\n\nInput: The total number of participants is 16. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.3855914000014309,
+  "call_id": "92ecaa165842a1eca777d89f8ee83df3ec18852fbe2899965da0520c90f9383c"
+}

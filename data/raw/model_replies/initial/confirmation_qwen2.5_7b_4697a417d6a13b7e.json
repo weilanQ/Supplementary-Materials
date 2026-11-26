@@ -1,0 +1,97 @@
+{
+  "id": "4697a417d6a13b7e",
+  "split": "confirmation",
+  "model": "qwen2.5:7b",
+  "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Verify each stated outcome against numbered trial rows. Source outcome values are withheld during selection. Select rows by the group, endpoint, statistic, unit and every stated reporting condition, never by the outcome value. For each stated outcome return the chosen row_id (integer, 0 for no match, -1 for ambiguity), the numeric result as a string and value_quote copied exactly from the claim. Also copy the entire stated time, population, denominator and category as exact substrings from the claim, omitting field labels like \"time frame:\"; use an empty string for each absent condition. List all numerical outcomes separately, not participant counts used as denominators. Set complete false if the claim cannot be represented or any relation was missed. Output JSON only."
+      },
+      {
+        "role": "user",
+        "content": "{\"statement\": \"For Cohort 1: 177Lu-3BP-227 2.5 GBq, the reported MEAN for Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9 was 928.00 international units/milliliter (time frame: Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal; denominator: Participants: 1; population: Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.; category: EOCT).\", \"rows\": [{\"row_id\": 1, \"group\": \"Cohort 1: 177Lu-3BP-227 2.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 2\", \"category\": \"Cycle 1 Day 1\"}, {\"row_id\": 2, \"group\": \"Cohort 2: 177Lu-3BP-227 4.0 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 1\", \"category\": \"Cycle 1 Day 1\"}, {\"row_id\": 3, \"group\": \"Cohort 3: 177Lu-3BP-227 5.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 5\", \"category\": \"Cycle 1 Day 1\"}, {\"row_id\": 4, \"group\": \"Cohort 4: 177Lu-3BP-227 6.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 2\", \"category\": \"Cycle 1 Day 1\"}, {\"row_id\": 5, \"group\": \"Cohort 5: 177Lu-3BP-227 7.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 1\", \"category\": \"Cycle 1 Day 1\"}, {\"row_id\": 6, \"group\": \"Cohort 1: 177Lu-3BP-227 2.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 1\", \"category\": \"Cycle 2 Day 1\"}, {\"row_id\": 7, \"group\": \"Cohort 2: 177Lu-3BP-227 4.0 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 3\", \"category\": \"Cycle 2 Day 1\"}, {\"row_id\": 8, \"group\": \"Cohort 3: 177Lu-3BP-227 5.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 3\", \"category\": \"Cycle 2 Day 1\"}, {\"row_id\": 9, \"group\": \"Cohort 4: 177Lu-3BP-227 6.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 3\", \"category\": \"Cycle 2 Day 1\"}, {\"row_id\": 10, \"group\": \"Cohort 5: 177Lu-3BP-227 7.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 1\", \"category\": \"Cycle 2 Day 1\"}, {\"row_id\": 11, \"group\": \"Cohort 1: 177Lu-3BP-227 2.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 1\", \"category\": \"EOCT\"}, {\"row_id\": 12, \"group\": \"Cohort 2: 177Lu-3BP-227 4.0 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 2\", \"category\": \"EOCT\"}, {\"row_id\": 13, \"group\": \"Cohort 3: 177Lu-3BP-227 5.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 1\", \"category\": \"EOCT\"}, {\"row_id\": 14, \"group\": \"Cohort 4: 177Lu-3BP-227 6.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 1\", \"category\": \"EOCT\"}, {\"row_id\": 15, \"group\": \"Cohort 5: 177Lu-3BP-227 7.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 1\", \"category\": \"EOCT\"}, {\"row_id\": 16, \"group\": \"Cohort 3: 177Lu-3BP-227 5.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 2\", \"category\": \"Early Withdrawal\"}, {\"row_id\": 17, \"group\": \"Cohort 4: 177Lu-3BP-227 6.5 GBq\", \"endpoint\": \"Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\", \"unit\": \"international units/milliliter\", \"statistic\": \"MEAN\", \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\", \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\", \"denominator\": \"Participants: 1\", \"category\": \"Early Withdrawal\"}]}"
+      }
+    ],
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "row_id": {
+                "type": "integer"
+              },
+              "value": {
+                "type": "string"
+              },
+              "value_quote": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "row_id",
+              "value",
+              "value_quote",
+              "time",
+              "population",
+              "denominator",
+              "category"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "relations"
+      ],
+      "additionalProperties": false
+    },
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 17,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "keep_alive": "10m"
+  },
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-21T15:14:55.7188867Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": false,\n  \"relations\": [\n    {\n      \"row_id\": 6,\n      \"value\": \"928.00\",\n      \"value_quote\": \"928.00 international units/milliliter\",\n      \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\",\n      \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\",\n      \"denominator\": \"Participants: 1\",\n      \"category\": \"Cycle 2 Day 1\"\n    },\n    {\n      \"row_id\": 11,\n      \"value\": \"928.00\",\n      \"value_quote\": \"928.00 international units/milliliter\",\n      \"time\": \"Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\",\n      \"population\": \"Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\",\n      \"denominator\": \"Participants: 1\",\n      \"category\": \"EOCT\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 3006641400,
+    "load_duration": 2783900,
+    "prompt_eval_count": 3096,
+    "prompt_eval_cached_count": 163,
+    "prompt_eval_duration": 529280000,
+    "eval_count": 280,
+    "eval_duration": 2412614000
+  },
+  "seconds": 3.0261166999989655
+}

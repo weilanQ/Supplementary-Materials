@@ -1,0 +1,620 @@
+[
+ {
+  "id": "e9d1e14f997192a3",
+  "pair": "NCT03098550-R1",
+  "split": "development",
+  "old_evidence": "0bbcc234a865e6c945bc8f484d534be717f741e18f06e08b400e048c7b24949a",
+  "new_evidence": "8ec80b0cd0a84c02dd70ea7b35e1a44beceedf9cea706656502ba1ab83db7de4",
+  "claim_changed": false,
+  "old_claim": "For group \"Nivolumab + Daratumumab (NSCLC)\", the count_of_participants for \"Number of Participants With Laboratory Abnormalities in Specific Liver Tests\" was 1 Participants (time frame \"From first dose to 30 days post last dose (up to 34 months)\"; analysis population \"All treated participants with at least one on-treatment measurement of the corresponding laboratory parameter\"; category \"TOTAL BILIRUBIN > 2XULN\"; denominator \"Participants: 21\").",
+  "new_claim": "For group \"Nivolumab + Daratumumab (NSCLC)\", the count_of_participants for \"Number of Participants With Laboratory Abnormalities in Specific Liver Tests\" was 1 Participants (time frame \"From first dose to 30 days post last dose (up to 34 months)\"; analysis population \"All treated participants with at least one on-treatment measurement of the corresponding laboratory parameter\"; category \"TOTAL BILIRUBIN > 2XULN\"; denominator \"Participants: 21\").",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/4/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/5/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/6/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/7/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/8/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/9/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   }
+  ]
+ },
+ {
+  "id": "c7a1c0f4a1347112",
+  "pair": "NCT03098550-R1",
+  "split": "development",
+  "old_evidence": "0bbcc234a865e6c945bc8f484d534be717f741e18f06e08b400e048c7b24949a",
+  "new_evidence": "8ec80b0cd0a84c02dd70ea7b35e1a44beceedf9cea706656502ba1ab83db7de4",
+  "claim_changed": false,
+  "old_claim": "For group \"Nivolumab + Daratumumab (NSCLC)\", the count_of_participants for \"Number of Participants With Laboratory Abnormalities in Specific Liver Tests\" was 8 Participants (time frame \"From first dose to 30 days post last dose (up to 34 months)\"; analysis population \"All treated participants with at least one on-treatment measurement of the corresponding laboratory parameter\"; category \"TOTAL BILIRUBIN > 2XULN\"; denominator \"Participants: 21\").",
+  "new_claim": "For group \"Nivolumab + Daratumumab (NSCLC)\", the count_of_participants for \"Number of Participants With Laboratory Abnormalities in Specific Liver Tests\" was 8 Participants (time frame \"From first dose to 30 days post last dose (up to 34 months)\"; analysis population \"All treated participants with at least one on-treatment measurement of the corresponding laboratory parameter\"; category \"TOTAL BILIRUBIN > 2XULN\"; denominator \"Participants: 21\").",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/4/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/5/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/6/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/7/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/8/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/9/categories/0/measurements/0/value",
+    "old": "Participants: 37",
+    "new": "Participants: 36"
+   }
+  ]
+ },
+ {
+  "id": "601a0f6d2b4b5adf",
+  "pair": "NCT01744249-R1",
+  "split": "test",
+  "old_evidence": "07f0ef12ba823dbfe66d31721bfcec9450e862416909bbb45e4cc8d23e40a1bd",
+  "new_evidence": "bfa31196d5d1cd10a7e54d4cfd4782b8cf84a7e3aa5778cd4aaf2f707b76a17b",
+  "claim_changed": false,
+  "old_claim": "For group \"Axitinib + Sandostatin LAR\", the count_of_participants for \"Biochemical Response (5-OH-indoleacetic Acid and Chromogranin A)\" was 31 Participants (time frame \"From date of randomization until the date of first documented progression or date of death from any cause, whichever came first, assessed up to approximately 25 months\"; analysis population \"Only analyzed in patients with baseline elevation of CgA or 5-HIAA levels, respectively\"; category \"CgA response; Response\"; denominator \"Participants: 69\").",
+  "new_claim": "For group \"Axitinib + Sandostatin LAR\", the count_of_participants for \"Biochemical Response (5-OH-indoleacetic Acid and Chromogranin A)\" was 31 Participants (time frame \"From date of randomization until the date of first documented progression or date of death from any cause, whichever came first, assessed up to approximately 25 months\"; analysis population \"Only analyzed in patients with baseline elevation of CgA or 5-HIAA levels, respectively\"; category \"CgA response; Response\"; denominator \"Participants: 69\").",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/1/categories/0/measurements/0/value",
+    "old": "Participants: 69",
+    "new": "Participants: 48"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/1/categories/0/measurements/1/value",
+    "old": "Participants: 72",
+    "new": "Participants: 46"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/1/categories/1/measurements/0/value",
+    "old": "Participants: 69",
+    "new": "Participants: 48"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/1/categories/1/measurements/1/value",
+    "old": "Participants: 72",
+    "new": "Participants: 46"
+   }
+  ]
+ },
+ {
+  "id": "6eadd0d25c1f8bb3",
+  "pair": "NCT01744249-R1",
+  "split": "test",
+  "old_evidence": "07f0ef12ba823dbfe66d31721bfcec9450e862416909bbb45e4cc8d23e40a1bd",
+  "new_evidence": "bfa31196d5d1cd10a7e54d4cfd4782b8cf84a7e3aa5778cd4aaf2f707b76a17b",
+  "claim_changed": false,
+  "old_claim": "For group \"Axitinib + Sandostatin LAR\", the count_of_participants for \"Biochemical Response (5-OH-indoleacetic Acid and Chromogranin A)\" was 27 Participants (time frame \"From date of randomization until the date of first documented progression or date of death from any cause, whichever came first, assessed up to approximately 25 months\"; analysis population \"Only analyzed in patients with baseline elevation of CgA or 5-HIAA levels, respectively\"; category \"CgA response; Response\"; denominator \"Participants: 69\").",
+  "new_claim": "For group \"Axitinib + Sandostatin LAR\", the count_of_participants for \"Biochemical Response (5-OH-indoleacetic Acid and Chromogranin A)\" was 27 Participants (time frame \"From date of randomization until the date of first documented progression or date of death from any cause, whichever came first, assessed up to approximately 25 months\"; analysis population \"Only analyzed in patients with baseline elevation of CgA or 5-HIAA levels, respectively\"; category \"CgA response; Response\"; denominator \"Participants: 69\").",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/1/categories/0/measurements/0/value",
+    "old": "Participants: 69",
+    "new": "Participants: 48"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/1/categories/0/measurements/1/value",
+    "old": "Participants: 72",
+    "new": "Participants: 46"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/1/categories/1/measurements/0/value",
+    "old": "Participants: 69",
+    "new": "Participants: 48"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/2/classes/1/categories/1/measurements/1/value",
+    "old": "Participants: 72",
+    "new": "Participants: 46"
+   }
+  ]
+ },
+ {
+  "id": "2b20d7d81c779585",
+  "pair": "NCT03095781-R1",
+  "split": "test",
+  "old_evidence": "b7099265af76ec8a3a1fcd747ac52c3f08c746d26fbc9f268d617991feadd01b",
+  "new_evidence": "041668be099a34439df8a3be2d0e49c2a11a13fc5ec97e2a34e21521d59c858d",
+  "claim_changed": false,
+  "old_claim": "For group \"Dose Escalation 45 mg PO Twice Weekly\", the mean for \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\" was 0.14 pg/mL (time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IL_4\"; denominator \"Participants: 3\").",
+  "new_claim": "For group \"Dose Escalation 45 mg PO Twice Weekly\", the mean for \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\" was 0.14 pg/mL (time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IL_4\"; denominator \"Participants: 3\").",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/2/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/5/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/8/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   }
+  ]
+ },
+ {
+  "id": "bc0083b1cd6f3d66",
+  "pair": "NCT03095781-R1",
+  "split": "test",
+  "old_evidence": "b7099265af76ec8a3a1fcd747ac52c3f08c746d26fbc9f268d617991feadd01b",
+  "new_evidence": "041668be099a34439df8a3be2d0e49c2a11a13fc5ec97e2a34e21521d59c858d",
+  "claim_changed": false,
+  "old_claim": "For group \"Dose Escalation 45 mg PO Twice Weekly\", the mean for \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\" was 0.89 pg/mL (time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IL_4\"; denominator \"Participants: 3\").",
+  "new_claim": "For group \"Dose Escalation 45 mg PO Twice Weekly\", the mean for \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\" was 0.89 pg/mL (time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IL_4\"; denominator \"Participants: 3\").",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/2/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/5/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/8/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   }
+  ]
+ },
+ {
+  "id": "6558e52de21b7186",
+  "pair": "NCT03095781-R2",
+  "split": "test",
+  "old_evidence": "b7099265af76ec8a3a1fcd747ac52c3f08c746d26fbc9f268d617991feadd01b",
+  "new_evidence": "041668be099a34439df8a3be2d0e49c2a11a13fc5ec97e2a34e21521d59c858d",
+  "claim_changed": false,
+  "old_claim": "The outcome was \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\". Under time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IP_10\"; denominator \"Participants: 3\", group \"Dose Escalation 45 mg PO Twice Weekly\" had a reported mean of 1175.68 pg/mL.",
+  "new_claim": "The outcome was \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\". Under time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IP_10\"; denominator \"Participants: 3\", group \"Dose Escalation 45 mg PO Twice Weekly\" had a reported mean of 1175.68 pg/mL.",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/2/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/5/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/8/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   }
+  ]
+ },
+ {
+  "id": "2f882bf75ba7fec1",
+  "pair": "NCT03095781-R2",
+  "split": "test",
+  "old_evidence": "b7099265af76ec8a3a1fcd747ac52c3f08c746d26fbc9f268d617991feadd01b",
+  "new_evidence": "041668be099a34439df8a3be2d0e49c2a11a13fc5ec97e2a34e21521d59c858d",
+  "claim_changed": false,
+  "old_claim": "The outcome was \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\". Under time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IP_10\"; denominator \"Participants: 3\", group \"Dose Escalation 45 mg PO Twice Weekly\" had a reported mean of 223.66 pg/mL.",
+  "new_claim": "The outcome was \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\". Under time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IP_10\"; denominator \"Participants: 3\", group \"Dose Escalation 45 mg PO Twice Weekly\" had a reported mean of 223.66 pg/mL.",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/2/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/5/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/8/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   }
+  ]
+ },
+ {
+  "id": "00ef40d41a7200b9",
+  "pair": "NCT03095781-R3",
+  "split": "test",
+  "old_evidence": "b7099265af76ec8a3a1fcd747ac52c3f08c746d26fbc9f268d617991feadd01b",
+  "new_evidence": "041668be099a34439df8a3be2d0e49c2a11a13fc5ec97e2a34e21521d59c858d",
+  "claim_changed": false,
+  "old_claim": "A mean of 4.47 pg/mL was recorded for \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\" in group \"Dose Expansion Pancreatic Cancer (Arm A)\"; time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IL_6\"; denominator \"Participants: 17\".",
+  "new_claim": "A mean of 4.47 pg/mL was recorded for \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\" in group \"Dose Expansion Pancreatic Cancer (Arm A)\"; time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IL_6\"; denominator \"Participants: 17\".",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/2/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/5/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/8/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   }
+  ]
+ },
+ {
+  "id": "ccecea18c403b057",
+  "pair": "NCT03095781-R3",
+  "split": "test",
+  "old_evidence": "b7099265af76ec8a3a1fcd747ac52c3f08c746d26fbc9f268d617991feadd01b",
+  "new_evidence": "041668be099a34439df8a3be2d0e49c2a11a13fc5ec97e2a34e21521d59c858d",
+  "claim_changed": false,
+  "old_claim": "A mean of 3.56 pg/mL was recorded for \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\" in group \"Dose Expansion Pancreatic Cancer (Arm A)\"; time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IL_6\"; denominator \"Participants: 17\".",
+  "new_claim": "A mean of 3.56 pg/mL was recorded for \"Change in Cytokine and Chemokine Concentrations From Cycle 1 Day 1 to Cycle 1 Day 15\" in group \"Dose Expansion Pancreatic Cancer (Arm A)\"; time frame \"Up to 2 years after cycle 1, day 1. Each cycle is 21 days.\"; analysis population \"Blood samples failed quality control during testing therefore the specimen for the missing patients were not testable.\"; category \"IL_6\"; denominator \"Participants: 17\".",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/2/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/5/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/2/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/8/categories/0/measurements/3/value",
+    "old": "Participants: 3",
+    "new": "Participants: 1"
+   }
+  ]
+ },
+ {
+  "id": "c6137ad30f7dc979",
+  "pair": "NCT02246127-R3",
+  "split": "test",
+  "old_evidence": "68913d2e87c970c86e831ef465feb5020c0e69c9f6c3d1779a6fb297abfd3ee8",
+  "new_evidence": "69e106ec91b90b53ce20c024947cc65e30ae7288d6a9218adc64fed589241370",
+  "claim_changed": true,
+  "old_claim": "A mean of 68.4 Score was recorded for \"Quality of Life Questionnaire (QLQ). The EORTC QLQ-C30 Global Health Status\" in group \"Sequence A, Drug: Everolimus First\"; time frame \"Before any dose of study treatment (basal), before the first dose of the second treatment at line 2 cycle 1 (L2C1) and after completion of both treatments (EOT). See outcome measure description for further details.\"; analysis population \"Patients completing the QLQ questionnaires at any timepoint.\"; category \"EOT\"; denominator \"Participants: 47\".",
+  "new_claim": "A mean of 68.4 Score was recorded for \"Quality of Life Questionnaire (QLQ). The EORTC QLQ-C30 Global Health Status\" in group \"Sequence A, Drug: Everolimus First\"; time frame \"Before any dose of study treatment (basal), before the first dose of the second treatment at line 2 cycle 1 (L2C1) and after completion of both treatments (EOT). See outcome measure description for further details.\"; analysis population \"Patients completing the QLQ questionnaires at any timepoint.\"; category \"EOT\"; denominator \"Participants: 20\".",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/11/classes/1/categories/0/measurements/0/value",
+    "old": "Participants: 47",
+    "new": "Participants: 18"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/11/classes/1/categories/0/measurements/1/value",
+    "old": "Participants: 49",
+    "new": "Participants: 20"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/11/classes/2/categories/0/measurements/0/value",
+    "old": "Participants: 47",
+    "new": "Participants: 20"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/11/classes/2/categories/0/measurements/1/value",
+    "old": "Participants: 49",
+    "new": "Participants: 13"
+   }
+  ]
+ },
+ {
+  "id": "edae3a9a185e4045",
+  "pair": "NCT02246127-R3",
+  "split": "test",
+  "old_evidence": "68913d2e87c970c86e831ef465feb5020c0e69c9f6c3d1779a6fb297abfd3ee8",
+  "new_evidence": "69e106ec91b90b53ce20c024947cc65e30ae7288d6a9218adc64fed589241370",
+  "claim_changed": true,
+  "old_claim": "A mean of 75.4 Score was recorded for \"Quality of Life Questionnaire (QLQ). The EORTC QLQ-C30 Global Health Status\" in group \"Sequence A, Drug: Everolimus First\"; time frame \"Before any dose of study treatment (basal), before the first dose of the second treatment at line 2 cycle 1 (L2C1) and after completion of both treatments (EOT). See outcome measure description for further details.\"; analysis population \"Patients completing the QLQ questionnaires at any timepoint.\"; category \"EOT\"; denominator \"Participants: 47\".",
+  "new_claim": "A mean of 75.4 Score was recorded for \"Quality of Life Questionnaire (QLQ). The EORTC QLQ-C30 Global Health Status\" in group \"Sequence A, Drug: Everolimus First\"; time frame \"Before any dose of study treatment (basal), before the first dose of the second treatment at line 2 cycle 1 (L2C1) and after completion of both treatments (EOT). See outcome measure description for further details.\"; analysis population \"Patients completing the QLQ questionnaires at any timepoint.\"; category \"EOT\"; denominator \"Participants: 20\".",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/11/classes/1/categories/0/measurements/0/value",
+    "old": "Participants: 47",
+    "new": "Participants: 18"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/11/classes/1/categories/0/measurements/1/value",
+    "old": "Participants: 49",
+    "new": "Participants: 20"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/11/classes/2/categories/0/measurements/0/value",
+    "old": "Participants: 47",
+    "new": "Participants: 20"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/11/classes/2/categories/0/measurements/1/value",
+    "old": "Participants: 49",
+    "new": "Participants: 13"
+   }
+  ]
+ },
+ {
+  "id": "6d597f7bf055c21c",
+  "pair": "NCT02999672-R1",
+  "split": "test",
+  "old_evidence": "9a92fe0147d8361cfd58135cb2f92c702ae91f34b450f665a4c63a0882200d4e",
+  "new_evidence": "172da07578c3be62ed4a5d564d6e2a7493ed838202ae2442a4bc2fcc2984bddc",
+  "claim_changed": true,
+  "old_claim": "For group \"Cohort 1 (UBC)\", the mean for \"Plasma/Serum Concentrations of Trastuzumab Emtansine\" was 57.4 ng/mL (time frame \"Regimen A: predose (0 minutes [min]) and 15-30 min postinfusion on Days (D) 1, 8, 15 of Cycle (C) 1 and D1C4; predose on D1C2. Regimen B: predose and 15-30 min postinfusion on D1C1 and D1C4; predose on D1C2. 1 Cycle=21 days\"; analysis population \"Urothelial bladder cancer (UBC) and Pancreatic Cancer/Cholangiocarcinoma cohorts.\"; category \"15-30 min post-infusion, D8C1\"; denominator \"Participants: 13\").",
+  "new_claim": "For group \"Cohort 1 (UBC)\", the mean for \"Plasma/Serum Concentrations of Trastuzumab Emtansine\" was 57.4 ng/mL (time frame \"Regimen A: predose (0 minutes [min]) and 15-30 min postinfusion on Days (D) 1, 8, 15 of Cycle (C) 1 and D1C4; predose on D1C2. Regimen B: predose and 15-30 min postinfusion on D1C1 and D1C4; predose on D1C2. 1 Cycle=21 days\"; analysis population \"Urothelial bladder cancer (UBC) and Pancreatic Cancer/Cholangiocarcinoma cohorts.\"; category \"15-30 min post-infusion, D8C1\"; denominator \"Participants: 6\").",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/0/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/1/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 6"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/2/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 6"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/2/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 4"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/3/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 6"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/3/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 3"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/4/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 5"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/4/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/5/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 5"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/5/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/6/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 11"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/6/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 5"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 4"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 3"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/8/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 4"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/8/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 3"
+   }
+  ]
+ },
+ {
+  "id": "068eae83b0f9d5e6",
+  "pair": "NCT02999672-R1",
+  "split": "test",
+  "old_evidence": "9a92fe0147d8361cfd58135cb2f92c702ae91f34b450f665a4c63a0882200d4e",
+  "new_evidence": "172da07578c3be62ed4a5d564d6e2a7493ed838202ae2442a4bc2fcc2984bddc",
+  "claim_changed": true,
+  "old_claim": "For group \"Cohort 1 (UBC)\", the mean for \"Plasma/Serum Concentrations of Trastuzumab Emtansine\" was 50.3 ng/mL (time frame \"Regimen A: predose (0 minutes [min]) and 15-30 min postinfusion on Days (D) 1, 8, 15 of Cycle (C) 1 and D1C4; predose on D1C2. Regimen B: predose and 15-30 min postinfusion on D1C1 and D1C4; predose on D1C2. 1 Cycle=21 days\"; analysis population \"Urothelial bladder cancer (UBC) and Pancreatic Cancer/Cholangiocarcinoma cohorts.\"; category \"15-30 min post-infusion, D8C1\"; denominator \"Participants: 13\").",
+  "new_claim": "For group \"Cohort 1 (UBC)\", the mean for \"Plasma/Serum Concentrations of Trastuzumab Emtansine\" was 50.3 ng/mL (time frame \"Regimen A: predose (0 minutes [min]) and 15-30 min postinfusion on Days (D) 1, 8, 15 of Cycle (C) 1 and D1C4; predose on D1C2. Regimen B: predose and 15-30 min postinfusion on D1C1 and D1C4; predose on D1C2. 1 Cycle=21 days\"; analysis population \"Urothelial bladder cancer (UBC) and Pancreatic Cancer/Cholangiocarcinoma cohorts.\"; category \"15-30 min post-infusion, D8C1\"; denominator \"Participants: 6\").",
+  "rows": [
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/0/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/1/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 6"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/2/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 6"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/2/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 4"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/3/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 6"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/3/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 3"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/4/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 5"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/4/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/5/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 5"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/5/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 1"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/6/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 11"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/6/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 5"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 4"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/7/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 3"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/8/categories/0/measurements/0/value",
+    "old": "Participants: 13",
+    "new": "Participants: 4"
+   },
+   {
+    "pointer": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/5/classes/8/categories/0/measurements/1/value",
+    "old": "Participants: 7",
+    "new": "Participants: 3"
+   }
+  ]
+ }
+]

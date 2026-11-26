@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:23:12.4633875Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The time frame for the analysis in Arm II is up to 90 days, as stated in the given context."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 258619500,
+    "load_duration": 5066800,
+    "prompt_eval_count": 234,
+    "prompt_eval_cached_count": 207,
+    "prompt_eval_duration": 16279000,
+    "eval_count": 27,
+    "eval_duration": 223919000
+  },
+  "text": "True. The time frame for the analysis in Arm II is up to 90 days, as stated in the given context.",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 4: Timeliness of Sample Analysis\nDescription: Assessed by the time from sample collection to completion of sample analysis, reported in hours.\nTime frame: Up to 90 days\nAnalysis population: To determine whether use of Oxford Nanopore Sequencing resulted in more rapid microbial results we compared the time taken to complete microbial standard cultures in Arm with the time taken to complete Oxford Nanopore sequencing analysis in Arm II.\nStatistic: MEAN\nUnit of measure: Hours\nGroup: Arm I (Biospecimen Collection, Routine Testing)\nCategory: \nDenominator: Participants: 3\nValue: 163.5\nGroup: Arm II (Biospecimen, Nanopore Sequencing, Routine Testing)\nCategory: \nDenominator: Participants: 5\nValue: 60.9\n\nInput: The time frame for the analysis in Arm II is up to 90 days. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.2639186000014888,
+  "call_id": "b0c61e794c4b079faa842839c2ed35e6937fa25dd38ffee3508b949a6aa6639e"
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-21T15:11:05.973962+00:00",
+  "protocol": "One round on 20 development items then 80 archived confirmation items per model. Development selected by hash, one per trial. No parameter selection, no test-driven revisions. Stage priority: transport/JSON/schema, numerical validation, quotations, completeness, candidate decision. Only outer whitespace/BOM/one complete JSON fence may be removed in mechanical replay. Row selection uses every parsed row, in source order, with point values hidden; offline scorer accepts all identity- and condition-compatible row IDs. Unknown/no row leads to abstention; conflicting candidates and invalid lists abstain before aggregation. No new data independence claimed.",
+  "hashes": {
+    "method.py": "6d12ffa023908f06ca7d4b0048f84804082ccfbb1c4431dc594fef47264752ae",
+    "run.py": "add0072d01eb454c2cae0b168d3a2b3753288ac47af0e5af0b04e5161ceb050a",
+    "pins.json": "0a15668e2839b8d71428e7c8664bbd62bc44cfa290760d12a2fa0705e1ad37ba",
+    "data\\dev.jsonl": "83aca4aa21a51e465753299b252b736b839d55c1b6d08e257a0808940add526e",
+    "data\\confirmation.jsonl": "744136433681f2bd03c5fd2451a115ae3bbb065f7f0f8f64bca1ce234f59e886",
+    "legacy\\numeric_evidence.py": "120675ff80f61abd53165e6f92494c2040713d7df7e399fcf14a1f6e49ac323e",
+    "legacy\\relation_core.py": "7c5f38d50e57f51df9c6a24c1b1ea983f0ca3041f6cbbb2afe96903dca22c91d",
+    "legacy\\rules.py": "fe23d836cab071e31544edca6d53ac5cf41a204e139c47e67df27c15b4b8ae0c",
+    "legacy\\shared.py": "0e1b16b69f3201ff0a1408d0a97b425a25e5c87d55f2b5f85f457993862902d3",
+    "legacy\\source_parser.py": "36691032b07bd8c336951b9de38b8cbed57bcd420b11ccae424b0403af1699c0"
+  }
+}

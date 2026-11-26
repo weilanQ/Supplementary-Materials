@@ -1,0 +1,18 @@
+{
+  "implementation/infer.py": "2b6bf978fdaf973d534dd70ba8c2ab2fe22cc0e5eb251823fb485ace40fe8a4b",
+  "implementation/numeric_evidence.py": "120675ff80f61abd53165e6f92494c2040713d7df7e399fcf14a1f6e49ac323e",
+  "implementation/relation_core.py": "7c5f38d50e57f51df9c6a24c1b1ea983f0ca3041f6cbbb2afe96903dca22c91d",
+  "implementation/rules.py": "fe23d836cab071e31544edca6d53ac5cf41a204e139c47e67df27c15b4b8ae0c",
+  "implementation/source_parser.py": "36691032b07bd8c336951b9de38b8cbed57bcd420b11ccae424b0403af1699c0",
+  "implementation/test_numeric.py": "c2127edc5b2936bd1ad284fdbeac441261e373978faab488d0813756c6d2959e",
+  "build_confirmation.py": "5d50a55dc61e492da71b76f1b299cb73350b53efafa603a24eaedece7b4de073",
+  "run_confirmation.py": "e9486866b82f64884a3c345df45b533ea3aaa85f85ddabb5d56cc6921894cb96",
+  "replay_inputs.py": "c38889cce4a1e0e67a1705891c2aa350d9ebacc3099415fda7219cfcec82d02b",
+  "archive/source_review_19.zip": "3edabf7cd58b410f22ffe793ba896c406a61974332d8c84960d55b94e797e652",
+  "archive/update_20.zip": "98600bc76f92900374215ae4beec1a3cc48b0f41a7de8f74bf784f82a15eef5e",
+  "confirmation/confirm.jsonl": "a7cedff69d2f0c48cb344e3dda90c027938c9834edf0b1d63f170d3bdffcab22",
+  "confirmation/key.jsonl": "d2101ec6e87fe2617cb8ab47db0b2b01143023b93f491e6ec2638b556212e34f",
+  "confirmation/exclusions.jsonl": "dc8980ab4d243139f845aa6342bdc43839e2f432bee945f5926cfa344b55cf1a",
+  "confirmation/linked_keys.json": "d3e10fbb22b62ea8bc3897c1f42fa3c373188c1d1252c181d8893a3634f58b6a",
+  "confirmation/protocol.md": "37e2ed1850756e261801f05da3aa625611f8552811ecb34cc30e4ec56f71c076"
+}

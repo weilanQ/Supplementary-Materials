@@ -1,0 +1,109 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:08:08.6291713Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": false,\n  \"records\": [\n    {\n      \"group\": \"Cohort A: Non-small Cell Lung Cancer w/o Corticosteroids\",\n      \"endpoint\": \"COUNT_OF_PARTICIPANTS for Overall Response Rate of Extracranial Disease\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Completion of treatment (estimated to be 6 months)\",\n      \"population\": \"Two participants were not evaluable in Cohort A as the extracranial response per RECIST was not done.\",\n      \"denominator\": \"Participants: 2\",\n      \"category\": \"\",\n      \"value\": 0,\n      \"quotes\": [\n        \"the reported COUNT_OF_PARTICIPANTS for Overall Response Rate of Extracranial Disease was 0 Participants\"\n      ]\n    },\n    {\n      \"group\": \"Cohort A: Non-small Cell Lung Cancer w/o Corticosteroids\",\n      \"endpoint\": \"COUNT_OF_PARTICIPANTS for Overall Response Rate of Extracranial Disease\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Completion of treatment (estimated to be 6 months)\",\n      \"population\": \"Two participants were not evaluable in Cohort A as the extracranial response per RECIST was not done.\",\n      \"denominator\": \"Participants: 2\",\n      \"category\": \"\",\n      \"value\": 2,\n      \"quotes\": [\n        \"denominator: Participants: 2\"\n      ]\n    },\n    {\n      \"group\": \"Cohort A: Non-small Cell Lung Cancer w/o Corticosteroids\",\n      \"endpoint\": \"COUNT_OF_PARTICIPANTS for Overall Response Rate of Extracranial Disease\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Completion of treatment (estimated to be 6 months)\",\n      \"population\": \"Two participants were not evaluable in Cohort A as the extracranial response per RECIST was not done.\",\n      \"denominator\": \"\",\n      \"category\": \"\",\n      \"value\": 0,\n      \"quotes\": [\n        \"There were not any participants enrolled in Cohort B or Cohort C.\"\n      ]\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4049481100,
+    "load_duration": 5310100,
+    "prompt_eval_count": 365,
+    "prompt_eval_cached_count": 258,
+    "prompt_eval_duration": 37036000,
+    "eval_count": 471,
+    "eval_duration": 3985627000
+  },
+  "text": "{\n  \"complete\": false,\n  \"records\": [\n    {\n      \"group\": \"Cohort A: Non-small Cell Lung Cancer w/o Corticosteroids\",\n      \"endpoint\": \"COUNT_OF_PARTICIPANTS for Overall Response Rate of Extracranial Disease\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Completion of treatment (estimated to be 6 months)\",\n      \"population\": \"Two participants were not evaluable in Cohort A as the extracranial response per RECIST was not done.\",\n      \"denominator\": \"Participants: 2\",\n      \"category\": \"\",\n      \"value\": 0,\n      \"quotes\": [\n        \"the reported COUNT_OF_PARTICIPANTS for Overall Response Rate of Extracranial Disease was 0 Participants\"\n      ]\n    },\n    {\n      \"group\": \"Cohort A: Non-small Cell Lung Cancer w/o Corticosteroids\",\n      \"endpoint\": \"COUNT_OF_PARTICIPANTS for Overall Response Rate of Extracranial Disease\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Completion of treatment (estimated to be 6 months)\",\n      \"population\": \"Two participants were not evaluable in Cohort A as the extracranial response per RECIST was not done.\",\n      \"denominator\": \"Participants: 2\",\n      \"category\": \"\",\n      \"value\": 2,\n      \"quotes\": [\n        \"denominator: Participants: 2\"\n      ]\n    },\n    {\n      \"group\": \"Cohort A: Non-small Cell Lung Cancer w/o Corticosteroids\",\n      \"endpoint\": \"COUNT_OF_PARTICIPANTS for Overall Response Rate of Extracranial Disease\",\n      \"unit\": \"\",\n      \"statistic\": \"count\",\n      \"time\": \"Completion of treatment (estimated to be 6 months)\",\n      \"population\": \"Two participants were not evaluable in Cohort A as the extracranial response per RECIST was not done.\",\n      \"denominator\": \"\",\n      \"category\": \"\",\n      \"value\": 0,\n      \"quotes\": [\n        \"There were not any participants enrolled in Cohort B or Cohort C.\"\n      ]\n    }\n  ]\n}",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Decompose this claim into ALL atomic numerical outcome relationships, without checking whether they are true. Return JSON with keys complete (boolean) and records (array). Each record must describe one group, endpoint, point value and its conditions. Resolve cross-sentence references from this claim only. Copy the group, endpoint, time frame, analysis population, category and denominator strings exactly as stated, removing only quotation delimiters. Do not omit a numeric relationship. Do not invent missing conditions: use empty string. A denominator such as Participants: 15 is NOT an analysis population. If no population description is stated, population MUST be empty. Do not copy a denominator into population. Preserve conditions shared by multiple records. A comparison, negation, approximate value or derived arithmetic that cannot be expressed as exact point records must set complete=false, never silently drop it.\nEvery record has string fields: group, endpoint, value (decimal only), unit, statistic, time, population, denominator, category; and quotes: an array of exact verbatim substrings from the claim supporting this decomposition. Statistic is mean, median, or count if stated. Return only JSON.\nCLAIM:\nFor Cohort A: Non-small Cell Lung Cancer w/o Corticosteroids, the reported COUNT_OF_PARTICIPANTS for Overall Response Rate of Extracranial Disease was 0 Participants (time frame: Completion of treatment (estimated to be 6 months); denominator: Participants: 2; population: Two participants were not evaluable in Cohort A as the extracranial response per RECIST was not done. There were not any participants enrolled in Cohort B or Cohort C.)."
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 1024,
+      "num_ctx": 16384
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "group": {
+                "type": "string"
+              },
+              "endpoint": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "statistic": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "quotes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "group",
+              "endpoint",
+              "value",
+              "unit",
+              "statistic",
+              "time",
+              "population",
+              "denominator",
+              "category",
+              "quotes"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "records"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 4.052941200003261,
+  "call_id": "29042a37ad5c52d7fac5737b79aa19dc2333fc1d7f71b864bd1a7d27cb4981f4"
+}

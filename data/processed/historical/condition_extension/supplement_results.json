@@ -1,0 +1,274 @@
+{
+  "supplement": {
+    "llama3.1_8b_condition": {
+      "all": {
+        "direct": {
+          "correct": 5,
+          "answered": 10,
+          "cost": [
+            10,
+            12908,
+            1210,
+            15.169903699978022
+          ]
+        },
+        "joint": {
+          "correct": 2,
+          "answered": 2,
+          "cost": [
+            10,
+            3900,
+            3295,
+            29.807643700041808
+          ]
+        },
+        "record_llm": {
+          "correct": 2,
+          "answered": 4,
+          "cost": [
+            17,
+            18768,
+            3509,
+            34.15134600005695
+          ]
+        },
+        "fusion": {
+          "correct": 6,
+          "answered": 10,
+          "cost": [
+            20,
+            16808,
+            4505,
+            44.97754740001983
+          ]
+        }
+      },
+      "visit": {
+        "direct": {
+          "correct": 1,
+          "answered": 2,
+          "cost": [
+            2,
+            970,
+            142,
+            3.857032200001413
+          ]
+        },
+        "joint": {
+          "correct": 2,
+          "answered": 2,
+          "cost": [
+            2,
+            654,
+            470,
+            4.276853100018343
+          ]
+        },
+        "record_llm": {
+          "correct": 1,
+          "answered": 2,
+          "cost": [
+            4,
+            1520,
+            490,
+            4.654831500025466
+          ]
+        },
+        "fusion": {
+          "correct": 2,
+          "answered": 2,
+          "cost": [
+            4,
+            1624,
+            612,
+            8.133885300019756
+          ]
+        }
+      },
+      "scoped denominator": {
+        "direct": {
+          "correct": 4,
+          "answered": 8,
+          "cost": [
+            8,
+            11938,
+            1068,
+            11.312871499976609
+          ]
+        },
+        "joint": {
+          "correct": 0,
+          "answered": 0,
+          "cost": [
+            8,
+            3246,
+            2825,
+            25.530790600023465
+          ]
+        },
+        "record_llm": {
+          "correct": 1,
+          "answered": 2,
+          "cost": [
+            13,
+            17248,
+            3019,
+            29.49651450003148
+          ]
+        },
+        "fusion": {
+          "correct": 4,
+          "answered": 8,
+          "cost": [
+            16,
+            15184,
+            3893,
+            36.843662100000074
+          ]
+        }
+      }
+    },
+    "qwen2.5_7b_condition": {
+      "all": {
+        "direct": {
+          "correct": 6,
+          "answered": 10,
+          "cost": [
+            10,
+            13799,
+            1195,
+            13.476302299968665
+          ]
+        },
+        "joint": {
+          "correct": 2,
+          "answered": 2,
+          "cost": [
+            10,
+            4187,
+            2418,
+            21.256280500005232
+          ]
+        },
+        "record_llm": {
+          "correct": 7,
+          "answered": 7,
+          "cost": [
+            18,
+            31400,
+            2502,
+            25.08634019998135
+          ]
+        },
+        "fusion": {
+          "correct": 7,
+          "answered": 10,
+          "cost": [
+            20,
+            17986,
+            3613,
+            34.7325827999739
+          ]
+        }
+      },
+      "visit": {
+        "direct": {
+          "correct": 1,
+          "answered": 2,
+          "cost": [
+            2,
+            1022,
+            195,
+            3.342761599982623
+          ]
+        },
+        "joint": {
+          "correct": 2,
+          "answered": 2,
+          "cost": [
+            2,
+            698,
+            428,
+            3.801332699978957
+          ]
+        },
+        "record_llm": {
+          "correct": 2,
+          "answered": 2,
+          "cost": [
+            4,
+            1614,
+            449,
+            4.136708399979398
+          ]
+        },
+        "fusion": {
+          "correct": 2,
+          "answered": 2,
+          "cost": [
+            4,
+            1720,
+            623,
+            7.14409429996158
+          ]
+        }
+      },
+      "scoped denominator": {
+        "direct": {
+          "correct": 5,
+          "answered": 8,
+          "cost": [
+            8,
+            12777,
+            1000,
+            10.133540699986042
+          ]
+        },
+        "joint": {
+          "correct": 0,
+          "answered": 0,
+          "cost": [
+            8,
+            3489,
+            1990,
+            17.454947800026275
+          ]
+        },
+        "record_llm": {
+          "correct": 5,
+          "answered": 5,
+          "cost": [
+            14,
+            29786,
+            2053,
+            20.949631800001953
+          ]
+        },
+        "fusion": {
+          "correct": 5,
+          "answered": 8,
+          "cost": [
+            16,
+            16266,
+            2990,
+            27.588488500012318
+          ]
+        }
+      }
+    }
+  },
+  "indexed_confirmation": {
+    "qwen2.5_7b": [
+      9,
+      36,
+      27,
+      28
+    ],
+    "llama3.1_8b": [
+      9,
+      36,
+      28,
+      28
+    ]
+  }
+}

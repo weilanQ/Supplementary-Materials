@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:27:02.2262681Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The ORR is 5.0 Percentage of Participants in Part 2: Expansion Cohort 1 Non-small Cell Lung Cancer (V941 + Pembrolizumab)."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 364862600,
+    "load_duration": 5764200,
+    "prompt_eval_count": 435,
+    "prompt_eval_cached_count": 408,
+    "prompt_eval_duration": 15720000,
+    "eval_count": 39,
+    "eval_duration": 330809000
+  },
+  "text": "True. The ORR is 5.0 Percentage of Participants in Part 2: Expansion Cohort 1 Non-small Cell Lung Cancer (V941 + Pembrolizumab).",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 4: Objective Response Rate (ORR)\nDescription: ORR is defined as the percentage of participants with Complete Response (CR: disappearance of all target lesions) or Partial Response (PR: at least a 30% decrease in the sum of diameters of target lesions) per Response Evaluation Criteria In Solid Tumors Version 1.1 (RECIST 1.1). The percentage of participants who experienced CR or PR as assessed by investigator is reported.\nTime frame: Up to approximately 24 months\nAnalysis population: All participants who received at least 1 dose of study treatment. Per protocol, the 1 participant who switched over from Arm 1 Part 1: V941 Monotherapy to Arm 2 Part 1: V941 + Pembrolizumab was excluded from Arm 2 Part 1: V941 + Pembrolizumab for this outcome measure.\nStatistic: NUMBER\nUnit of measure: Percentage of Participants\nGroup: Part 1: V941 Monotherapy\nCategory: \nDenominator: Participants: 3\nValue: 0.0\nGroup: Part 1: V941 + Pembrolizumab\nCategory: \nDenominator: Participants: 15\nValue: 6.7\nGroup: Part 2: Expansion Cohort 1 Non-small Cell Lung Cancer (V941 + Pembrolizumab)\nCategory: \nDenominator: Participants: 20\nValue: 5.0\nGroup: Part 2: Expansion Cohort 2 Colorectal Cancer (V941 + Pembrolizumab)\nCategory: \nDenominator: Participants: 16\nValue: 12.5\nGroup: Part 2: Expansion Cohort 3 Pancreatic Adenocarcinoma (V941 + Pembrolizumab)\nCategory: \nDenominator: Participants: 16\nValue: 0.0\n\nInput: The Objective Response Rate (ORR) is 5.0 Percentage of Participants. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.3696485999971628,
+  "call_id": "11c85994beb9f7d6819bccc2e042158ebc9d1505ce2725548809331b36047882"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:21:52.6833431Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The number of participants for both Progression-free Survival (PFS) and Overall Survival (OS) categories is 16, as stated in the provided context."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 323271200,
+    "load_duration": 5770400,
+    "prompt_eval_count": 161,
+    "prompt_eval_cached_count": 142,
+    "prompt_eval_duration": 14499000,
+    "eval_count": 36,
+    "eval_duration": 291500000
+  },
+  "text": "True. The number of participants for both Progression-free Survival (PFS) and Overall Survival (OS) categories is 16, as stated in the provided context.",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 3: Progression-free Survival (PFS) and Overall Survival (OS)\nDescription: \nTime frame: 44.8 months\nAnalysis population: \nStatistic: MEDIAN\nUnit of measure: months\nGroup: Autologous TIL\nCategory: PFS\nDenominator: Participants: 16\nValue: 2.53\nGroup: Autologous TIL\nCategory: OS\nDenominator: Participants: 16\nValue: 18.86\n\nInput: The number of participants was 16. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.32775519999268,
+  "call_id": "26026d12bd6f35bf57ed64c5ac8ba52eea2a43f9c589d5aa7cdc3e2402516353"
+}

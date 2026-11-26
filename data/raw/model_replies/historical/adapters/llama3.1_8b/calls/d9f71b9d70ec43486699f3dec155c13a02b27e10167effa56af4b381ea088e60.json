@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:27:43.9288463Z",
+    "message": {
+      "role": "assistant",
+      "content": "Entailment"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 64382400,
+    "load_duration": 5036700,
+    "prompt_eval_count": 1309,
+    "prompt_eval_cached_count": 1254,
+    "prompt_eval_duration": 20695000,
+    "eval_count": 4,
+    "eval_duration": 27936000
+  },
+  "text": "Entailment",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I have a claim that made by a language model, please help me for checking whether the claim can be entailed according to the provided reference. \nThe reference is a list of passages, and the claim is represented as a triplet formatted with (\"subject\", \"predicate\", \"object\").\n\nIf the claim is supported by ANY passage in the reference, answer 'Entailment'. \nIf NO passage in the reference entail the claim, and the claim is contradicted with some passage in the reference, answer 'Contradiction'.\nIf NO passage entail or contradict with claim, or DOES NOT contain information to verify the claim, answer 'Neutral'. \n\nPlease DO NOT use your own knowledge for the judgement, just compare the reference and the claim to get the answer.\n\n### Reference:\nOutcome 6: Time of Observed Maximum Plasma Concentration (Tmax) of PF-06952229 (Part 1A)\nDescription: Tmax was defined as time to maximum observed concentration. Observed directly from data as time of first occurrence.\nTime frame: 0 (pre dose), 0.5, 1, 2, 4, 6 and 12 hours (post dose) on Day 1 and 7 of cycle 1, 0 (pre dose), 0.5, 1, 2, 4, 6 and 12 hours (post dose) on Day 1 of cycle 2.\nAnalysis population: Participants with advanced/metastatic tumors in PF-06952229 single agent dose escalation phase, who had sufficient information to estimate at least 1 of the PK parameters of interest. Here, \"number analyzed\" signifies participant evaluable for each row.\nStatistic: MEDIAN\nUnit of measure: hour (hr)\nGroup: Part 1A: PF-06952229 20mg Monotherapy\nCategory: Cycle 1 Day 1\nDenominator: Participants: 1\nValue: 2.10\nGroup: Part 1A: PF-06952229 40mg Monotherapy\nCategory: Cycle 1 Day 1\nDenominator: Participants: 1\nValue: 3.83\nGroup: Part 1A: PF-06952229 80mg Monotherapy\nCategory: Cycle 1 Day 1\nDenominator: Participants: 1\nValue: 2.00\nGroup: Part 1A: PF-06952229 150mg Monotherapy\nCategory: Cycle 1 Day 1\nDenominator: Participants: 5\nValue: 2.15\nGroup: Part 1A: PF-06952229 250mg Monotherapy\nCategory: Cycle 1 Day 1\nDenominator: Participants: 13\nValue: 2.17\nGroup: Part 1A: PF-06952229 375mg Monotherapy\nCategory: Cycle 1 Day 1\nDenominator: Participants: 17\nValue: 2.03\nGroup: Part 1A: PF-06952229 500mg Monotherapy\nCategory: Cycle 1 Day 1\nDenominator: Participants: 4\nValue: 1.97\nGroup: Part 1A: PF-06952229 20mg Monotherapy\nCategory: Cycle 1 Day 7\nDenominator: Participants: 1\nValue: 0.967\nGroup: Part 1A: PF-06952229 40mg Monotherapy\nCategory: Cycle 1 Day 7\nDenominator: Participants: 1\nValue: 2.05\nGroup: Part 1A: PF-06952229 80mg Monotherapy\nCategory: Cycle 1 Day 7\nDenominator: Participants: 1\nValue: 2.18\nGroup: Part 1A: PF-06952229 150mg Monotherapy\nCategory: Cycle 1 Day 7\nDenominator: Participants: 4\nValue: 1.51\nGroup: Part 1A: PF-06952229 250mg Monotherapy\nCategory: Cycle 1 Day 7\nDenominator: Participants: 6\nValue: 2.00\nGroup: Part 1A: PF-06952229 375mg Monotherapy\nCategory: Cycle 1 Day 7\nDenominator: Participants: 15\nValue: 1.92\nGroup: Part 1A: PF-06952229 500mg Monotherapy\nCategory: Cycle 1 Day 7\nDenominator: Participants: 4\nValue: 1.48\nGroup: Part 1A: PF-06952229 20mg Monotherapy\nCategory: Cycle 2 Day 1\nDenominator: Participants: 1\nValue: 3.95\nGroup: Part 1A: PF-06952229 40mg Monotherapy\nCategory: Cycle 2 Day 1\nDenominator: Participants: 1\nValue: 6.08\nGroup: Part 1A: PF-06952229 80mg Monotherapy\nCategory: Cycle 2 Day 1\nDenominator: Participants: 1\nValue: 5.52\nGroup: Part 1A: PF-06952229 150mg Monotherapy\nCategory: Cycle 2 Day 1\nDenominator: Participants: 4\nValue: 5.99\nGroup: Part 1A: PF-06952229 250mg Monotherapy\nCategory: Cycle 2 Day 1\nDenominator: Participants: 6\nValue: 4.14\nGroup: Part 1A: PF-06952229 375mg Monotherapy\nCategory: Cycle 2 Day 1\nDenominator: Participants: 12\nValue: 5.02\nGroup: Part 1A: PF-06952229 500mg Monotherapy\nCategory: Cycle 2 Day 1\nDenominator: Participants: 4\nValue: 3.65\n\n### Claim:\n('PF-06952229', 'part of', 'PF-06952229 single agent dose escalation phase')\n\nYour answer should always be only a single word in ['Entailment', 'Neutral', 'Contradiction']. DO NOT add explanations or you own reasoning to the output.\n"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.06786080000165384,
+  "call_id": "d9f71b9d70ec43486699f3dec155c13a02b27e10167effa56af4b381ea088e60"
+}

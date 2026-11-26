@@ -1,0 +1,9 @@
+{
+  "regression_cases": 7,
+  "model_statement_rows": 1316,
+  "validations": {
+    "claim": 1316,
+    "evidence": 300
+  },
+  "changed_validations": []
+}

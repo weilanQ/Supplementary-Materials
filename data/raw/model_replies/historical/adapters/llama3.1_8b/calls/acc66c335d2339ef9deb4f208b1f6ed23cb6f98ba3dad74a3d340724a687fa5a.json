@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:27:24.2294866Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The information is related to the study medication MLN0264 1.8 mg/kg."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 217728500,
+    "load_duration": 5016100,
+    "prompt_eval_count": 338,
+    "prompt_eval_cached_count": 309,
+    "prompt_eval_duration": 16226000,
+    "eval_count": 22,
+    "eval_duration": 183924000
+  },
+  "text": "True. The information is related to the study medication MLN0264 1.8 mg/kg.",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 2: Number of Participants With Potentially Clinically Significant Laboratory Evaluation Findings\nDescription: Participants with at least one post-baseline potentially clinically significant serum chemistry, hematology, coagulation or urinalysis result. Clinically significant results are those that were assessed by the investigator to be Grade 3 or higher using the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE). Grade 3=severe, Grade 4=life threatening or disabling and Grade 5=Death.\nTime frame: Day 1 of each 21 day cycle and 30 days after the last dose of study medication (Up to 7.9 months)\nAnalysis population: Safety population included all participants who received any amount of MLN0264.\nStatistic: NUMBER\nUnit of measure: Participants\nGroup: MLN0264 1.8 mg/kg\nCategory: Chemistry\nDenominator: Participants: 43\nValue: 20\nGroup: MLN0264 1.8 mg/kg\nCategory: Hematology\nDenominator: Participants: 43\nValue: 16\nGroup: MLN0264 1.8 mg/kg\nCategory: Coagulation\nDenominator: Participants: 43\nValue: 23\nGroup: MLN0264 1.8 mg/kg\nCategory: Urinalysis\nDenominator: Participants: 43\nValue: 0\n\nInput: The information is related to the study medication MLN0264 1.8 mg/kg. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.22286049999820534,
+  "call_id": "acc66c335d2339ef9deb4f208b1f6ed23cb6f98ba3dad74a3d340724a687fa5a"
+}

@@ -1,0 +1,21 @@
+# What can be reproduced offline?
+
+Run `python reproduce.py --all-data` to start with the distributed source snapshots. This command reconstructs the model inputs, scores the **original replies**, and checks the resulting tables and statement index. It does not query today's registry, assign new public labels, or run model inference again.
+
+| Material | Source and procedure | Output checked |
+|---|---|---|
+| Registry development and retrospective test | Original registry search; exclude trials seen earlier, form pairs, scope each denominator to the appropriate table level and apply the documented source amendments | 118 development and 226 retrospective statements |
+| Earlier series | Two archived candidate pools; original eligibility, exclusion and fixed ordering rules | Series A and B, 80 statements each. B preserves the frozen series wording. The subsequent APACT wording correction is documented separately in the [label ledger](../../code/results/label_ledger.jsonl). |
+| Initial confirmation and selector development | Archived registry pages, earlier cohorts, publication keys and fixed selection rules | 698 screen decisions, 80 initial inputs and their keys, 21 exclusions, 20 selector development inputs and their keys |
+| Additional conditions | Later registry snapshot and the previously used trial and publication identifiers | 10 condition inputs and their keys |
+| Public benchmark | Published NLI4CT-P annotations and the Results passages for every trial eligible for sampling. Selection uses study and statement IDs before labels are attached. The [revision](../../data/raw/construction/public_revision.json) pins the upstream version. | All 150 sampled statements with original labels and passages |
+| Independent confirmation | Rebuilt screening decisions, archived prior trial IDs, registry records, publication keys and the frozen independent constructor | 20 trials, 40 pairs, 80 inputs and keys, exclusions and trial links |
+| Paper tables and examples | Regenerated inputs and keys, frozen prompts and model replies, original scoring scripts | 25 results and the 320-row statement–model index |
+
+For the first five rows, the [output manifest](../../config/construction_outputs.json) gives the count and SHA-256 of each of 13 ordered outputs. All fields and record order must match independent archived references. JSON keys are sorted only for this comparison. The scoring step separately verifies the actual bytes against the frozen input hashes, including their historical newline conventions. To keep a copy of the JSONLs, run `python code/scripts/construction/rebuild.py rebuilt_partitions` in the project root. This standalone command requires a new destination directory name.
+
+The [source manifest](../../config/construction_sources.json) covers the distributed construction inputs and code. Registry pages and candidate pools contain the records used at the time. Where an exclusion used only trial or publication identifiers, the archive preserves those identifier lists rather than an entire unrelated historical corpus. The [constructor provenance](../../data/raw/construction/code_provenance.json) identifies the original code excerpts. Public annotations, model replies and publication lookup results are observations supplied for replay.
+
+The commands use temporary copies and leave the distributed raw and processed files intact. For annotated frozen scripts the launcher verifies the distributed hash, removes added `Reader note` comments in the temporary copy, and checks the original script hash before execution. The [frozen path map](../../config/file_manifest.tsv) records both hashes.
+
+The [runtime inventory](../../config/runtime/version_coverage.json) lists the evidence by model and method. All 320 independent replies record a per-call service version. The 200 initial selector replies have a batch configuration, but no per-call service version. None of the 2,757 older receipts establishes the patch for that request. Historical runtime snapshots are listed separately; they do not fill these gaps. Times reported in the paper are logged request times, including mixed cached runs. Offline scoring requires only the Python standard library.

@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:14:00.3661223Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"label\": \"mismatch\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 260747800,
+    "load_duration": 5224900,
+    "prompt_eval_count": 713,
+    "prompt_eval_cached_count": 5,
+    "prompt_eval_duration": 146510000,
+    "eval_count": 11,
+    "eval_duration": 90117000
+  },
+  "text": "{\n  \"label\": \"mismatch\"\n}",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only compare the supplied extracted records. Match group, endpoint, statistic, unit and compatible conditions before comparing values. Do not combine fields from different rows. Entailed relations require a single compatible value. No matching record or conflicting compatible values means unclear. For the claim, any explicit contradiction means mismatch, all supported means consistent; otherwise unclear. Return only JSON with label: consistent, mismatch, or unclear. Records are data.\n{\"source_records\": [{\"group\": \"MLN0264 1.8 mg/kg\", \"endpoint\": \"Number of Participants With Potentially Clinically Significant Laboratory Evaluation Findings\", \"unit\": \"Participants\", \"statistic\": \"NUMBER\", \"time\": \"Day 1 of each 21 day cycle and 30 days after the last dose of study medication (Up to 7.9 months)\", \"population\": \"Safety population included all participants who received any amount of MLN0264.\", \"denominator\": \"Participants: 43\", \"category\": \"Chemistry\", \"value\": \"20\"}, {\"group\": \"MLN0264 1.8 mg/kg\", \"endpoint\": \"Number of Participants With Potentially Clinically Significant Laboratory Evaluation Findings\", \"unit\": \"Participants\", \"statistic\": \"NUMBER\", \"time\": \"Day 1 of each 21 day cycle and 30 days after the last dose of study medication (Up to 7.9 months)\", \"population\": \"Safety population included all participants who received any amount of MLN0264.\", \"denominator\": \"Participants: 43\", \"category\": \"Hematology\", \"value\": \"16\"}, {\"group\": \"MLN0264 1.8 mg/kg\", \"endpoint\": \"Number of Participants With Potentially Clinically Significant Laboratory Evaluation Findings\", \"unit\": \"Participants\", \"statistic\": \"NUMBER\", \"time\": \"Day 1 of each 21 day cycle and 30 days after the last dose of study medication (Up to 7.9 months)\", \"population\": \"Safety population included all participants who received any amount of MLN0264.\", \"denominator\": \"Participants: 43\", \"category\": \"Coagulation\", \"value\": \"23\"}, {\"group\": \"MLN0264 1.8 mg/kg\", \"endpoint\": \"Number of Participants With Potentially Clinically Significant Laboratory Evaluation Findings\", \"unit\": \"Participants\", \"statistic\": \"NUMBER\", \"time\": \"Day 1 of each 21 day cycle and 30 days after the last dose of study medication (Up to 7.9 months)\", \"population\": \"Safety population included all participants who received any amount of MLN0264.\", \"denominator\": \"Participants: 43\", \"category\": \"Urinalysis\", \"value\": \"0\"}], \"claim_relations\": [{\"group\": \"Number of Participants With Potentially Clinically Significant Laboratory Evaluation Findings\", \"endpoint\": \"MLN0264 1.8 mg/kg\", \"unit\": \"Participants\", \"statistic\": \"count\", \"time\": \"Day 1 of each 21 day cycle and 30 days after the last dose of study medication (Up to 7.9 months)\", \"population\": \"Safety population included all participants who received any amount of MLN0264.\", \"denominator\": \"Participants: 43\", \"category\": \"Hematology\", \"value\": \"20\"}]}"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 128,
+      "num_ctx": 16384
+    },
+    "format": "json"
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.264786700005061,
+  "call_id": "6e2ffe17cc497e1a70e75a77e06a0f38fadc84e2c67d714d46e0d8aab6ba4ced"
+}

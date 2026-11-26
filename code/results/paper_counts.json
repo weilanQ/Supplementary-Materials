@@ -1,0 +1,41 @@
+{
+  "reference_input_check": {
+    "mismatch": 40,
+    "consistent": 40
+  },
+  "historical_partition_counts": {
+    "earlier_listed": 130,
+    "additional_screened_trials": 13,
+    "all_previously_seen": 143
+  },
+  "qwen2.5:7b": {
+    "offline_field_differences": {
+      "passed": 41,
+      "single": 39,
+      "identity_or_value": 18,
+      "condition": 24,
+      "both": 16,
+      "extra": 2
+    },
+    "independent_flags": {
+      "model_marked_incomplete": 42,
+      "incomplete_at_first_stop": 40,
+      "incomplete_and_source_invalid": 2
+    }
+  },
+  "llama3.1:8b": {
+    "offline_field_differences": {
+      "passed": 54,
+      "single": 47,
+      "identity_or_value": 40,
+      "condition": 32,
+      "both": 28,
+      "extra": 7
+    },
+    "independent_flags": {
+      "model_marked_incomplete": 0,
+      "incomplete_at_first_stop": 0,
+      "incomplete_and_source_invalid": 0
+    }
+  }
+}

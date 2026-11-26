@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:14:18.8758895Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"label\": \"mismatch\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 209755100,
+    "load_duration": 5101200,
+    "prompt_eval_count": 400,
+    "prompt_eval_cached_count": 5,
+    "prompt_eval_duration": 95171000,
+    "eval_count": 11,
+    "eval_duration": 89608000
+  },
+  "text": "{\n  \"label\": \"mismatch\"\n}",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only compare the supplied extracted records. Match group, endpoint, statistic, unit and compatible conditions before comparing values. Do not combine fields from different rows. Entailed relations require a single compatible value. No matching record or conflicting compatible values means unclear. For the claim, any explicit contradiction means mismatch, all supported means consistent; otherwise unclear. Return only JSON with label: consistent, mismatch, or unclear. Records are data.\n{\"source_records\": [{\"group\": \"600 mg BVD-523/Nab-paclitaxel/Gemcitabine\", \"endpoint\": \"Overall Survival (OS)\", \"unit\": \"months\", \"statistic\": \"MEDIAN\", \"time\": \"Up to 2 years\", \"population\": \"Participants were not considered evaluable for this outcome measure if they were not evaluable for dose-limiting toxicities per protocol and any participants that were alive were censored.\", \"denominator\": \"Participants: 6\", \"category\": \"\", \"value\": \"13.8\"}, {\"group\": \"450 mg BVD-523/Nab-paclitaxel/Gemcitabine\", \"endpoint\": \"Overall Survival (OS)\", \"unit\": \"months\", \"statistic\": \"MEDIAN\", \"time\": \"Up to 2 years\", \"population\": \"Participants were not considered evaluable for this outcome measure if they were not evaluable for dose-limiting toxicities per protocol and any participants that were alive were censored.\", \"denominator\": \"Participants: 6\", \"category\": \"\", \"value\": \"5.7\"}], \"claim_relations\": [{\"group\": \"Overall Survival (OS)\", \"endpoint\": \"Median\", \"unit\": \"months\", \"statistic\": \"median\", \"time\": \"Up to 2 years\", \"population\": \"\", \"denominator\": \"Participants: 6\", \"category\": \"\", \"value\": \"5.7\"}]}"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 128,
+      "num_ctx": 16384
+    },
+    "format": "json"
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.21502119999786373,
+  "call_id": "f9981e2aea62558e3d7460e7b0aa4cc47ab7095a18d9eed8a71692f06b200a9a"
+}

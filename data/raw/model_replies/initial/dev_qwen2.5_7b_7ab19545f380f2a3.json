@@ -1,0 +1,97 @@
+{
+  "id": "7ab19545f380f2a3",
+  "split": "dev",
+  "model": "qwen2.5:7b",
+  "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Verify each stated outcome against numbered trial rows. Source outcome values are withheld during selection. Select rows by the group, endpoint, statistic, unit and every stated reporting condition, never by the outcome value. For each stated outcome return the chosen row_id (integer, 0 for no match, -1 for ambiguity), the numeric result as a string and value_quote copied exactly from the claim. Also copy the entire stated time, population, denominator and category as exact substrings from the claim, omitting field labels like \"time frame:\"; use an empty string for each absent condition. List all numerical outcomes separately, not participant counts used as denominators. Set complete false if the claim cannot be represented or any relation was missed. Output JSON only."
+      },
+      {
+        "role": "user",
+        "content": "{\"statement\": \"For group \\\"Dose-Escalation Phase: Surufatinib 200 mg\\\", the count_of_participants for \\\"Dose-Escalation Phase: Number of Patients With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)\\\" was 3 Participants (time frame \\\"From the first dose of study drug (Day 1) up to approximately 90 months\\\"; analysis population \\\"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\\\"; category \\\"Any TEAEs\\\"; denominator \\\"Participants: 3\\\").\", \"rows\": [{\"row_id\": 1, \"group\": \"Dose-Escalation Phase: Surufatinib 50 mg\", \"endpoint\": \"Dose-Escalation Phase: Number of Patients With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"From the first dose of study drug (Day 1) up to approximately 90 months\", \"population\": \"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\", \"denominator\": \"Participants: 3\", \"category\": \"Any TEAEs\"}, {\"row_id\": 2, \"group\": \"Dose-Escalation Phase: Surufatinib 100 mg\", \"endpoint\": \"Dose-Escalation Phase: Number of Patients With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"From the first dose of study drug (Day 1) up to approximately 90 months\", \"population\": \"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\", \"denominator\": \"Participants: 7\", \"category\": \"Any TEAEs\"}, {\"row_id\": 3, \"group\": \"Dose-Escalation Phase: Surufatinib 200 mg\", \"endpoint\": \"Dose-Escalation Phase: Number of Patients With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"From the first dose of study drug (Day 1) up to approximately 90 months\", \"population\": \"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\", \"denominator\": \"Participants: 3\", \"category\": \"Any TEAEs\"}, {\"row_id\": 4, \"group\": \"Dose-Escalation Phase: Surufatinib 300 mg\", \"endpoint\": \"Dose-Escalation Phase: Number of Patients With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"From the first dose of study drug (Day 1) up to approximately 90 months\", \"population\": \"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\", \"denominator\": \"Participants: 9\", \"category\": \"Any TEAEs\"}, {\"row_id\": 5, \"group\": \"Dose-Escalation Phase: Surufatinib 400 mg\", \"endpoint\": \"Dose-Escalation Phase: Number of Patients With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"From the first dose of study drug (Day 1) up to approximately 90 months\", \"population\": \"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\", \"denominator\": \"Participants: 13\", \"category\": \"Any TEAEs\"}, {\"row_id\": 6, \"group\": \"Dose-Escalation Phase: Surufatinib 50 mg\", \"endpoint\": \"Dose-Escalation Phase: Number of Patients With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"From the first dose of study drug (Day 1) up to approximately 90 months\", \"population\": \"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\", \"denominator\": \"Participants: 3\", \"category\": \"Any TESAEs\"}, {\"row_id\": 7, \"group\": \"Dose-Escalation Phase: Surufatinib 100 mg\", \"endpoint\": \"Dose-Escalation Phase: Number of Patients With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"From the first dose of study drug (Day 1) up to approximately 90 months\", \"population\": \"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\", \"denominator\": \"Participants: 7\", \"category\": \"Any TESAEs\"}, {\"row_id\": 8, \"group\": \"Dose-Escalation Phase: Surufatinib 200 mg\", \"endpoint\": \"Dose-Escalation Phase: Number of Patients With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"From the first dose of study drug (Day 1) up to approximately 90 months\", \"population\": \"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\", \"denominator\": \"Participants: 3\", \"category\": \"Any TESAEs\"}, {\"row_id\": 9, \"group\": \"Dose-Escalation Phase: Surufatinib 300 mg\", \"endpoint\": \"Dose-Escalation Phase: Number of Patients With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"From the first dose of study drug (Day 1) up to approximately 90 months\", \"population\": \"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\", \"denominator\": \"Participants: 9\", \"category\": \"Any TESAEs\"}, {\"row_id\": 10, \"group\": \"Dose-Escalation Phase: Surufatinib 400 mg\", \"endpoint\": \"Dose-Escalation Phase: Number of Patients With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"From the first dose of study drug (Day 1) up to approximately 90 months\", \"population\": \"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\", \"denominator\": \"Participants: 13\", \"category\": \"Any TESAEs\"}]}"
+      }
+    ],
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "row_id": {
+                "type": "integer"
+              },
+              "value": {
+                "type": "string"
+              },
+              "value_quote": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "row_id",
+              "value",
+              "value_quote",
+              "time",
+              "population",
+              "denominator",
+              "category"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "relations"
+      ],
+      "additionalProperties": false
+    },
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 17,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "keep_alive": "10m"
+  },
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-21T15:11:50.8236345Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n    \"complete\": true,\n    \"relations\": [\n        {\n            \"row_id\": 3,\n            \"value\": \"3\",\n            \"value_quote\": \"3 Participants\",\n            \"time\": \"From the first dose of study drug (Day 1) up to approximately 90 months\",\n            \"population\": \"The Safety analysis set included all patients who received at least 1 dose of surufatinib.\",\n            \"denominator\": \"Participants: 3\",\n            \"category\": \"Any TEAEs\"\n        }\n    ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1391207500,
+    "load_duration": 2718000,
+    "prompt_eval_count": 1830,
+    "prompt_eval_cached_count": 165,
+    "prompt_eval_duration": 307013000,
+    "eval_count": 116,
+    "eval_duration": 1020617000
+  },
+  "seconds": 1.4090188999980455
+}

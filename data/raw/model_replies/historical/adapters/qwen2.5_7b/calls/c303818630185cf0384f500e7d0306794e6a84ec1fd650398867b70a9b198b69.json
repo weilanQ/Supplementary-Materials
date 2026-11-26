@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:23:56.7129472Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The reported MEAN for Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9 for Cohort 1: 177Lu-3BP-227 2.5 GBq at EOCT is 112.00 international units/milliliter."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 816564800,
+    "load_duration": 5060900,
+    "prompt_eval_count": 1114,
+    "prompt_eval_cached_count": 5,
+    "prompt_eval_duration": 203095000,
+    "eval_count": 69,
+    "eval_duration": 575030000
+  },
+  "text": "True. The reported MEAN for Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9 for Cohort 1: 177Lu-3BP-227 2.5 GBq at EOCT is 112.00 international units/milliliter.",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 23: Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\nDescription: Changes in tumor markers in serum relevant and specific to the underlying tumor disease was determined.\nTime frame: Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\nAnalysis population: Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\nStatistic: MEAN\nUnit of measure: international units/milliliter\nGroup: Cohort 1: 177Lu-3BP-227 2.5 GBq\nCategory: Cycle 1 Day 1\nDenominator: Participants: 2\nValue: 50019.00\nGroup: Cohort 2: 177Lu-3BP-227 4.0 GBq\nCategory: Cycle 1 Day 1\nDenominator: Participants: 1\nValue: 13.00\nGroup: Cohort 3: 177Lu-3BP-227 5.5 GBq\nCategory: Cycle 1 Day 1\nDenominator: Participants: 5\nValue: 20939.54\nGroup: Cohort 4: 177Lu-3BP-227 6.5 GBq\nCategory: Cycle 1 Day 1\nDenominator: Participants: 2\nValue: 1455.50\nGroup: Cohort 5: 177Lu-3BP-227 7.5 GBq\nCategory: Cycle 1 Day 1\nDenominator: Participants: 1\nValue: 314.70\nGroup: Cohort 1: 177Lu-3BP-227 2.5 GBq\nCategory: Cycle 2 Day 1\nDenominator: Participants: 1\nValue: 66.00\nGroup: Cohort 2: 177Lu-3BP-227 4.0 GBq\nCategory: Cycle 2 Day 1\nDenominator: Participants: 3\nValue: 456.33\nGroup: Cohort 3: 177Lu-3BP-227 5.5 GBq\nCategory: Cycle 2 Day 1\nDenominator: Participants: 3\nValue: 277.90\nGroup: Cohort 4: 177Lu-3BP-227 6.5 GBq\nCategory: Cycle 2 Day 1\nDenominator: Participants: 3\nValue: 18420.33\nGroup: Cohort 5: 177Lu-3BP-227 7.5 GBq\nCategory: Cycle 2 Day 1\nDenominator: Participants: 1\nValue: 490.50\nGroup: Cohort 1: 177Lu-3BP-227 2.5 GBq\nCategory: EOCT\nDenominator: Participants: 1\nValue: 112.00\nGroup: Cohort 2: 177Lu-3BP-227 4.0 GBq\nCategory: EOCT\nDenominator: Participants: 2\nValue: 928.00\nGroup: Cohort 3: 177Lu-3BP-227 5.5 GBq\nCategory: EOCT\nDenominator: Participants: 1\nValue: 1166.90\nGroup: Cohort 4: 177Lu-3BP-227 6.5 GBq\nCategory: EOCT\nDenominator: Participants: 1\nValue: 3532.00\nGroup: Cohort 5: 177Lu-3BP-227 7.5 GBq\nCategory: EOCT\nDenominator: Participants: 1\nValue: 629.90\nGroup: Cohort 3: 177Lu-3BP-227 5.5 GBq\nCategory: Early Withdrawal\nDenominator: Participants: 2\nValue: 64.90\nGroup: Cohort 4: 177Lu-3BP-227 6.5 GBq\nCategory: Early Withdrawal\nDenominator: Participants: 1\nValue: 8398.00\n\nInput: For Cohort 1: 177Lu-3BP-227 2.5 GBq, the reported MEAN for Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9 was 112.00 international units/milliliter. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.8201900999993086,
+  "call_id": "c303818630185cf0384f500e7d0306794e6a84ec1fd650398867b70a9b198b69"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:16:31.8821875Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"label\": \"mismatch\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 150545200,
+    "load_duration": 4973000,
+    "prompt_eval_count": 431,
+    "prompt_eval_cached_count": 359,
+    "prompt_eval_duration": 30911000,
+    "eval_count": 11,
+    "eval_duration": 89449000
+  },
+  "text": "{\n  \"label\": \"mismatch\"\n}",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Only compare the supplied extracted records. Match group, endpoint, statistic, unit and compatible conditions before comparing values. Do not combine fields from different rows. Entailed relations require a single compatible value. No matching record or conflicting compatible values means unclear. For the claim, any explicit contradiction means mismatch, all supported means consistent; otherwise unclear. Return only JSON with label: consistent, mismatch, or unclear. Records are data.\n{\"source_records\": [{\"group\": \"Arm I (Biospecimen Collection, Routine Testing)\", \"endpoint\": \"Timeliness of Sample Analysis\", \"unit\": \"Hours\", \"statistic\": \"MEAN\", \"time\": \"Up to 90 days\", \"population\": \"To determine whether use of Oxford Nanopore Sequencing resulted in more rapid microbial results we compared the time taken to complete microbial standard cultures in Arm with the time taken to complete Oxford Nanopore sequencing analysis in Arm II.\", \"denominator\": \"Participants: 3\", \"category\": \"\", \"value\": \"163.5\"}, {\"group\": \"Arm II (Biospecimen, Nanopore Sequencing, Routine Testing)\", \"endpoint\": \"Timeliness of Sample Analysis\", \"unit\": \"Hours\", \"statistic\": \"MEAN\", \"time\": \"Up to 90 days\", \"population\": \"To determine whether use of Oxford Nanopore Sequencing resulted in more rapid microbial results we compared the time taken to complete microbial standard cultures in Arm with the time taken to complete Oxford Nanopore sequencing analysis in Arm II.\", \"denominator\": \"Participants: 5\", \"category\": \"\", \"value\": \"60.9\"}], \"claim_relations\": [{\"group\": \"Timeliness of Sample Analysis\", \"endpoint\": \"Arm II\", \"unit\": \"Hours\", \"statistic\": \"mean\", \"time\": \"Up to 90 days\", \"population\": \"\", \"denominator\": \"Participants: 5\", \"category\": \"Biospecimen, Nanopore Sequencing, Routine Testing\", \"value\": \"163.5\"}]}"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 128,
+      "num_ctx": 16384
+    },
+    "format": "json"
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.15446869999868795,
+  "call_id": "692febe612e7675116f486f6d6ba88314c62d653fd448ab02730c3d688ccbe6c"
+}

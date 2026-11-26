@@ -1,0 +1,109 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:08:52.3981794Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"BVD-523/Nab-paclitaxel/Gemcitabine\",\n      \"endpoint\": \"Time to Tumor Progression (TTP)\",\n      \"unit\": \"days\",\n      \"statistic\": \"median\",\n      \"time\": \"Up to 2 years\",\n      \"population\": \"Participants who did not have a follow-up CT scan were excluded from this outcome measure.\",\n      \"denominator\": \"Participants: 5\",\n      \"category\": \"\",\n      \"value\": 39.5,\n      \"quotes\": [\n        \"the reported MEDIAN for Time to Tumor Progression (TTP) was 39.5 days\",\n        \"denominator: Participants: 5\",\n        \"population: Participants who did not have a follow-up CT scan were excluded from this outcome measure.\"\n      ]\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1730381600,
+    "load_duration": 5300300,
+    "prompt_eval_count": 372,
+    "prompt_eval_cached_count": 259,
+    "prompt_eval_duration": 39187000,
+    "eval_count": 196,
+    "eval_duration": 1664605000
+  },
+  "text": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"BVD-523/Nab-paclitaxel/Gemcitabine\",\n      \"endpoint\": \"Time to Tumor Progression (TTP)\",\n      \"unit\": \"days\",\n      \"statistic\": \"median\",\n      \"time\": \"Up to 2 years\",\n      \"population\": \"Participants who did not have a follow-up CT scan were excluded from this outcome measure.\",\n      \"denominator\": \"Participants: 5\",\n      \"category\": \"\",\n      \"value\": 39.5,\n      \"quotes\": [\n        \"the reported MEDIAN for Time to Tumor Progression (TTP) was 39.5 days\",\n        \"denominator: Participants: 5\",\n        \"population: Participants who did not have a follow-up CT scan were excluded from this outcome measure.\"\n      ]\n    }\n  ]\n}",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Decompose this claim into ALL atomic numerical outcome relationships, without checking whether they are true. Return JSON with keys complete (boolean) and records (array). Each record must describe one group, endpoint, point value and its conditions. Resolve cross-sentence references from this claim only. Copy the group, endpoint, time frame, analysis population, category and denominator strings exactly as stated, removing only quotation delimiters. Do not omit a numeric relationship. Do not invent missing conditions: use empty string. A denominator such as Participants: 15 is NOT an analysis population. If no population description is stated, population MUST be empty. Do not copy a denominator into population. Preserve conditions shared by multiple records. A comparison, negation, approximate value or derived arithmetic that cannot be expressed as exact point records must set complete=false, never silently drop it.\nEvery record has string fields: group, endpoint, value (decimal only), unit, statistic, time, population, denominator, category; and quotes: an array of exact verbatim substrings from the claim supporting this decomposition. Statistic is mean, median, or count if stated. Return only JSON.\nCLAIM:\nFor Dose De-escalation: BVD-523/Nab-paclitaxel/Gemcitabine, the reported MEDIAN for Time to Tumor Progression (TTP) was 39.5 days (time frame: Up to 2 years; denominator: Participants: 5; population: Participants who did not have a follow-up CT scan were excluded from this outcome measure. The 2 participants analyzed in the Dose Expansion Arm received 450 mg BVD-523.)."
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 1024,
+      "num_ctx": 16384
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "group": {
+                "type": "string"
+              },
+              "endpoint": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "statistic": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "quotes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "group",
+              "endpoint",
+              "value",
+              "unit",
+              "statistic",
+              "time",
+              "population",
+              "denominator",
+              "category",
+              "quotes"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "records"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 1.7344087999954354,
+  "call_id": "44ae81165a63cbc74aa7ea8e41a5a9e5e5831d190d178b82135e169a88bf3d74"
+}

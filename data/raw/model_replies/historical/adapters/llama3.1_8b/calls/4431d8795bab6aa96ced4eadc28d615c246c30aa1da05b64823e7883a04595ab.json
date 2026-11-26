@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:31:11.9860915Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The dose of MLN0264 being referred to is 1.8 mg/kg (GCC High), as indicated by the category \"GCC High\" in the output."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 346298900,
+    "load_duration": 5262200,
+    "prompt_eval_count": 293,
+    "prompt_eval_cached_count": 262,
+    "prompt_eval_duration": 16361999,
+    "eval_count": 37,
+    "eval_duration": 312649000
+  },
+  "text": "True. The dose of MLN0264 being referred to is 1.8 mg/kg (GCC High), as indicated by the category \"GCC High\" in the output.",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 10: Guanylyl Cyclase C (GCC) H-score Assessed by Immunohistochemistry (IHC)\nDescription: GCC H-score is based on the sum of the 0 to 300 H-score for cytoplasmic staining and the 0 to 300 H-score for apical staining for a total possible H-score 0 to 600. Separate consent is required to obtain archival tumor specimens for GCC expression assessment prior to screening.\nTime frame: From pre-screening through end of study (approximately 18 months)\nAnalysis population: Safety population included all participants who received any amount of MLN0264.\nStatistic: MEAN\nUnit of measure: scores on a scale\nGroup: MLN0264 1.8 mg/kg (GCC Low)\nCategory: \nDenominator: Participants: 11\nValue: 29.6\nGroup: MLN0264 1.8 mg/kg (GCC Intermediate)\nCategory: \nDenominator: Participants: 15\nValue: 84.0\nGroup: MLN0264 1.8 mg/kg (GCC High)\nCategory: \nDenominator: Participants: 17\nValue: 204.2\n\nInput: The dose of MLN0264 being referred to is 1.8 mg/kg (GCC High). True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.3506697999982862,
+  "call_id": "4431d8795bab6aa96ced4eadc28d615c246c30aa1da05b64823e7883a04595ab"
+}

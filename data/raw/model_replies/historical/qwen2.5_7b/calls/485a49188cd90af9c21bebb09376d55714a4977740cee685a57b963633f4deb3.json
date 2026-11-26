@@ -1,0 +1,109 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:12:02.4328828Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": false,\n  \"records\": [\n    {\n      \"group\": \"Nonfunctioning and Malignant Pancreatic Endocrine Neoplasms\",\n      \"endpoint\": \"NUMBER\",\n      \"unit\": \"\",\n      \"statistic\": \"\",\n      \"time\": \"Each participant was followed up for a period of 5 years\",\n      \"population\": \"Patients Operated for Pancreatic Endocrine Neoplasms\",\n      \"denominator\": \"Participants: 40\",\n      \"category\": \"Malignant Tumours\",\n      \"value\": 18,\n      \"quotes\": [\n        \"The table gives 18 participants as the NUMBER for Nonfunctioning and Malignant Pancreatic Endocrine Neoplasms in Patients Operated for Pancreatic Endocrine Neoplasms\"\n      ]\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1581644100,
+    "load_duration": 5711400,
+    "prompt_eval_count": 338,
+    "prompt_eval_cached_count": 258,
+    "prompt_eval_duration": 31869000,
+    "eval_count": 180,
+    "eval_duration": 1523683000
+  },
+  "text": "{\n  \"complete\": false,\n  \"records\": [\n    {\n      \"group\": \"Nonfunctioning and Malignant Pancreatic Endocrine Neoplasms\",\n      \"endpoint\": \"NUMBER\",\n      \"unit\": \"\",\n      \"statistic\": \"\",\n      \"time\": \"Each participant was followed up for a period of 5 years\",\n      \"population\": \"Patients Operated for Pancreatic Endocrine Neoplasms\",\n      \"denominator\": \"Participants: 40\",\n      \"category\": \"Malignant Tumours\",\n      \"value\": 18,\n      \"quotes\": [\n        \"The table gives 18 participants as the NUMBER for Nonfunctioning and Malignant Pancreatic Endocrine Neoplasms in Patients Operated for Pancreatic Endocrine Neoplasms\"\n      ]\n    }\n  ]\n}",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Decompose this claim into ALL atomic numerical outcome relationships, without checking whether they are true. Return JSON with keys complete (boolean) and records (array). Each record must describe one group, endpoint, point value and its conditions. Resolve cross-sentence references from this claim only. Copy the group, endpoint, time frame, analysis population, category and denominator strings exactly as stated, removing only quotation delimiters. Do not omit a numeric relationship. Do not invent missing conditions: use empty string. A denominator such as Participants: 15 is NOT an analysis population. If no population description is stated, population MUST be empty. Do not copy a denominator into population. Preserve conditions shared by multiple records. A comparison, negation, approximate value or derived arithmetic that cannot be expressed as exact point records must set complete=false, never silently drop it.\nEvery record has string fields: group, endpoint, value (decimal only), unit, statistic, time, population, denominator, category; and quotes: an array of exact verbatim substrings from the claim supporting this decomposition. Statistic is mean, median, or count if stated. Return only JSON.\nCLAIM:\nThe table gives 18 participants as the NUMBER for Nonfunctioning and Malignant Pancreatic Endocrine Neoplasms in Patients Operated for Pancreatic Endocrine Neoplasms (time frame: Each participant was followed up for a period of 5 years; denominator: Participants: 40; category: Malignant Tumours)."
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 1024,
+      "num_ctx": 16384
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "group": {
+                "type": "string"
+              },
+              "endpoint": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "statistic": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "quotes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "group",
+              "endpoint",
+              "value",
+              "unit",
+              "statistic",
+              "time",
+              "population",
+              "denominator",
+              "category",
+              "quotes"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "records"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 1.5848767999996198,
+  "call_id": "485a49188cd90af9c21bebb09376d55714a4977740cee685a57b963633f4deb3"
+}

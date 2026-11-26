@@ -1,0 +1,98 @@
+{
+  "id": "a297bd568aa5ca0c",
+  "model": "llama3.1:8b",
+  "method": "select",
+  "service": "0.40.17",
+  "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Verify each stated outcome against numbered trial rows. Source outcome values are withheld during selection. Select rows by the group, endpoint, statistic, unit and every stated reporting condition, never by the outcome value. For each stated outcome return the chosen row_id (integer, 0 for no match, -1 for ambiguity), the numeric result as a string and value_quote copied exactly from the claim. Also copy the entire stated time, population, denominator and category as exact substrings from the claim, omitting field labels like \"time frame:\"; use an empty string for each absent condition. List all numerical outcomes separately, not participant counts used as denominators. Set complete false if the claim cannot be represented or any relation was missed. Output JSON only."
+      },
+      {
+        "role": "user",
+        "content": "{\"statement\": \"For ADCT-301 Combination Therapy 100 µg/kg + Pemb, the reported COUNT_OF_PARTICIPANTS for Number of Participants Who Experienced a Dose Reduction was 0 Participants (time frame: Up to 3 years; denominator: Participants: 6; population: Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.).\", \"rows\": [{\"row_id\": 1, \"group\": \"ADCT-301 Monotherapy 20 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 3\", \"category\": \"\"}, {\"row_id\": 2, \"group\": \"ADCT-301 Monotherapy 30 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 5\", \"category\": \"\"}, {\"row_id\": 3, \"group\": \"ADCT-301 Monotherapy 45 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 5\", \"category\": \"\"}, {\"row_id\": 4, \"group\": \"ADCT-301 Monotherapy 60 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 5\", \"category\": \"\"}, {\"row_id\": 5, \"group\": \"ADCT-301 Monotherapy 80 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 8\", \"category\": \"\"}, {\"row_id\": 6, \"group\": \"ADCT-301 Monotherapy 100 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 7\", \"category\": \"\"}, {\"row_id\": 7, \"group\": \"ADCT-301 Monotherapy 125 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 8\", \"category\": \"\"}, {\"row_id\": 8, \"group\": \"ADCT-301 Monotherapy 150 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 3\", \"category\": \"\"}, {\"row_id\": 9, \"group\": \"ADCT-301 Combination Therapy 20 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 1\", \"category\": \"\"}, {\"row_id\": 10, \"group\": \"ADCT-301 Combination Therapy 30 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 4\", \"category\": \"\"}, {\"row_id\": 11, \"group\": \"ADCT-301 Combination Therapy 45 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 10\", \"category\": \"\"}, {\"row_id\": 12, \"group\": \"ADCT-301 Combination Therapy 60 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 9\", \"category\": \"\"}, {\"row_id\": 13, \"group\": \"ADCT-301 Combination Therapy 80 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 4\", \"category\": \"\"}, {\"row_id\": 14, \"group\": \"ADCT-301 Combination Therapy 100 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 6\", \"category\": \"\"}, {\"row_id\": 15, \"group\": \"ADCT-301 Monotherapy 20 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 3\", \"category\": \"\"}, {\"row_id\": 16, \"group\": \"ADCT-301 Monotherapy 30 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 5\", \"category\": \"\"}, {\"row_id\": 17, \"group\": \"ADCT-301 Monotherapy 45 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 5\", \"category\": \"\"}, {\"row_id\": 18, \"group\": \"ADCT-301 Monotherapy 60 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 5\", \"category\": \"\"}, {\"row_id\": 19, \"group\": \"ADCT-301 Monotherapy 80 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 8\", \"category\": \"\"}, {\"row_id\": 20, \"group\": \"ADCT-301 Monotherapy 100 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 7\", \"category\": \"\"}, {\"row_id\": 21, \"group\": \"ADCT-301 Monotherapy 125 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 8\", \"category\": \"\"}, {\"row_id\": 22, \"group\": \"ADCT-301 Monotherapy 150 µg/kg\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 3\", \"category\": \"\"}, {\"row_id\": 23, \"group\": \"ADCT-301 Combination Therapy 20 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 1\", \"category\": \"\"}, {\"row_id\": 24, \"group\": \"ADCT-301 Combination Therapy 30 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 4\", \"category\": \"\"}, {\"row_id\": 25, \"group\": \"ADCT-301 Combination Therapy 45 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 10\", \"category\": \"\"}, {\"row_id\": 26, \"group\": \"ADCT-301 Combination Therapy 60 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 9\", \"category\": \"\"}, {\"row_id\": 27, \"group\": \"ADCT-301 Combination Therapy 80 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 4\", \"category\": \"\"}, {\"row_id\": 28, \"group\": \"ADCT-301 Combination Therapy 100 µg/kg + Pemb\", \"endpoint\": \"Number of Participants Who Experienced a Dose Reduction\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 3 years\", \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\", \"denominator\": \"Participants: 6\", \"category\": \"\"}]}"
+      }
+    ],
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "row_id": {
+                "type": "integer"
+              },
+              "value": {
+                "type": "string"
+              },
+              "value_quote": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "row_id",
+              "value",
+              "value_quote",
+              "time",
+              "population",
+              "denominator",
+              "category"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "relations"
+      ],
+      "additionalProperties": false
+    },
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 17,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "keep_alive": "10m"
+  },
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-21T16:27:12.9348513Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": true,\n  \"relations\": [\n    {\n      \"row_id\": 28,\n      \"value\": \"0\",\n      \"value_quote\": \"0 Participants\",\n      \"time\": \"Up to 3 years\",\n      \"population\": \"Safety Analysis Set: The Safety analysis set consists of all participants who received study drug.\",\n      \"denominator\": \"Participants: 6\",\n      \"category\": \"\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1543187600,
+    "load_duration": 3267300,
+    "prompt_eval_count": 3197,
+    "prompt_eval_cached_count": 165,
+    "prompt_eval_duration": 593179000,
+    "eval_count": 95,
+    "eval_duration": 914021000
+  },
+  "seconds": 1.5641471999988426
+}

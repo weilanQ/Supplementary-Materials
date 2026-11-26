@@ -1,0 +1,16 @@
+[
+  {
+    "id": "437554d0a6d827b1",
+    "original_sha256": "96d742c86f8ec82370485260c430b80f5c4ea490ac7836996be81a1c1601e7d5",
+    "revised_sha256": "b0621c690e62732321c3cd7271f1d2183bd171edb749598bff2d7f12b718de59",
+    "original_claim": "The outcome was \"Kaplan Meier Estimate of Overall Survival (OS)\". Under time frame \"From randomization to date of death; median OS follow-up time for censored participants was 77.832 months for nab-Paclitaxel and gemcitabine and 77.799 months for gemcitabine alone\"; analysis population \"The intent-to-treat population consisted of all randomized participants regardless of whether the participant received any IP or had any efficacy assessment collected.\"; category \"75th Quartile\"; denominator \"Participants: 434\", group \"Gemcitabine\" had a reported median of 83.0 months.",
+    "revised_claim": "The outcome was \"Kaplan Meier Estimate of Overall Survival (OS)\". Under time frame \"From randomization to date of death; median OS follow-up time for censored participants was 77.832 months for nab-Paclitaxel and gemcitabine and 77.799 months for gemcitabine alone\"; analysis population \"The intent-to-treat population consisted of all randomized participants regardless of whether the participant received any IP or had any efficacy assessment collected.\"; category \"75th Quartile\"; denominator \"Participants: 434\", group \"Gemcitabine\" had a reported 75th percentile of 83.0 months."
+  },
+  {
+    "id": "22d606f1d6cbb36e",
+    "original_sha256": "5c8a6a6ebafd47797878dd3854fcafec843c493b619743aa39f77558b566b407",
+    "revised_sha256": "b295b7cab25d709afb97044673d99d9c6beadcd6c442cd7928c7e90ead49bae2",
+    "original_claim": "The outcome was \"Kaplan Meier Estimate of Overall Survival (OS)\". Under time frame \"From randomization to date of death; median OS follow-up time for censored participants was 77.832 months for nab-Paclitaxel and gemcitabine and 77.799 months for gemcitabine alone\"; analysis population \"The intent-to-treat population consisted of all randomized participants regardless of whether the participant received any IP or had any efficacy assessment collected.\"; category \"75th Quartile\"; denominator \"Participants: 434\", group \"Gemcitabine\" had a reported median of 90.2 months.",
+    "revised_claim": "The outcome was \"Kaplan Meier Estimate of Overall Survival (OS)\". Under time frame \"From randomization to date of death; median OS follow-up time for censored participants was 77.832 months for nab-Paclitaxel and gemcitabine and 77.799 months for gemcitabine alone\"; analysis population \"The intent-to-treat population consisted of all randomized participants regardless of whether the participant received any IP or had any efficacy assessment collected.\"; category \"75th Quartile\"; denominator \"Participants: 434\", group \"Gemcitabine\" had a reported 75th percentile of 90.2 months."
+  }
+]

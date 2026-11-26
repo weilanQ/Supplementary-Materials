@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:23:57.1230478Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The time frame for the measurement includes Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks), and early withdrawal, as stated in the given context."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 405935100,
+    "load_duration": 5295300,
+    "prompt_eval_count": 1085,
+    "prompt_eval_cached_count": 1039,
+    "prompt_eval_duration": 17989000,
+    "eval_count": 45,
+    "eval_duration": 372087000
+  },
+  "text": "True. The time frame for the measurement includes Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks), and early withdrawal, as stated in the given context.",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 23: Phase 1: Tumor Marker Levels in Serum - Cancer Antigen 19-9\nDescription: Changes in tumor markers in serum relevant and specific to the underlying tumor disease was determined.\nTime frame: Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal\nAnalysis population: Pharmacodynamic population included all participants who received at least 1 therapeutic dose and with available post-baseline pharmacodynamics/efficacy data.\nStatistic: MEAN\nUnit of measure: international units/milliliter\nGroup: Cohort 1: 177Lu-3BP-227 2.5 GBq\nCategory: Cycle 1 Day 1\nDenominator: Participants: 2\nValue: 50019.00\nGroup: Cohort 2: 177Lu-3BP-227 4.0 GBq\nCategory: Cycle 1 Day 1\nDenominator: Participants: 1\nValue: 13.00\nGroup: Cohort 3: 177Lu-3BP-227 5.5 GBq\nCategory: Cycle 1 Day 1\nDenominator: Participants: 5\nValue: 20939.54\nGroup: Cohort 4: 177Lu-3BP-227 6.5 GBq\nCategory: Cycle 1 Day 1\nDenominator: Participants: 2\nValue: 1455.50\nGroup: Cohort 5: 177Lu-3BP-227 7.5 GBq\nCategory: Cycle 1 Day 1\nDenominator: Participants: 1\nValue: 314.70\nGroup: Cohort 1: 177Lu-3BP-227 2.5 GBq\nCategory: Cycle 2 Day 1\nDenominator: Participants: 1\nValue: 66.00\nGroup: Cohort 2: 177Lu-3BP-227 4.0 GBq\nCategory: Cycle 2 Day 1\nDenominator: Participants: 3\nValue: 456.33\nGroup: Cohort 3: 177Lu-3BP-227 5.5 GBq\nCategory: Cycle 2 Day 1\nDenominator: Participants: 3\nValue: 277.90\nGroup: Cohort 4: 177Lu-3BP-227 6.5 GBq\nCategory: Cycle 2 Day 1\nDenominator: Participants: 3\nValue: 18420.33\nGroup: Cohort 5: 177Lu-3BP-227 7.5 GBq\nCategory: Cycle 2 Day 1\nDenominator: Participants: 1\nValue: 490.50\nGroup: Cohort 1: 177Lu-3BP-227 2.5 GBq\nCategory: EOCT\nDenominator: Participants: 1\nValue: 112.00\nGroup: Cohort 2: 177Lu-3BP-227 4.0 GBq\nCategory: EOCT\nDenominator: Participants: 2\nValue: 928.00\nGroup: Cohort 3: 177Lu-3BP-227 5.5 GBq\nCategory: EOCT\nDenominator: Participants: 1\nValue: 1166.90\nGroup: Cohort 4: 177Lu-3BP-227 6.5 GBq\nCategory: EOCT\nDenominator: Participants: 1\nValue: 3532.00\nGroup: Cohort 5: 177Lu-3BP-227 7.5 GBq\nCategory: EOCT\nDenominator: Participants: 1\nValue: 629.90\nGroup: Cohort 3: 177Lu-3BP-227 5.5 GBq\nCategory: Early Withdrawal\nDenominator: Participants: 2\nValue: 64.90\nGroup: Cohort 4: 177Lu-3BP-227 6.5 GBq\nCategory: Early Withdrawal\nDenominator: Participants: 1\nValue: 8398.00\n\nInput: The time frame for the measurement is Cycle 1 Day 1, Cycle 2 Day 1, EOCT (maximum of 16 weeks) and early withdrawal. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.4094438000029186,
+  "call_id": "956877434dfd3947fcc3cf93ac38bd558ed9a5244dadc168eb4cca2176871bf6"
+}

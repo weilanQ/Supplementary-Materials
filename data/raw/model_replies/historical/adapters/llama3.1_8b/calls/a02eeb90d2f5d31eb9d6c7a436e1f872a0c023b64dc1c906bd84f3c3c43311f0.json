@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:30:43.7854142Z",
+    "message": {
+      "role": "assistant",
+      "content": "False.\n\nThe COUNT_OF_PARTICIPANTS for Confirmed irPR is 0."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 188984700,
+    "load_duration": 4858100,
+    "prompt_eval_count": 372,
+    "prompt_eval_cached_count": 346,
+    "prompt_eval_duration": 15486000,
+    "eval_count": 19,
+    "eval_duration": 157147000
+  },
+  "text": "False.\n\nThe COUNT_OF_PARTICIPANTS for Confirmed irPR is 0.",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 10: Disease Control Rate (Confirmed Complete Response, Partial Response, or Stable Disease Lasting for at Least 2 Months) by irRC\nDescription: Disease control is defined as subjects with a confirmed CR, PR, or SD lasting for at least 2 months.\nTime frame: Tumors were assessed at screening, and tumor response will be assessed every 8 weeks during the induction phase, and every 12 weeks during the maintenance phase until confirmed disease progression, up to 211 days\nAnalysis population: \nStatistic: COUNT_OF_PARTICIPANTS\nUnit of measure: Participants\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Confirmed irCR\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Confirmed irPR\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Unconfirmed irCR\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Unconfirmed irPR\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: irSD\nDenominator: Participants: 6\nValue: 4\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Unconfirmed irPD\nDenominator: Participants: 6\nValue: 0\nGroup: NANT Pancreatic Cancer Vaccine\nCategory: Confirmed irPD\nDenominator: Participants: 6\nValue: 2\n\nInput: The category for the COUNT_OF_PARTICIPANTS is Confirmed irPR. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.20918649999657646,
+  "call_id": "a02eeb90d2f5d31eb9d6c7a436e1f872a0c023b64dc1c906bd84f3c3c43311f0"
+}

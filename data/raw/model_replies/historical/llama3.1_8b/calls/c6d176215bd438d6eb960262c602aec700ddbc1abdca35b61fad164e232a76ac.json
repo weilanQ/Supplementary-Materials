@@ -1,0 +1,109 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:16:20.896395Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"SOT102 as Monotherapy (Part A)\",\n      \"endpoint\": \"DL2 0.064 mg/kg\",\n      \"unit\": \"mg/kg\",\n      \"statistic\": \"count\",\n      \"time\": \"From Day 1 of Cycle 1 until disease progression or start of new anticancer therapy, whichever is first, assessed up to approximately 2 years and 9 months\",\n      \"population\": \"Patients exposed to at least one dose of SOT102 who had at least one evaluable tumor assessment per RECIST v1.1 after the initiation of SOT102 treatment\",\n      \"denominator\": \"Participants: 9\",\n      \"category\": \"Evidence of SOT102 Activity in Monotherapy in Individual Patients - BOR: Complete Response\",\n      \"value\": 3,\n      \"quotes\": [\n        \"For SOT102 as Monotherapy (Part A) DL2 0.064 mg/kg, the reported COUNT_OF_PARTICIPANTS for Parts A and B (Monotherapy and Combination With SoC): Evidence of SOT102 Activity in Monotherapy in Individual Patients - BOR: Complete Response was 3 Participants\"\n      ]\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2392868400,
+    "load_duration": 5413400,
+    "prompt_eval_count": 391,
+    "prompt_eval_cached_count": 239,
+    "prompt_eval_duration": 46904000,
+    "eval_count": 262,
+    "eval_duration": 2299453000
+  },
+  "text": "{\n  \"complete\": true,\n  \"records\": [\n    {\n      \"group\": \"SOT102 as Monotherapy (Part A)\",\n      \"endpoint\": \"DL2 0.064 mg/kg\",\n      \"unit\": \"mg/kg\",\n      \"statistic\": \"count\",\n      \"time\": \"From Day 1 of Cycle 1 until disease progression or start of new anticancer therapy, whichever is first, assessed up to approximately 2 years and 9 months\",\n      \"population\": \"Patients exposed to at least one dose of SOT102 who had at least one evaluable tumor assessment per RECIST v1.1 after the initiation of SOT102 treatment\",\n      \"denominator\": \"Participants: 9\",\n      \"category\": \"Evidence of SOT102 Activity in Monotherapy in Individual Patients - BOR: Complete Response\",\n      \"value\": 3,\n      \"quotes\": [\n        \"For SOT102 as Monotherapy (Part A) DL2 0.064 mg/kg, the reported COUNT_OF_PARTICIPANTS for Parts A and B (Monotherapy and Combination With SoC): Evidence of SOT102 Activity in Monotherapy in Individual Patients - BOR: Complete Response was 3 Participants\"\n      ]\n    }\n  ]\n}",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Decompose this claim into ALL atomic numerical outcome relationships, without checking whether they are true. Return JSON with keys complete (boolean) and records (array). Each record must describe one group, endpoint, point value and its conditions. Resolve cross-sentence references from this claim only. Copy the group, endpoint, time frame, analysis population, category and denominator strings exactly as stated, removing only quotation delimiters. Do not omit a numeric relationship. Do not invent missing conditions: use empty string. A denominator such as Participants: 15 is NOT an analysis population. If no population description is stated, population MUST be empty. Do not copy a denominator into population. Preserve conditions shared by multiple records. A comparison, negation, approximate value or derived arithmetic that cannot be expressed as exact point records must set complete=false, never silently drop it.\nEvery record has string fields: group, endpoint, value (decimal only), unit, statistic, time, population, denominator, category; and quotes: an array of exact verbatim substrings from the claim supporting this decomposition. Statistic is mean, median, or count if stated. Return only JSON.\nCLAIM:\nFor SOT102 as Monotherapy (Part A) DL2 0.064 mg/kg, the reported COUNT_OF_PARTICIPANTS for Parts A and B (Monotherapy and Combination With SoC): Evidence of SOT102 Activity in Monotherapy in Individual Patients - BOR: Complete Response was 3 Participants (time frame: From Day 1 of Cycle 1 until disease progression or start of new anticancer therapy, whichever is first, assessed up to approximately 2 years and 9 months; denominator: Participants: 9; population: Patients exposed to at least one dose of SOT102 who had at least one evaluable tumor assessment per RECIST v1.1 after the initiation of SOT102 treatment)."
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 1024,
+      "num_ctx": 16384
+    },
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "group": {
+                "type": "string"
+              },
+              "endpoint": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "statistic": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "quotes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "group",
+              "endpoint",
+              "value",
+              "unit",
+              "statistic",
+              "time",
+              "population",
+              "denominator",
+              "category",
+              "quotes"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "records"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 2.397363200012478,
+  "call_id": "c6d176215bd438d6eb960262c602aec700ddbc1abdca35b61fad164e232a76ac"
+}

@@ -1,0 +1,641 @@
+model,id,trial,pair,kind,gold,direct,method,prediction,calls,tokens,seconds
+qwen2.5:7b,f525b043674f0dc2,NCT03122106,NCT03122106-C1,category,mismatch,mismatch,Direct,mismatch,1,775,2.5989906000031624
+qwen2.5:7b,f525b043674f0dc2,NCT03122106,NCT03122106-C1,category,mismatch,mismatch,Select,mismatch,1,1644,1.1043890000000829
+qwen2.5:7b,f525b043674f0dc2,NCT03122106,NCT03122106-C1,category,mismatch,mismatch,Select + Direct,mismatch,2,2419,3.7033796000032453
+qwen2.5:7b,f525b043674f0dc2,NCT03122106,NCT03122106-C1,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2419,3.7033796000032453
+qwen2.5:7b,26abf2b4520901b1,NCT05451849,NCT05451849-C2,category,mismatch,consistent,Direct,consistent,1,842,1.0439992000028724
+qwen2.5:7b,26abf2b4520901b1,NCT05451849,NCT05451849-C2,category,mismatch,consistent,Select,unclear,1,1529,2.478855100009241
+qwen2.5:7b,26abf2b4520901b1,NCT05451849,NCT05451849-C2,category,mismatch,consistent,Select + Direct,consistent,2,2371,3.5228543000121135
+qwen2.5:7b,26abf2b4520901b1,NCT05451849,NCT05451849-C2,category,mismatch,consistent,Ambiguity first + Direct,consistent,2,2371,3.5228543000121135
+qwen2.5:7b,78b1eb1b8b8807bd,NCT01784861,NCT01784861-C1,endpoint,consistent,consistent,Direct,consistent,1,581,0.69312660000287
+qwen2.5:7b,78b1eb1b8b8807bd,NCT01784861,NCT01784861-C1,endpoint,consistent,consistent,Select,consistent,1,513,0.9193185999902198
+qwen2.5:7b,78b1eb1b8b8807bd,NCT01784861,NCT01784861-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,1094,1.6124451999930898
+qwen2.5:7b,78b1eb1b8b8807bd,NCT01784861,NCT01784861-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,1094,1.6124451999930898
+qwen2.5:7b,a297bd568aa5ca0c,NCT03621982,NCT03621982-C1,endpoint,consistent,consistent,Direct,consistent,1,1557,1.074392499998794
+qwen2.5:7b,a297bd568aa5ca0c,NCT03621982,NCT03621982-C1,endpoint,consistent,consistent,Select,unclear,1,3407,1.5172923999925843
+qwen2.5:7b,a297bd568aa5ca0c,NCT03621982,NCT03621982-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,4964,2.591684899991378
+qwen2.5:7b,a297bd568aa5ca0c,NCT03621982,NCT03621982-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,4964,2.591684899991378
+qwen2.5:7b,376c779debcdd88c,NCT04683939,NCT04683939-C2,category,mismatch,consistent,Direct,consistent,1,1878,1.1110794999985956
+qwen2.5:7b,376c779debcdd88c,NCT04683939,NCT04683939-C2,category,mismatch,consistent,Select,unclear,1,5600,2.383121499995468
+qwen2.5:7b,376c779debcdd88c,NCT04683939,NCT04683939-C2,category,mismatch,consistent,Select + Direct,consistent,2,7478,3.4942009999940637
+qwen2.5:7b,376c779debcdd88c,NCT04683939,NCT04683939-C2,category,mismatch,consistent,Ambiguity first + Direct,consistent,2,7478,3.4942009999940637
+qwen2.5:7b,261b684dd59932a7,NCT01822756,NCT01822756-C1,group,consistent,mismatch,Direct,mismatch,1,1614,0.945316700002877
+qwen2.5:7b,261b684dd59932a7,NCT01822756,NCT01822756-C1,group,consistent,mismatch,Select,unclear,1,4598,1.9863527000125032
+qwen2.5:7b,261b684dd59932a7,NCT01822756,NCT01822756-C1,group,consistent,mismatch,Select + Direct,mismatch,2,6212,2.9316694000153802
+qwen2.5:7b,261b684dd59932a7,NCT01822756,NCT01822756-C1,group,consistent,mismatch,Ambiguity first + Direct,mismatch,2,6212,2.9316694000153802
+qwen2.5:7b,5b67d22e47516153,NCT06528093,NCT06528093-C1,endpoint,consistent,consistent,Direct,consistent,1,1218,1.1470608000090579
+qwen2.5:7b,5b67d22e47516153,NCT06528093,NCT06528093-C1,endpoint,consistent,consistent,Select,consistent,1,2529,1.738002999991295
+qwen2.5:7b,5b67d22e47516153,NCT06528093,NCT06528093-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,3747,2.885063800000353
+qwen2.5:7b,5b67d22e47516153,NCT06528093,NCT06528093-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,3747,2.885063800000353
+qwen2.5:7b,bf1c818f145b729b,NCT03637491,NCT03637491-C2,category,consistent,consistent,Direct,consistent,1,814,1.028610800000024
+qwen2.5:7b,bf1c818f145b729b,NCT03637491,NCT03637491-C2,category,consistent,consistent,Select,unclear,1,1268,1.7101806999999098
+qwen2.5:7b,bf1c818f145b729b,NCT03637491,NCT03637491-C2,category,consistent,consistent,Select + Direct,consistent,2,2082,2.738791499999934
+qwen2.5:7b,bf1c818f145b729b,NCT03637491,NCT03637491-C2,category,consistent,consistent,Ambiguity first + Direct,consistent,2,2082,2.738791499999934
+qwen2.5:7b,9878a802d625eb2a,NCT03490760,NCT03490760-C2,endpoint,mismatch,mismatch,Direct,mismatch,1,850,0.6952282000129344
+qwen2.5:7b,9878a802d625eb2a,NCT03490760,NCT03490760-C2,endpoint,mismatch,mismatch,Select,unclear,1,609,1.1524134000064805
+qwen2.5:7b,9878a802d625eb2a,NCT03490760,NCT03490760-C2,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1459,1.847641600019415
+qwen2.5:7b,9878a802d625eb2a,NCT03490760,NCT03490760-C2,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1459,1.847641600019415
+qwen2.5:7b,43bb999d0f66fec6,NCT05070247,NCT05070247-C1,endpoint,mismatch,consistent,Direct,consistent,1,1989,1.2037734000041382
+qwen2.5:7b,43bb999d0f66fec6,NCT05070247,NCT05070247-C1,endpoint,mismatch,consistent,Select,unclear,1,3966,1.7809540000016568
+qwen2.5:7b,43bb999d0f66fec6,NCT05070247,NCT05070247-C1,endpoint,mismatch,consistent,Select + Direct,consistent,2,5955,2.984727400005795
+qwen2.5:7b,43bb999d0f66fec6,NCT05070247,NCT05070247-C1,endpoint,mismatch,consistent,Ambiguity first + Direct,consistent,2,5955,2.984727400005795
+qwen2.5:7b,07d188b635525c0b,NCT01834235,NCT01834235-C2,group,consistent,mismatch,Direct,mismatch,1,583,0.6570723999902839
+qwen2.5:7b,07d188b635525c0b,NCT01834235,NCT01834235-C2,group,consistent,mismatch,Select,consistent,1,713,1.3855402000044705
+qwen2.5:7b,07d188b635525c0b,NCT01834235,NCT01834235-C2,group,consistent,mismatch,Select + Direct,consistent,2,1296,2.0426125999947544
+qwen2.5:7b,07d188b635525c0b,NCT01834235,NCT01834235-C2,group,consistent,mismatch,Ambiguity first + Direct,consistent,2,1296,2.0426125999947544
+qwen2.5:7b,f9dcdc329db2d728,NCT05546411,NCT05546411-C2,group,consistent,consistent,Direct,consistent,1,530,0.738403900002595
+qwen2.5:7b,f9dcdc329db2d728,NCT05546411,NCT05546411-C2,group,consistent,consistent,Select,unclear,1,752,1.502382899998338
+qwen2.5:7b,f9dcdc329db2d728,NCT05546411,NCT05546411-C2,group,consistent,consistent,Select + Direct,consistent,2,1282,2.240786800000933
+qwen2.5:7b,f9dcdc329db2d728,NCT05546411,NCT05546411-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1282,2.240786800000933
+qwen2.5:7b,892066a6d7aaf7c6,NCT03512756,NCT03512756-C2,group,consistent,consistent,Direct,consistent,1,627,0.777018600012525
+qwen2.5:7b,892066a6d7aaf7c6,NCT03512756,NCT03512756-C2,group,consistent,consistent,Select,unclear,1,919,1.3620504999998957
+qwen2.5:7b,892066a6d7aaf7c6,NCT03512756,NCT03512756-C2,group,consistent,consistent,Select + Direct,consistent,2,1546,2.1390691000124207
+qwen2.5:7b,892066a6d7aaf7c6,NCT03512756,NCT03512756-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1546,2.1390691000124207
+qwen2.5:7b,0b2d9de14f4f9d1a,NCT03637491,NCT03637491-C2,category,mismatch,consistent,Direct,consistent,1,810,0.9078628999995999
+qwen2.5:7b,0b2d9de14f4f9d1a,NCT03637491,NCT03637491-C2,category,mismatch,consistent,Select,unclear,1,1266,1.67479540000204
+qwen2.5:7b,0b2d9de14f4f9d1a,NCT03637491,NCT03637491-C2,category,mismatch,consistent,Select + Direct,consistent,2,2076,2.58265830000164
+qwen2.5:7b,0b2d9de14f4f9d1a,NCT03637491,NCT03637491-C2,category,mismatch,consistent,Ambiguity first + Direct,consistent,2,2076,2.58265830000164
+qwen2.5:7b,41d5fceceee51ab9,NCT02020252,NCT02020252-C2,category,mismatch,mismatch,Direct,mismatch,1,853,1.1509510000032606
+qwen2.5:7b,41d5fceceee51ab9,NCT02020252,NCT02020252-C2,category,mismatch,mismatch,Select,unclear,1,1512,1.2179467999958433
+qwen2.5:7b,41d5fceceee51ab9,NCT02020252,NCT02020252-C2,category,mismatch,mismatch,Select + Direct,mismatch,2,2365,2.368897799999104
+qwen2.5:7b,41d5fceceee51ab9,NCT02020252,NCT02020252-C2,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2365,2.368897799999104
+qwen2.5:7b,f7878df262a5c246,NCT02715804,NCT02715804-C2,group,mismatch,consistent,Direct,consistent,1,1949,1.1581186999974307
+qwen2.5:7b,f7878df262a5c246,NCT02715804,NCT02715804-C2,group,mismatch,consistent,Select,unclear,1,4672,2.220443099999102
+qwen2.5:7b,f7878df262a5c246,NCT02715804,NCT02715804-C2,group,mismatch,consistent,Select + Direct,consistent,2,6621,3.3785617999965325
+qwen2.5:7b,f7878df262a5c246,NCT02715804,NCT02715804-C2,group,mismatch,consistent,Ambiguity first + Direct,consistent,2,6621,3.3785617999965325
+qwen2.5:7b,7fff7fac17fc9c41,NCT03099265,NCT03099265-C1,category,consistent,consistent,Direct,consistent,1,405,0.7531562000076519
+qwen2.5:7b,7fff7fac17fc9c41,NCT03099265,NCT03099265-C1,category,consistent,consistent,Select,unclear,1,488,0.812935900001321
+qwen2.5:7b,7fff7fac17fc9c41,NCT03099265,NCT03099265-C1,category,consistent,consistent,Select + Direct,consistent,2,893,1.566092100008973
+qwen2.5:7b,7fff7fac17fc9c41,NCT03099265,NCT03099265-C1,category,consistent,consistent,Ambiguity first + Direct,consistent,2,893,1.566092100008973
+qwen2.5:7b,dcc50459dbcd42db,NCT03621982,NCT03621982-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,1575,0.914661700007855
+qwen2.5:7b,dcc50459dbcd42db,NCT03621982,NCT03621982-C1,endpoint,mismatch,mismatch,Select,unclear,1,3407,1.4738688999932492
+qwen2.5:7b,dcc50459dbcd42db,NCT03621982,NCT03621982-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,4982,2.388530600001104
+qwen2.5:7b,dcc50459dbcd42db,NCT03621982,NCT03621982-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,4982,2.388530600001104
+qwen2.5:7b,509991627f8513b8,NCT01834235,NCT01834235-C1,group,mismatch,mismatch,Direct,mismatch,1,566,0.8077275999967242
+qwen2.5:7b,509991627f8513b8,NCT01834235,NCT01834235-C1,group,mismatch,mismatch,Select,mismatch,1,704,1.4185902000026545
+qwen2.5:7b,509991627f8513b8,NCT01834235,NCT01834235-C1,group,mismatch,mismatch,Select + Direct,mismatch,2,1270,2.2263177999993786
+qwen2.5:7b,509991627f8513b8,NCT01834235,NCT01834235-C1,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1270,2.2263177999993786
+qwen2.5:7b,84b21a7ce02b5a43,NCT04683939,NCT04683939-C1,group,mismatch,mismatch,Direct,mismatch,1,1882,1.1608135999995284
+qwen2.5:7b,84b21a7ce02b5a43,NCT04683939,NCT04683939-C1,group,mismatch,mismatch,Select,unclear,1,5800,2.3831093000044348
+qwen2.5:7b,84b21a7ce02b5a43,NCT04683939,NCT04683939-C1,group,mismatch,mismatch,Select + Direct,mismatch,2,7682,3.543922900003963
+qwen2.5:7b,84b21a7ce02b5a43,NCT04683939,NCT04683939-C1,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,7682,3.543922900003963
+qwen2.5:7b,31720329884d1290,NCT04683939,NCT04683939-C1,group,consistent,mismatch,Direct,mismatch,1,1922,1.279401499996311
+qwen2.5:7b,31720329884d1290,NCT04683939,NCT04683939-C1,group,consistent,mismatch,Select,unclear,1,5800,2.3854159000038635
+qwen2.5:7b,31720329884d1290,NCT04683939,NCT04683939-C1,group,consistent,mismatch,Select + Direct,mismatch,2,7722,3.6648174000001745
+qwen2.5:7b,31720329884d1290,NCT04683939,NCT04683939-C1,group,consistent,mismatch,Ambiguity first + Direct,mismatch,2,7722,3.6648174000001745
+qwen2.5:7b,c78f0e4045f723de,NCT04985604,NCT04985604-C2,group,mismatch,consistent,Direct,consistent,1,1178,1.166063100012252
+qwen2.5:7b,c78f0e4045f723de,NCT04985604,NCT04985604-C2,group,mismatch,consistent,Select,unclear,1,2622,1.4808401000045706
+qwen2.5:7b,c78f0e4045f723de,NCT04985604,NCT04985604-C2,group,mismatch,consistent,Select + Direct,consistent,2,3800,2.6469032000168227
+qwen2.5:7b,c78f0e4045f723de,NCT04985604,NCT04985604-C2,group,mismatch,consistent,Ambiguity first + Direct,consistent,2,3800,2.6469032000168227
+qwen2.5:7b,8468afa9bcb26ead,NCT02715804,NCT02715804-C1,endpoint,mismatch,consistent,Direct,consistent,1,943,0.842566600011196
+qwen2.5:7b,8468afa9bcb26ead,NCT02715804,NCT02715804-C1,endpoint,mismatch,consistent,Select,mismatch,1,1118,1.4884415999986231
+qwen2.5:7b,8468afa9bcb26ead,NCT02715804,NCT02715804-C1,endpoint,mismatch,consistent,Select + Direct,mismatch,2,2061,2.331008200009819
+qwen2.5:7b,8468afa9bcb26ead,NCT02715804,NCT02715804-C1,endpoint,mismatch,consistent,Ambiguity first + Direct,mismatch,2,2061,2.331008200009819
+qwen2.5:7b,7eac503f63fcd7ee,NCT03099265,NCT03099265-C2,category,consistent,mismatch,Direct,mismatch,1,558,0.7529153000068618
+qwen2.5:7b,7eac503f63fcd7ee,NCT03099265,NCT03099265-C2,category,consistent,mismatch,Select,unclear,1,623,0.8381283999915468
+qwen2.5:7b,7eac503f63fcd7ee,NCT03099265,NCT03099265-C2,category,consistent,mismatch,Select + Direct,mismatch,2,1181,1.5910436999984086
+qwen2.5:7b,7eac503f63fcd7ee,NCT03099265,NCT03099265-C2,category,consistent,mismatch,Ambiguity first + Direct,mismatch,2,1181,1.5910436999984086
+qwen2.5:7b,2377fe7ecca2b30c,NCT06528093,NCT06528093-C1,endpoint,mismatch,consistent,Direct,consistent,1,1210,0.9064992000057828
+qwen2.5:7b,2377fe7ecca2b30c,NCT06528093,NCT06528093-C1,endpoint,mismatch,consistent,Select,unclear,1,2529,1.7563169999921229
+qwen2.5:7b,2377fe7ecca2b30c,NCT06528093,NCT06528093-C1,endpoint,mismatch,consistent,Select + Direct,consistent,2,3739,2.6628161999979056
+qwen2.5:7b,2377fe7ecca2b30c,NCT06528093,NCT06528093-C1,endpoint,mismatch,consistent,Ambiguity first + Direct,consistent,2,3739,2.6628161999979056
+qwen2.5:7b,d388496133eaa4e8,NCT01822756,NCT01822756-C2,category,mismatch,mismatch,Direct,mismatch,1,1640,0.8595026999973925
+qwen2.5:7b,d388496133eaa4e8,NCT01822756,NCT01822756-C2,category,mismatch,mismatch,Select,unclear,1,4606,1.978241100005107
+qwen2.5:7b,d388496133eaa4e8,NCT01822756,NCT01822756-C2,category,mismatch,mismatch,Select + Direct,mismatch,2,6246,2.8377438000024995
+qwen2.5:7b,d388496133eaa4e8,NCT01822756,NCT01822756-C2,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,6246,2.8377438000024995
+qwen2.5:7b,4886f35c71914dc7,NCT01784861,NCT01784861-C2,group,consistent,mismatch,Direct,mismatch,1,759,0.9806031999905827
+qwen2.5:7b,4886f35c71914dc7,NCT01784861,NCT01784861-C2,group,consistent,mismatch,Select,unclear,1,1512,2.0665468000079272
+qwen2.5:7b,4886f35c71914dc7,NCT01784861,NCT01784861-C2,group,consistent,mismatch,Select + Direct,mismatch,2,2271,3.04714999999851
+qwen2.5:7b,4886f35c71914dc7,NCT01784861,NCT01784861-C2,group,consistent,mismatch,Ambiguity first + Direct,mismatch,2,2271,3.04714999999851
+qwen2.5:7b,cb98757a0bb74075,NCT03490760,NCT03490760-C2,endpoint,consistent,mismatch,Direct,mismatch,1,892,0.9203077999991365
+qwen2.5:7b,cb98757a0bb74075,NCT03490760,NCT03490760-C2,endpoint,consistent,mismatch,Select,mismatch,1,611,1.1756572000012966
+qwen2.5:7b,cb98757a0bb74075,NCT03490760,NCT03490760-C2,endpoint,consistent,mismatch,Select + Direct,mismatch,2,1503,2.095965000000433
+qwen2.5:7b,cb98757a0bb74075,NCT03490760,NCT03490760-C2,endpoint,consistent,mismatch,Ambiguity first + Direct,mismatch,2,1503,2.095965000000433
+qwen2.5:7b,fdd6323267326f73,NCT04683939,NCT04683939-C2,category,consistent,mismatch,Direct,mismatch,1,1909,1.0211765999993077
+qwen2.5:7b,fdd6323267326f73,NCT04683939,NCT04683939-C2,category,consistent,mismatch,Select,unclear,1,5599,2.327759199994034
+qwen2.5:7b,fdd6323267326f73,NCT04683939,NCT04683939-C2,category,consistent,mismatch,Select + Direct,mismatch,2,7508,3.348935799993342
+qwen2.5:7b,fdd6323267326f73,NCT04683939,NCT04683939-C2,category,consistent,mismatch,Ambiguity first + Direct,mismatch,2,7508,3.348935799993342
+qwen2.5:7b,4d7411c47c055140,NCT02839343,NCT02839343-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,670,0.8463618000096176
+qwen2.5:7b,4d7411c47c055140,NCT02839343,NCT02839343-C1,endpoint,mismatch,mismatch,Select,mismatch,1,760,1.060795400000643
+qwen2.5:7b,4d7411c47c055140,NCT02839343,NCT02839343-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1430,1.9071572000102606
+qwen2.5:7b,4d7411c47c055140,NCT02839343,NCT02839343-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1430,1.9071572000102606
+qwen2.5:7b,e8372378d9e4a3e3,NCT03099265,NCT03099265-C2,category,mismatch,mismatch,Direct,mismatch,1,585,0.9066395999980159
+qwen2.5:7b,e8372378d9e4a3e3,NCT03099265,NCT03099265-C2,category,mismatch,mismatch,Select,unclear,1,623,0.8562261000042781
+qwen2.5:7b,e8372378d9e4a3e3,NCT03099265,NCT03099265-C2,category,mismatch,mismatch,Select + Direct,mismatch,2,1208,1.762865700002294
+qwen2.5:7b,e8372378d9e4a3e3,NCT03099265,NCT03099265-C2,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1208,1.762865700002294
+qwen2.5:7b,80dd52cded506bba,NCT03512756,NCT03512756-C1,group,consistent,consistent,Direct,consistent,1,545,0.7279965999914566
+qwen2.5:7b,80dd52cded506bba,NCT03512756,NCT03512756-C1,group,consistent,consistent,Select,consistent,1,888,1.2590851999993902
+qwen2.5:7b,80dd52cded506bba,NCT03512756,NCT03512756-C1,group,consistent,consistent,Select + Direct,consistent,2,1433,1.9870817999908468
+qwen2.5:7b,80dd52cded506bba,NCT03512756,NCT03512756-C1,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1433,1.9870817999908468
+qwen2.5:7b,a26cee208d250638,NCT04808362,NCT04808362-C2,category,mismatch,consistent,Direct,consistent,1,498,0.7323822000034852
+qwen2.5:7b,a26cee208d250638,NCT04808362,NCT04808362-C2,category,mismatch,consistent,Select,mismatch,1,754,1.121791800003848
+qwen2.5:7b,a26cee208d250638,NCT04808362,NCT04808362-C2,category,mismatch,consistent,Select + Direct,mismatch,2,1252,1.8541740000073332
+qwen2.5:7b,a26cee208d250638,NCT04808362,NCT04808362-C2,category,mismatch,consistent,Ambiguity first + Direct,mismatch,2,1252,1.8541740000073332
+qwen2.5:7b,8e30e4467752294f,NCT03122106,NCT03122106-C1,category,consistent,mismatch,Direct,mismatch,1,787,0.8230069999990519
+qwen2.5:7b,8e30e4467752294f,NCT03122106,NCT03122106-C1,category,consistent,mismatch,Select,consistent,1,1647,1.0748481999908108
+qwen2.5:7b,8e30e4467752294f,NCT03122106,NCT03122106-C1,category,consistent,mismatch,Select + Direct,consistent,2,2434,1.8978551999898627
+qwen2.5:7b,8e30e4467752294f,NCT03122106,NCT03122106-C1,category,consistent,mismatch,Ambiguity first + Direct,consistent,2,2434,1.8978551999898627
+qwen2.5:7b,8f2afae4381a67f9,NCT05546411,NCT05546411-C1,group,consistent,consistent,Direct,consistent,1,601,0.7832760000019334
+qwen2.5:7b,8f2afae4381a67f9,NCT05546411,NCT05546411-C1,group,consistent,consistent,Select,consistent,1,684,1.174033999996027
+qwen2.5:7b,8f2afae4381a67f9,NCT05546411,NCT05546411-C1,group,consistent,consistent,Select + Direct,consistent,2,1285,1.9573099999979604
+qwen2.5:7b,8f2afae4381a67f9,NCT05546411,NCT05546411-C1,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1285,1.9573099999979604
+qwen2.5:7b,402b4e88e2cd8814,NCT03637491,NCT03637491-C1,group,consistent,consistent,Direct,consistent,1,696,0.7270994999998948
+qwen2.5:7b,402b4e88e2cd8814,NCT03637491,NCT03637491-C1,group,consistent,consistent,Select,consistent,1,1070,1.4006736000010278
+qwen2.5:7b,402b4e88e2cd8814,NCT03637491,NCT03637491-C1,group,consistent,consistent,Select + Direct,consistent,2,1766,2.1277731000009226
+qwen2.5:7b,402b4e88e2cd8814,NCT03637491,NCT03637491-C1,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1766,2.1277731000009226
+qwen2.5:7b,3a93e371a43b51d6,NCT04985604,NCT04985604-C2,group,consistent,consistent,Direct,consistent,1,1154,0.7794067999930121
+qwen2.5:7b,3a93e371a43b51d6,NCT04985604,NCT04985604-C2,group,consistent,consistent,Select,unclear,1,2624,1.5018696000042837
+qwen2.5:7b,3a93e371a43b51d6,NCT04985604,NCT04985604-C2,group,consistent,consistent,Select + Direct,consistent,2,3778,2.281276399997296
+qwen2.5:7b,3a93e371a43b51d6,NCT04985604,NCT04985604-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,3778,2.281276399997296
+qwen2.5:7b,e8de5d52b6d50d30,NCT01822756,NCT01822756-C1,group,mismatch,mismatch,Direct,mismatch,1,1611,0.6860174000030383
+qwen2.5:7b,e8de5d52b6d50d30,NCT01822756,NCT01822756-C1,group,mismatch,mismatch,Select,unclear,1,4598,1.980750699993223
+qwen2.5:7b,e8de5d52b6d50d30,NCT01822756,NCT01822756-C1,group,mismatch,mismatch,Select + Direct,mismatch,2,6209,2.6667680999962613
+qwen2.5:7b,e8de5d52b6d50d30,NCT01822756,NCT01822756-C1,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,6209,2.6667680999962613
+qwen2.5:7b,86dd1cb42d9dc09b,NCT03637491,NCT03637491-C1,group,mismatch,mismatch,Direct,mismatch,1,749,1.1415621000051033
+qwen2.5:7b,86dd1cb42d9dc09b,NCT03637491,NCT03637491-C1,group,mismatch,mismatch,Select,mismatch,1,1070,1.3245970999996644
+qwen2.5:7b,86dd1cb42d9dc09b,NCT03637491,NCT03637491-C1,group,mismatch,mismatch,Select + Direct,mismatch,2,1819,2.4661592000047676
+qwen2.5:7b,86dd1cb42d9dc09b,NCT03637491,NCT03637491-C1,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1819,2.4661592000047676
+qwen2.5:7b,13ffa2e2d4e3045a,NCT04985604,NCT04985604-C1,endpoint,consistent,consistent,Direct,consistent,1,619,0.7495513000030769
+qwen2.5:7b,13ffa2e2d4e3045a,NCT04985604,NCT04985604-C1,endpoint,consistent,consistent,Select,unclear,1,374,1.2093934000004083
+qwen2.5:7b,13ffa2e2d4e3045a,NCT04985604,NCT04985604-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,993,1.9589447000034852
+qwen2.5:7b,13ffa2e2d4e3045a,NCT04985604,NCT04985604-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,993,1.9589447000034852
+qwen2.5:7b,45ef97c76fdd7158,NCT03449030,NCT03449030-C2,group,consistent,consistent,Direct,consistent,1,980,0.9007620999909705
+qwen2.5:7b,45ef97c76fdd7158,NCT03449030,NCT03449030-C2,group,consistent,consistent,Select,consistent,1,2032,1.8403592000104254
+qwen2.5:7b,45ef97c76fdd7158,NCT03449030,NCT03449030-C2,group,consistent,consistent,Select + Direct,consistent,2,3012,2.741121300001396
+qwen2.5:7b,45ef97c76fdd7158,NCT03449030,NCT03449030-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,3012,2.741121300001396
+qwen2.5:7b,fd0a801e29bcea0e,NCT03099265,NCT03099265-C1,category,mismatch,mismatch,Direct,mismatch,1,413,0.8024565000087023
+qwen2.5:7b,fd0a801e29bcea0e,NCT03099265,NCT03099265-C1,category,mismatch,mismatch,Select,unclear,1,488,0.8167900999978883
+qwen2.5:7b,fd0a801e29bcea0e,NCT03099265,NCT03099265-C1,category,mismatch,mismatch,Select + Direct,mismatch,2,901,1.6192466000065906
+qwen2.5:7b,fd0a801e29bcea0e,NCT03099265,NCT03099265-C1,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,901,1.6192466000065906
+qwen2.5:7b,097ed93efae7e799,NCT05451849,NCT05451849-C1,endpoint,consistent,consistent,Direct,consistent,1,567,0.7661324000073364
+qwen2.5:7b,097ed93efae7e799,NCT05451849,NCT05451849-C1,endpoint,consistent,consistent,Select,consistent,1,568,1.0584518999967258
+qwen2.5:7b,097ed93efae7e799,NCT05451849,NCT05451849-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,1135,1.8245843000040622
+qwen2.5:7b,097ed93efae7e799,NCT05451849,NCT05451849-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,1135,1.8245843000040622
+qwen2.5:7b,c2f0399cc7ff8116,NCT03621982,NCT03621982-C2,group,mismatch,consistent,Direct,consistent,1,3573,1.5816290999937337
+qwen2.5:7b,c2f0399cc7ff8116,NCT03621982,NCT03621982-C2,group,mismatch,consistent,Select,unclear,1,10597,3.195866699999897
+qwen2.5:7b,c2f0399cc7ff8116,NCT03621982,NCT03621982-C2,group,mismatch,consistent,Select + Direct,consistent,2,14170,4.7774957999936305
+qwen2.5:7b,c2f0399cc7ff8116,NCT03621982,NCT03621982-C2,group,mismatch,consistent,Ambiguity first + Direct,consistent,2,14170,4.7774957999936305
+qwen2.5:7b,26e39ab800c224ed,NCT05070247,NCT05070247-C2,group,mismatch,mismatch,Direct,mismatch,1,1214,1.156520400007139
+qwen2.5:7b,26e39ab800c224ed,NCT05070247,NCT05070247-C2,group,mismatch,mismatch,Select,unclear,1,2644,1.594987599994056
+qwen2.5:7b,26e39ab800c224ed,NCT05070247,NCT05070247-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,3858,2.751508000001195
+qwen2.5:7b,26e39ab800c224ed,NCT05070247,NCT05070247-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,3858,2.751508000001195
+qwen2.5:7b,4db5c8a6191d28fb,NCT03512756,NCT03512756-C1,group,mismatch,mismatch,Direct,mismatch,1,578,1.013101300006383
+qwen2.5:7b,4db5c8a6191d28fb,NCT03512756,NCT03512756-C1,group,mismatch,mismatch,Select,mismatch,1,888,1.2811565999872983
+qwen2.5:7b,4db5c8a6191d28fb,NCT03512756,NCT03512756-C1,group,mismatch,mismatch,Select + Direct,mismatch,2,1466,2.2942578999936813
+qwen2.5:7b,4db5c8a6191d28fb,NCT03512756,NCT03512756-C1,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1466,2.2942578999936813
+qwen2.5:7b,ddc0d33c548e16b1,NCT02839343,NCT02839343-C2,group,mismatch,mismatch,Direct,mismatch,1,547,0.8946823000005679
+qwen2.5:7b,ddc0d33c548e16b1,NCT02839343,NCT02839343-C2,group,mismatch,mismatch,Select,mismatch,1,546,0.9813786000013351
+qwen2.5:7b,ddc0d33c548e16b1,NCT02839343,NCT02839343-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,1093,1.876060900001903
+qwen2.5:7b,ddc0d33c548e16b1,NCT02839343,NCT02839343-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1093,1.876060900001903
+qwen2.5:7b,47754a84c1404f3f,NCT03122106,NCT03122106-C2,category,consistent,mismatch,Direct,mismatch,1,797,0.8877664000028744
+qwen2.5:7b,47754a84c1404f3f,NCT03122106,NCT03122106-C2,category,consistent,mismatch,Select,unclear,1,1649,1.0646653000003425
+qwen2.5:7b,47754a84c1404f3f,NCT03122106,NCT03122106-C2,category,consistent,mismatch,Select + Direct,mismatch,2,2446,1.952431700003217
+qwen2.5:7b,47754a84c1404f3f,NCT03122106,NCT03122106-C2,category,consistent,mismatch,Ambiguity first + Direct,mismatch,2,2446,1.952431700003217
+qwen2.5:7b,b6c13f97c1e29341,NCT03490760,NCT03490760-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,582,0.8031604999996489
+qwen2.5:7b,b6c13f97c1e29341,NCT03490760,NCT03490760-C1,endpoint,mismatch,mismatch,Select,mismatch,1,521,1.0016632000042591
+qwen2.5:7b,b6c13f97c1e29341,NCT03490760,NCT03490760-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1103,1.804823700003908
+qwen2.5:7b,b6c13f97c1e29341,NCT03490760,NCT03490760-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1103,1.804823700003908
+qwen2.5:7b,3eaacfa41b21edc3,NCT04808362,NCT04808362-C2,category,consistent,mismatch,Direct,mismatch,1,511,0.8398113000002922
+qwen2.5:7b,3eaacfa41b21edc3,NCT04808362,NCT04808362-C2,category,consistent,mismatch,Select,unclear,1,758,1.0868754999974044
+qwen2.5:7b,3eaacfa41b21edc3,NCT04808362,NCT04808362-C2,category,consistent,mismatch,Select + Direct,mismatch,2,1269,1.9266867999976967
+qwen2.5:7b,3eaacfa41b21edc3,NCT04808362,NCT04808362-C2,category,consistent,mismatch,Ambiguity first + Direct,mismatch,2,1269,1.9266867999976967
+qwen2.5:7b,56478d6f78d6ca5d,NCT01822756,NCT01822756-C2,category,consistent,consistent,Direct,consistent,1,1631,0.7942588000005344
+qwen2.5:7b,56478d6f78d6ca5d,NCT01822756,NCT01822756-C2,category,consistent,consistent,Select,unclear,1,4606,1.9894130999891786
+qwen2.5:7b,56478d6f78d6ca5d,NCT01822756,NCT01822756-C2,category,consistent,consistent,Select + Direct,consistent,2,6237,2.783671899989713
+qwen2.5:7b,56478d6f78d6ca5d,NCT01822756,NCT01822756-C2,category,consistent,consistent,Ambiguity first + Direct,consistent,2,6237,2.783671899989713
+qwen2.5:7b,d4bbb4998df51da1,NCT04985604,NCT04985604-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,641,0.905030900001293
+qwen2.5:7b,d4bbb4998df51da1,NCT04985604,NCT04985604-C1,endpoint,mismatch,mismatch,Select,unclear,1,365,1.1216230999998515
+qwen2.5:7b,d4bbb4998df51da1,NCT04985604,NCT04985604-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1006,2.0266540000011446
+qwen2.5:7b,d4bbb4998df51da1,NCT04985604,NCT04985604-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1006,2.0266540000011446
+qwen2.5:7b,284b0c769ed636e5,NCT02020252,NCT02020252-C1,category,mismatch,mismatch,Direct,mismatch,1,816,0.7148053999990225
+qwen2.5:7b,284b0c769ed636e5,NCT02020252,NCT02020252-C1,category,mismatch,mismatch,Select,mismatch,1,1517,1.2848219000006793
+qwen2.5:7b,284b0c769ed636e5,NCT02020252,NCT02020252-C1,category,mismatch,mismatch,Select + Direct,mismatch,2,2333,1.9996272999997018
+qwen2.5:7b,284b0c769ed636e5,NCT02020252,NCT02020252-C1,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2333,1.9996272999997018
+qwen2.5:7b,5987a60ff4b6bc53,NCT03122106,NCT03122106-C2,category,mismatch,mismatch,Direct,mismatch,1,761,0.6380865000101039
+qwen2.5:7b,5987a60ff4b6bc53,NCT03122106,NCT03122106-C2,category,mismatch,mismatch,Select,unclear,1,1646,1.0639311000122689
+qwen2.5:7b,5987a60ff4b6bc53,NCT03122106,NCT03122106-C2,category,mismatch,mismatch,Select + Direct,mismatch,2,2407,1.7020176000223728
+qwen2.5:7b,5987a60ff4b6bc53,NCT03122106,NCT03122106-C2,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2407,1.7020176000223728
+qwen2.5:7b,1ce3a6faba7cc16a,NCT02715804,NCT02715804-C1,endpoint,consistent,consistent,Direct,consistent,1,941,0.7099276000080863
+qwen2.5:7b,1ce3a6faba7cc16a,NCT02715804,NCT02715804-C1,endpoint,consistent,consistent,Select,unclear,1,1112,1.4953611999953864
+qwen2.5:7b,1ce3a6faba7cc16a,NCT02715804,NCT02715804-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,2053,2.2052888000034727
+qwen2.5:7b,1ce3a6faba7cc16a,NCT02715804,NCT02715804-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,2053,2.2052888000034727
+qwen2.5:7b,5835bfc4bfeb30be,NCT05546411,NCT05546411-C1,group,mismatch,mismatch,Direct,mismatch,1,634,1.0091035999939777
+qwen2.5:7b,5835bfc4bfeb30be,NCT05546411,NCT05546411-C1,group,mismatch,mismatch,Select,mismatch,1,684,1.1678226999938488
+qwen2.5:7b,5835bfc4bfeb30be,NCT05546411,NCT05546411-C1,group,mismatch,mismatch,Select + Direct,mismatch,2,1318,2.1769262999878265
+qwen2.5:7b,5835bfc4bfeb30be,NCT05546411,NCT05546411-C1,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1318,2.1769262999878265
+qwen2.5:7b,b53ecfe4627f5c16,NCT03490760,NCT03490760-C1,endpoint,consistent,consistent,Direct,consistent,1,570,0.618594600004144
+qwen2.5:7b,b53ecfe4627f5c16,NCT03490760,NCT03490760-C1,endpoint,consistent,consistent,Select,consistent,1,521,0.9996401999960653
+qwen2.5:7b,b53ecfe4627f5c16,NCT03490760,NCT03490760-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,1091,1.6182348000002094
+qwen2.5:7b,b53ecfe4627f5c16,NCT03490760,NCT03490760-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,1091,1.6182348000002094
+qwen2.5:7b,be839cc98021c5d3,NCT06528093,NCT06528093-C2,group,consistent,consistent,Direct,consistent,1,896,0.9926130999956513
+qwen2.5:7b,be839cc98021c5d3,NCT06528093,NCT06528093-C2,group,consistent,consistent,Select,unclear,1,1998,1.689418800000567
+qwen2.5:7b,be839cc98021c5d3,NCT06528093,NCT06528093-C2,group,consistent,consistent,Select + Direct,consistent,2,2894,2.6820318999962183
+qwen2.5:7b,be839cc98021c5d3,NCT06528093,NCT06528093-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,2894,2.6820318999962183
+qwen2.5:7b,c777312f194cb1b5,NCT03449030,NCT03449030-C1,endpoint,consistent,consistent,Direct,consistent,1,1349,0.9522795999946538
+qwen2.5:7b,c777312f194cb1b5,NCT03449030,NCT03449030-C1,endpoint,consistent,consistent,Select,consistent,1,2966,1.6880640000017593
+qwen2.5:7b,c777312f194cb1b5,NCT03449030,NCT03449030-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,4315,2.640343599996413
+qwen2.5:7b,c777312f194cb1b5,NCT03449030,NCT03449030-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,4315,2.640343599996413
+qwen2.5:7b,b0bfeb35cfbaee33,NCT04808362,NCT04808362-C1,category,mismatch,mismatch,Direct,mismatch,1,506,0.8443555999983801
+qwen2.5:7b,b0bfeb35cfbaee33,NCT04808362,NCT04808362-C1,category,mismatch,mismatch,Select,unclear,1,755,1.0893935999920359
+qwen2.5:7b,b0bfeb35cfbaee33,NCT04808362,NCT04808362-C1,category,mismatch,mismatch,Select + Direct,mismatch,2,1261,1.933749199990416
+qwen2.5:7b,b0bfeb35cfbaee33,NCT04808362,NCT04808362-C1,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1261,1.933749199990416
+qwen2.5:7b,6e9c6d9417778b4f,NCT05070247,NCT05070247-C2,group,consistent,mismatch,Direct,mismatch,1,1169,0.550445300003048
+qwen2.5:7b,6e9c6d9417778b4f,NCT05070247,NCT05070247-C2,group,consistent,mismatch,Select,unclear,1,2642,1.5770392999984324
+qwen2.5:7b,6e9c6d9417778b4f,NCT05070247,NCT05070247-C2,group,consistent,mismatch,Select + Direct,mismatch,2,3811,2.1274846000014804
+qwen2.5:7b,6e9c6d9417778b4f,NCT05070247,NCT05070247-C2,group,consistent,mismatch,Ambiguity first + Direct,mismatch,2,3811,2.1274846000014804
+qwen2.5:7b,d825ff13c99f8e5e,NCT02020252,NCT02020252-C2,category,consistent,mismatch,Direct,mismatch,1,838,0.9321532999892952
+qwen2.5:7b,d825ff13c99f8e5e,NCT02020252,NCT02020252-C2,category,consistent,mismatch,Select,unclear,1,1512,1.2240441000030842
+qwen2.5:7b,d825ff13c99f8e5e,NCT02020252,NCT02020252-C2,category,consistent,mismatch,Select + Direct,mismatch,2,2350,2.1561973999923794
+qwen2.5:7b,d825ff13c99f8e5e,NCT02020252,NCT02020252-C2,category,consistent,mismatch,Ambiguity first + Direct,mismatch,2,2350,2.1561973999923794
+qwen2.5:7b,c25927f0370169b3,NCT01784861,NCT01784861-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,592,0.7572805999952834
+qwen2.5:7b,c25927f0370169b3,NCT01784861,NCT01784861-C1,endpoint,mismatch,mismatch,Select,mismatch,1,513,0.8971268000022974
+qwen2.5:7b,c25927f0370169b3,NCT01784861,NCT01784861-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1105,1.6544073999975808
+qwen2.5:7b,c25927f0370169b3,NCT01784861,NCT01784861-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1105,1.6544073999975808
+qwen2.5:7b,664adc510fc2208a,NCT05070247,NCT05070247-C1,endpoint,consistent,consistent,Direct,consistent,1,1972,0.7490542000014102
+qwen2.5:7b,664adc510fc2208a,NCT05070247,NCT05070247-C1,endpoint,consistent,consistent,Select,unclear,1,3975,1.8179476000077557
+qwen2.5:7b,664adc510fc2208a,NCT05070247,NCT05070247-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,5947,2.567001800009166
+qwen2.5:7b,664adc510fc2208a,NCT05070247,NCT05070247-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,5947,2.567001800009166
+qwen2.5:7b,2d1e6a785321557c,NCT02839343,NCT02839343-C2,group,consistent,consistent,Direct,consistent,1,505,0.5141352999926312
+qwen2.5:7b,2d1e6a785321557c,NCT02839343,NCT02839343-C2,group,consistent,consistent,Select,consistent,1,546,0.9868609999975888
+qwen2.5:7b,2d1e6a785321557c,NCT02839343,NCT02839343-C2,group,consistent,consistent,Select + Direct,consistent,2,1051,1.50099629999022
+qwen2.5:7b,2d1e6a785321557c,NCT02839343,NCT02839343-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1051,1.50099629999022
+qwen2.5:7b,ddc091ce7009cf93,NCT02020252,NCT02020252-C1,category,consistent,mismatch,Direct,mismatch,1,829,0.8253605000063544
+qwen2.5:7b,ddc091ce7009cf93,NCT02020252,NCT02020252-C1,category,consistent,mismatch,Select,consistent,1,1517,1.2034271999873454
+qwen2.5:7b,ddc091ce7009cf93,NCT02020252,NCT02020252-C1,category,consistent,mismatch,Select + Direct,consistent,2,2346,2.0287876999937
+qwen2.5:7b,ddc091ce7009cf93,NCT02020252,NCT02020252-C1,category,consistent,mismatch,Ambiguity first + Direct,consistent,2,2346,2.0287876999937
+qwen2.5:7b,7c75dec80d56d781,NCT03621982,NCT03621982-C2,group,consistent,mismatch,Direct,mismatch,1,3573,1.0243804000056116
+qwen2.5:7b,7c75dec80d56d781,NCT03621982,NCT03621982-C2,group,consistent,mismatch,Select,unclear,1,10599,3.2159924000006868
+qwen2.5:7b,7c75dec80d56d781,NCT03621982,NCT03621982-C2,group,consistent,mismatch,Select + Direct,mismatch,2,14172,4.240372800006298
+qwen2.5:7b,7c75dec80d56d781,NCT03621982,NCT03621982-C2,group,consistent,mismatch,Ambiguity first + Direct,mismatch,2,14172,4.240372800006298
+qwen2.5:7b,1d5c5fdca0a0fee1,NCT03449030,NCT03449030-C2,group,mismatch,consistent,Direct,consistent,1,993,0.9548823999939486
+qwen2.5:7b,1d5c5fdca0a0fee1,NCT03449030,NCT03449030-C2,group,mismatch,consistent,Select,unclear,1,2032,1.8566213000012795
+qwen2.5:7b,1d5c5fdca0a0fee1,NCT03449030,NCT03449030-C2,group,mismatch,consistent,Select + Direct,consistent,2,3025,2.811503699995228
+qwen2.5:7b,1d5c5fdca0a0fee1,NCT03449030,NCT03449030-C2,group,mismatch,consistent,Ambiguity first + Direct,consistent,2,3025,2.811503699995228
+qwen2.5:7b,cbed35c19a971300,NCT05451849,NCT05451849-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,545,0.5419619999884162
+qwen2.5:7b,cbed35c19a971300,NCT05451849,NCT05451849-C1,endpoint,mismatch,mismatch,Select,mismatch,1,568,1.0823403000104008
+qwen2.5:7b,cbed35c19a971300,NCT05451849,NCT05451849-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1113,1.624302299998817
+qwen2.5:7b,cbed35c19a971300,NCT05451849,NCT05451849-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1113,1.624302299998817
+qwen2.5:7b,980f510d0565d9c7,NCT01784861,NCT01784861-C2,group,mismatch,mismatch,Direct,mismatch,1,759,0.8618417999969097
+qwen2.5:7b,980f510d0565d9c7,NCT01784861,NCT01784861-C2,group,mismatch,mismatch,Select,unclear,1,1510,2.0099702999868896
+qwen2.5:7b,980f510d0565d9c7,NCT01784861,NCT01784861-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,2269,2.8718120999837993
+qwen2.5:7b,980f510d0565d9c7,NCT01784861,NCT01784861-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2269,2.8718120999837993
+qwen2.5:7b,300451f61dcdcaed,NCT01834235,NCT01834235-C1,group,consistent,consistent,Direct,consistent,1,567,0.7859825000050478
+qwen2.5:7b,300451f61dcdcaed,NCT01834235,NCT01834235-C1,group,consistent,consistent,Select,consistent,1,704,1.390445400000317
+qwen2.5:7b,300451f61dcdcaed,NCT01834235,NCT01834235-C1,group,consistent,consistent,Select + Direct,consistent,2,1271,2.176427900005365
+qwen2.5:7b,300451f61dcdcaed,NCT01834235,NCT01834235-C1,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1271,2.176427900005365
+qwen2.5:7b,8d7cf9b62cb937cf,NCT04808362,NCT04808362-C1,category,consistent,mismatch,Direct,mismatch,1,522,0.9132096999965142
+qwen2.5:7b,8d7cf9b62cb937cf,NCT04808362,NCT04808362-C1,category,consistent,mismatch,Select,unclear,1,798,1.4627632000047015
+qwen2.5:7b,8d7cf9b62cb937cf,NCT04808362,NCT04808362-C1,category,consistent,mismatch,Select + Direct,mismatch,2,1320,2.3759729000012157
+qwen2.5:7b,8d7cf9b62cb937cf,NCT04808362,NCT04808362-C1,category,consistent,mismatch,Ambiguity first + Direct,mismatch,2,1320,2.3759729000012157
+qwen2.5:7b,667a5b939183abb5,NCT01834235,NCT01834235-C2,group,mismatch,mismatch,Direct,mismatch,1,614,0.8554578999901423
+qwen2.5:7b,667a5b939183abb5,NCT01834235,NCT01834235-C2,group,mismatch,mismatch,Select,mismatch,1,719,1.4037669999961508
+qwen2.5:7b,667a5b939183abb5,NCT01834235,NCT01834235-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,1333,2.259224899986293
+qwen2.5:7b,667a5b939183abb5,NCT01834235,NCT01834235-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1333,2.259224899986293
+qwen2.5:7b,584c40b970d97e61,NCT02715804,NCT02715804-C2,group,consistent,consistent,Direct,consistent,1,1939,0.7965526999905705
+qwen2.5:7b,584c40b970d97e61,NCT02715804,NCT02715804-C2,group,consistent,consistent,Select,unclear,1,4672,2.247527800005628
+qwen2.5:7b,584c40b970d97e61,NCT02715804,NCT02715804-C2,group,consistent,consistent,Select + Direct,consistent,2,6611,3.0440804999961983
+qwen2.5:7b,584c40b970d97e61,NCT02715804,NCT02715804-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,6611,3.0440804999961983
+qwen2.5:7b,81b834fd8af38c86,NCT03449030,NCT03449030-C1,endpoint,mismatch,consistent,Direct,consistent,1,1349,0.7549315999931423
+qwen2.5:7b,81b834fd8af38c86,NCT03449030,NCT03449030-C1,endpoint,mismatch,consistent,Select,mismatch,1,2966,1.6865441999980249
+qwen2.5:7b,81b834fd8af38c86,NCT03449030,NCT03449030-C1,endpoint,mismatch,consistent,Select + Direct,mismatch,2,4315,2.441475799991167
+qwen2.5:7b,81b834fd8af38c86,NCT03449030,NCT03449030-C1,endpoint,mismatch,consistent,Ambiguity first + Direct,mismatch,2,4315,2.441475799991167
+qwen2.5:7b,d6d0a57ea0413b42,NCT06528093,NCT06528093-C2,group,mismatch,mismatch,Direct,mismatch,1,914,1.0441767000011168
+qwen2.5:7b,d6d0a57ea0413b42,NCT06528093,NCT06528093-C2,group,mismatch,mismatch,Select,unclear,1,1998,1.6525264000083553
+qwen2.5:7b,d6d0a57ea0413b42,NCT06528093,NCT06528093-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,2912,2.696703100009472
+qwen2.5:7b,d6d0a57ea0413b42,NCT06528093,NCT06528093-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2912,2.696703100009472
+qwen2.5:7b,8dc8dd551a09ee4a,NCT05546411,NCT05546411-C2,group,mismatch,mismatch,Direct,mismatch,1,524,0.7215034999971977
+qwen2.5:7b,8dc8dd551a09ee4a,NCT05546411,NCT05546411-C2,group,mismatch,mismatch,Select,unclear,1,746,1.4797241000051145
+qwen2.5:7b,8dc8dd551a09ee4a,NCT05546411,NCT05546411-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,1270,2.201227600002312
+qwen2.5:7b,8dc8dd551a09ee4a,NCT05546411,NCT05546411-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1270,2.201227600002312
+qwen2.5:7b,4568aa6dccd0b9a2,NCT02839343,NCT02839343-C1,endpoint,consistent,consistent,Direct,consistent,1,692,0.8262262000062037
+qwen2.5:7b,4568aa6dccd0b9a2,NCT02839343,NCT02839343-C1,endpoint,consistent,consistent,Select,consistent,1,760,0.9729052000038791
+qwen2.5:7b,4568aa6dccd0b9a2,NCT02839343,NCT02839343-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,1452,1.7991314000100829
+qwen2.5:7b,4568aa6dccd0b9a2,NCT02839343,NCT02839343-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,1452,1.7991314000100829
+qwen2.5:7b,b7582afb821d63e8,NCT05451849,NCT05451849-C2,category,consistent,mismatch,Direct,mismatch,1,804,0.6741645000001881
+qwen2.5:7b,b7582afb821d63e8,NCT05451849,NCT05451849-C2,category,consistent,mismatch,Select,unclear,1,1518,2.4008074999874225
+qwen2.5:7b,b7582afb821d63e8,NCT05451849,NCT05451849-C2,category,consistent,mismatch,Select + Direct,mismatch,2,2322,3.0749719999876106
+qwen2.5:7b,b7582afb821d63e8,NCT05451849,NCT05451849-C2,category,consistent,mismatch,Ambiguity first + Direct,mismatch,2,2322,3.0749719999876106
+qwen2.5:7b,538b0c4b3e52156e,NCT03512756,NCT03512756-C2,group,mismatch,mismatch,Direct,mismatch,1,644,0.911017799997353
+qwen2.5:7b,538b0c4b3e52156e,NCT03512756,NCT03512756-C2,group,mismatch,mismatch,Select,unclear,1,919,1.3213976999977604
+qwen2.5:7b,538b0c4b3e52156e,NCT03512756,NCT03512756-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,1563,2.2324154999951134
+qwen2.5:7b,538b0c4b3e52156e,NCT03512756,NCT03512756-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1563,2.2324154999951134
+llama3.1:8b,f525b043674f0dc2,NCT03122106,NCT03122106-C1,category,mismatch,mismatch,Direct,mismatch,1,736,3.7802758000034373
+llama3.1:8b,f525b043674f0dc2,NCT03122106,NCT03122106-C1,category,mismatch,mismatch,Select,mismatch,1,1612,1.139198300006683
+llama3.1:8b,f525b043674f0dc2,NCT03122106,NCT03122106-C1,category,mismatch,mismatch,Select + Direct,mismatch,2,2348,4.91947410001012
+llama3.1:8b,f525b043674f0dc2,NCT03122106,NCT03122106-C1,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2348,4.91947410001012
+llama3.1:8b,26abf2b4520901b1,NCT05451849,NCT05451849-C2,category,mismatch,consistent,Direct,consistent,1,823,1.1981965000013588
+llama3.1:8b,26abf2b4520901b1,NCT05451849,NCT05451849-C2,category,mismatch,consistent,Select,mismatch,1,1372,1.4738471000018762
+llama3.1:8b,26abf2b4520901b1,NCT05451849,NCT05451849-C2,category,mismatch,consistent,Select + Direct,mismatch,2,2195,2.672043600003235
+llama3.1:8b,26abf2b4520901b1,NCT05451849,NCT05451849-C2,category,mismatch,consistent,Ambiguity first + Direct,mismatch,2,2195,2.672043600003235
+llama3.1:8b,78b1eb1b8b8807bd,NCT01784861,NCT01784861-C1,endpoint,consistent,consistent,Direct,consistent,1,627,1.387860400005593
+llama3.1:8b,78b1eb1b8b8807bd,NCT01784861,NCT01784861-C1,endpoint,consistent,consistent,Select,consistent,1,508,0.9613600000011502
+llama3.1:8b,78b1eb1b8b8807bd,NCT01784861,NCT01784861-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,1135,2.349220400006743
+llama3.1:8b,78b1eb1b8b8807bd,NCT01784861,NCT01784861-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,1135,2.349220400006743
+llama3.1:8b,a297bd568aa5ca0c,NCT03621982,NCT03621982-C1,endpoint,consistent,consistent,Direct,consistent,1,1453,1.2094900000083726
+llama3.1:8b,a297bd568aa5ca0c,NCT03621982,NCT03621982-C1,endpoint,consistent,consistent,Select,consistent,1,3292,1.5641471999988426
+llama3.1:8b,a297bd568aa5ca0c,NCT03621982,NCT03621982-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,4745,2.773637200007215
+llama3.1:8b,a297bd568aa5ca0c,NCT03621982,NCT03621982-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,4745,2.773637200007215
+llama3.1:8b,376c779debcdd88c,NCT04683939,NCT04683939-C2,category,mismatch,consistent,Direct,consistent,1,1753,1.2683913999935612
+llama3.1:8b,376c779debcdd88c,NCT04683939,NCT04683939-C2,category,mismatch,consistent,Select,unclear,1,5208,2.3827670000027865
+llama3.1:8b,376c779debcdd88c,NCT04683939,NCT04683939-C2,category,mismatch,consistent,Select + Direct,consistent,2,6961,3.6511583999963477
+llama3.1:8b,376c779debcdd88c,NCT04683939,NCT04683939-C2,category,mismatch,consistent,Ambiguity first + Direct,consistent,2,6961,3.6511583999963477
+llama3.1:8b,261b684dd59932a7,NCT01822756,NCT01822756-C1,group,consistent,consistent,Direct,consistent,1,1570,1.1662975999934133
+llama3.1:8b,261b684dd59932a7,NCT01822756,NCT01822756-C1,group,consistent,consistent,Select,unclear,1,4556,2.0988297000003513
+llama3.1:8b,261b684dd59932a7,NCT01822756,NCT01822756-C1,group,consistent,consistent,Select + Direct,consistent,2,6126,3.2651272999937646
+llama3.1:8b,261b684dd59932a7,NCT01822756,NCT01822756-C1,group,consistent,consistent,Ambiguity first + Direct,consistent,2,6126,3.2651272999937646
+llama3.1:8b,5b67d22e47516153,NCT06528093,NCT06528093-C1,endpoint,consistent,mismatch,Direct,mismatch,1,1134,1.31408029999875
+llama3.1:8b,5b67d22e47516153,NCT06528093,NCT06528093-C1,endpoint,consistent,mismatch,Select,consistent,1,2380,1.8305061999999452
+llama3.1:8b,5b67d22e47516153,NCT06528093,NCT06528093-C1,endpoint,consistent,mismatch,Select + Direct,consistent,2,3514,3.144586499998695
+llama3.1:8b,5b67d22e47516153,NCT06528093,NCT06528093-C1,endpoint,consistent,mismatch,Ambiguity first + Direct,consistent,2,3514,3.144586499998695
+llama3.1:8b,bf1c818f145b729b,NCT03637491,NCT03637491-C2,category,consistent,mismatch,Direct,mismatch,1,806,1.3584993999975268
+llama3.1:8b,bf1c818f145b729b,NCT03637491,NCT03637491-C2,category,consistent,mismatch,Select,consistent,1,1239,1.8022683000017423
+llama3.1:8b,bf1c818f145b729b,NCT03637491,NCT03637491-C2,category,consistent,mismatch,Select + Direct,consistent,2,2045,3.160767699999269
+llama3.1:8b,bf1c818f145b729b,NCT03637491,NCT03637491-C2,category,consistent,mismatch,Ambiguity first + Direct,consistent,2,2045,3.160767699999269
+llama3.1:8b,9878a802d625eb2a,NCT03490760,NCT03490760-C2,endpoint,mismatch,mismatch,Direct,mismatch,1,838,0.7823505999986082
+llama3.1:8b,9878a802d625eb2a,NCT03490760,NCT03490760-C2,endpoint,mismatch,mismatch,Select,mismatch,1,612,1.1796400000021094
+llama3.1:8b,9878a802d625eb2a,NCT03490760,NCT03490760-C2,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1450,1.9619906000007177
+llama3.1:8b,9878a802d625eb2a,NCT03490760,NCT03490760-C2,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1450,1.9619906000007177
+llama3.1:8b,43bb999d0f66fec6,NCT05070247,NCT05070247-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,1977,2.125905699998839
+llama3.1:8b,43bb999d0f66fec6,NCT05070247,NCT05070247-C1,endpoint,mismatch,mismatch,Select,mismatch,1,3849,1.8807082999992417
+llama3.1:8b,43bb999d0f66fec6,NCT05070247,NCT05070247-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,5826,4.0066139999980805
+llama3.1:8b,43bb999d0f66fec6,NCT05070247,NCT05070247-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,5826,4.0066139999980805
+llama3.1:8b,07d188b635525c0b,NCT01834235,NCT01834235-C2,group,consistent,consistent,Direct,consistent,1,572,0.8305988999927649
+llama3.1:8b,07d188b635525c0b,NCT01834235,NCT01834235-C2,group,consistent,consistent,Select,consistent,1,708,1.424687000006088
+llama3.1:8b,07d188b635525c0b,NCT01834235,NCT01834235-C2,group,consistent,consistent,Select + Direct,consistent,2,1280,2.255285899998853
+llama3.1:8b,07d188b635525c0b,NCT01834235,NCT01834235-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1280,2.255285899998853
+llama3.1:8b,f9dcdc329db2d728,NCT05546411,NCT05546411-C2,group,consistent,consistent,Direct,consistent,1,511,0.8580807999969693
+llama3.1:8b,f9dcdc329db2d728,NCT05546411,NCT05546411-C2,group,consistent,consistent,Select,consistent,1,740,1.605957000007038
+llama3.1:8b,f9dcdc329db2d728,NCT05546411,NCT05546411-C2,group,consistent,consistent,Select + Direct,consistent,2,1251,2.4640378000040073
+llama3.1:8b,f9dcdc329db2d728,NCT05546411,NCT05546411-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1251,2.4640378000040073
+llama3.1:8b,892066a6d7aaf7c6,NCT03512756,NCT03512756-C2,group,consistent,consistent,Direct,consistent,1,598,0.8433105000003707
+llama3.1:8b,892066a6d7aaf7c6,NCT03512756,NCT03512756-C2,group,consistent,consistent,Select,consistent,1,901,1.3654234999994515
+llama3.1:8b,892066a6d7aaf7c6,NCT03512756,NCT03512756-C2,group,consistent,consistent,Select + Direct,consistent,2,1499,2.208733999999822
+llama3.1:8b,892066a6d7aaf7c6,NCT03512756,NCT03512756-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1499,2.208733999999822
+llama3.1:8b,0b2d9de14f4f9d1a,NCT03637491,NCT03637491-C2,category,mismatch,mismatch,Direct,mismatch,1,805,1.2356660000077682
+llama3.1:8b,0b2d9de14f4f9d1a,NCT03637491,NCT03637491-C2,category,mismatch,mismatch,Select,mismatch,1,1239,1.8131890000076964
+llama3.1:8b,0b2d9de14f4f9d1a,NCT03637491,NCT03637491-C2,category,mismatch,mismatch,Select + Direct,mismatch,2,2044,3.0488550000154646
+llama3.1:8b,0b2d9de14f4f9d1a,NCT03637491,NCT03637491-C2,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2044,3.0488550000154646
+llama3.1:8b,41d5fceceee51ab9,NCT02020252,NCT02020252-C2,category,mismatch,mismatch,Direct,mismatch,1,773,1.0124582999997074
+llama3.1:8b,41d5fceceee51ab9,NCT02020252,NCT02020252-C2,category,mismatch,mismatch,Select,mismatch,1,1481,1.221875600007479
+llama3.1:8b,41d5fceceee51ab9,NCT02020252,NCT02020252-C2,category,mismatch,mismatch,Select + Direct,mismatch,2,2254,2.2343339000071865
+llama3.1:8b,41d5fceceee51ab9,NCT02020252,NCT02020252-C2,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2254,2.2343339000071865
+llama3.1:8b,f7878df262a5c246,NCT02715804,NCT02715804-C2,group,mismatch,consistent,Direct,consistent,1,1799,1.3117305000050692
+llama3.1:8b,f7878df262a5c246,NCT02715804,NCT02715804-C2,group,mismatch,consistent,Select,mismatch,1,4454,2.324680100005935
+llama3.1:8b,f7878df262a5c246,NCT02715804,NCT02715804-C2,group,mismatch,consistent,Select + Direct,mismatch,2,6253,3.636410600011004
+llama3.1:8b,f7878df262a5c246,NCT02715804,NCT02715804-C2,group,mismatch,consistent,Ambiguity first + Direct,mismatch,2,6253,3.636410600011004
+llama3.1:8b,7fff7fac17fc9c41,NCT03099265,NCT03099265-C1,category,consistent,mismatch,Direct,mismatch,1,521,1.9625983999867458
+llama3.1:8b,7fff7fac17fc9c41,NCT03099265,NCT03099265-C1,category,consistent,mismatch,Select,consistent,1,491,0.8521642999985488
+llama3.1:8b,7fff7fac17fc9c41,NCT03099265,NCT03099265-C1,category,consistent,mismatch,Select + Direct,consistent,2,1012,2.8147626999852946
+llama3.1:8b,7fff7fac17fc9c41,NCT03099265,NCT03099265-C1,category,consistent,mismatch,Ambiguity first + Direct,consistent,2,1012,2.8147626999852946
+llama3.1:8b,dcc50459dbcd42db,NCT03621982,NCT03621982-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,1436,0.8448333000123966
+llama3.1:8b,dcc50459dbcd42db,NCT03621982,NCT03621982-C1,endpoint,mismatch,mismatch,Select,mismatch,1,3292,1.562940299991169
+llama3.1:8b,dcc50459dbcd42db,NCT03621982,NCT03621982-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,4728,2.4077736000035657
+llama3.1:8b,dcc50459dbcd42db,NCT03621982,NCT03621982-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,4728,2.4077736000035657
+llama3.1:8b,509991627f8513b8,NCT01834235,NCT01834235-C1,group,mismatch,mismatch,Direct,mismatch,1,520,0.6837472999905003
+llama3.1:8b,509991627f8513b8,NCT01834235,NCT01834235-C1,group,mismatch,mismatch,Select,mismatch,1,694,1.4700796999968588
+llama3.1:8b,509991627f8513b8,NCT01834235,NCT01834235-C1,group,mismatch,mismatch,Select + Direct,mismatch,2,1214,2.153826999987359
+llama3.1:8b,509991627f8513b8,NCT01834235,NCT01834235-C1,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1214,2.153826999987359
+llama3.1:8b,84b21a7ce02b5a43,NCT04683939,NCT04683939-C1,group,mismatch,consistent,Direct,consistent,1,1756,1.344988299999386
+llama3.1:8b,84b21a7ce02b5a43,NCT04683939,NCT04683939-C1,group,mismatch,consistent,Select,unclear,1,5476,2.4789932999992743
+llama3.1:8b,84b21a7ce02b5a43,NCT04683939,NCT04683939-C1,group,mismatch,consistent,Select + Direct,consistent,2,7232,3.8239815999986604
+llama3.1:8b,84b21a7ce02b5a43,NCT04683939,NCT04683939-C1,group,mismatch,consistent,Ambiguity first + Direct,consistent,2,7232,3.8239815999986604
+llama3.1:8b,31720329884d1290,NCT04683939,NCT04683939-C1,group,consistent,consistent,Direct,consistent,1,1778,1.3814336999930674
+llama3.1:8b,31720329884d1290,NCT04683939,NCT04683939-C1,group,consistent,consistent,Select,unclear,1,5476,2.5134319000062533
+llama3.1:8b,31720329884d1290,NCT04683939,NCT04683939-C1,group,consistent,consistent,Select + Direct,consistent,2,7254,3.8948655999993207
+llama3.1:8b,31720329884d1290,NCT04683939,NCT04683939-C1,group,consistent,consistent,Ambiguity first + Direct,consistent,2,7254,3.8948655999993207
+llama3.1:8b,c78f0e4045f723de,NCT04985604,NCT04985604-C2,group,mismatch,consistent,Direct,consistent,1,1130,1.108092000009492
+llama3.1:8b,c78f0e4045f723de,NCT04985604,NCT04985604-C2,group,mismatch,consistent,Select,mismatch,1,2583,1.5221558999910485
+llama3.1:8b,c78f0e4045f723de,NCT04985604,NCT04985604-C2,group,mismatch,consistent,Select + Direct,mismatch,2,3713,2.6302479000005405
+llama3.1:8b,c78f0e4045f723de,NCT04985604,NCT04985604-C2,group,mismatch,consistent,Ambiguity first + Direct,mismatch,2,3713,2.6302479000005405
+llama3.1:8b,8468afa9bcb26ead,NCT02715804,NCT02715804-C1,endpoint,mismatch,consistent,Direct,consistent,1,986,1.6764703000080772
+llama3.1:8b,8468afa9bcb26ead,NCT02715804,NCT02715804-C1,endpoint,mismatch,consistent,Select,mismatch,1,1078,1.5075809999980265
+llama3.1:8b,8468afa9bcb26ead,NCT02715804,NCT02715804-C1,endpoint,mismatch,consistent,Select + Direct,mismatch,2,2064,3.1840513000061037
+llama3.1:8b,8468afa9bcb26ead,NCT02715804,NCT02715804-C1,endpoint,mismatch,consistent,Ambiguity first + Direct,mismatch,2,2064,3.1840513000061037
+llama3.1:8b,7eac503f63fcd7ee,NCT03099265,NCT03099265-C2,category,consistent,mismatch,Direct,mismatch,1,571,1.0823538999975426
+llama3.1:8b,7eac503f63fcd7ee,NCT03099265,NCT03099265-C2,category,consistent,mismatch,Select,consistent,1,621,0.8976375000056578
+llama3.1:8b,7eac503f63fcd7ee,NCT03099265,NCT03099265-C2,category,consistent,mismatch,Select + Direct,consistent,2,1192,1.9799914000032004
+llama3.1:8b,7eac503f63fcd7ee,NCT03099265,NCT03099265-C2,category,consistent,mismatch,Ambiguity first + Direct,consistent,2,1192,1.9799914000032004
+llama3.1:8b,2377fe7ecca2b30c,NCT06528093,NCT06528093-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,1128,1.0403113999927882
+llama3.1:8b,2377fe7ecca2b30c,NCT06528093,NCT06528093-C1,endpoint,mismatch,mismatch,Select,mismatch,1,2380,1.7995783000078518
+llama3.1:8b,2377fe7ecca2b30c,NCT06528093,NCT06528093-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,3508,2.83988970000064
+llama3.1:8b,2377fe7ecca2b30c,NCT06528093,NCT06528093-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,3508,2.83988970000064
+llama3.1:8b,d388496133eaa4e8,NCT01822756,NCT01822756-C2,category,mismatch,consistent,Direct,consistent,1,1729,2.2499012000043876
+llama3.1:8b,d388496133eaa4e8,NCT01822756,NCT01822756-C2,category,mismatch,consistent,Select,mismatch,1,4562,2.132104199990863
+llama3.1:8b,d388496133eaa4e8,NCT01822756,NCT01822756-C2,category,mismatch,consistent,Select + Direct,mismatch,2,6291,4.382005399995251
+llama3.1:8b,d388496133eaa4e8,NCT01822756,NCT01822756-C2,category,mismatch,consistent,Ambiguity first + Direct,mismatch,2,6291,4.382005399995251
+llama3.1:8b,4886f35c71914dc7,NCT01784861,NCT01784861-C2,group,consistent,mismatch,Direct,mismatch,1,798,1.6286972999951104
+llama3.1:8b,4886f35c71914dc7,NCT01784861,NCT01784861-C2,group,consistent,mismatch,Select,consistent,1,1483,1.942407499998808
+llama3.1:8b,4886f35c71914dc7,NCT01784861,NCT01784861-C2,group,consistent,mismatch,Select + Direct,consistent,2,2281,3.5711047999939183
+llama3.1:8b,4886f35c71914dc7,NCT01784861,NCT01784861-C2,group,consistent,mismatch,Ambiguity first + Direct,consistent,2,2281,3.5711047999939183
+llama3.1:8b,cb98757a0bb74075,NCT03490760,NCT03490760-C2,endpoint,consistent,consistent,Direct,consistent,1,1047,2.5151081000076374
+llama3.1:8b,cb98757a0bb74075,NCT03490760,NCT03490760-C2,endpoint,consistent,consistent,Select,consistent,1,612,1.2142114999878686
+llama3.1:8b,cb98757a0bb74075,NCT03490760,NCT03490760-C2,endpoint,consistent,consistent,Select + Direct,consistent,2,1659,3.729319599995506
+llama3.1:8b,cb98757a0bb74075,NCT03490760,NCT03490760-C2,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,1659,3.729319599995506
+llama3.1:8b,fdd6323267326f73,NCT04683939,NCT04683939-C2,category,consistent,consistent,Direct,consistent,1,1751,1.2111242999962997
+llama3.1:8b,fdd6323267326f73,NCT04683939,NCT04683939-C2,category,consistent,consistent,Select,unclear,1,5208,2.3618782999983523
+llama3.1:8b,fdd6323267326f73,NCT04683939,NCT04683939-C2,category,consistent,consistent,Select + Direct,consistent,2,6959,3.573002599994652
+llama3.1:8b,fdd6323267326f73,NCT04683939,NCT04683939-C2,category,consistent,consistent,Ambiguity first + Direct,consistent,2,6959,3.573002599994652
+llama3.1:8b,4d7411c47c055140,NCT02839343,NCT02839343-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,671,1.1391358999971999
+llama3.1:8b,4d7411c47c055140,NCT02839343,NCT02839343-C1,endpoint,mismatch,mismatch,Select,unclear,1,749,1.0363611999928253
+llama3.1:8b,4d7411c47c055140,NCT02839343,NCT02839343-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1420,2.175497099990025
+llama3.1:8b,4d7411c47c055140,NCT02839343,NCT02839343-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1420,2.175497099990025
+llama3.1:8b,e8372378d9e4a3e3,NCT03099265,NCT03099265-C2,category,mismatch,mismatch,Direct,mismatch,1,561,0.9404960999963805
+llama3.1:8b,e8372378d9e4a3e3,NCT03099265,NCT03099265-C2,category,mismatch,mismatch,Select,mismatch,1,619,0.8580835000029765
+llama3.1:8b,e8372378d9e4a3e3,NCT03099265,NCT03099265-C2,category,mismatch,mismatch,Select + Direct,mismatch,2,1180,1.798579599999357
+llama3.1:8b,e8372378d9e4a3e3,NCT03099265,NCT03099265-C2,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1180,1.798579599999357
+llama3.1:8b,80dd52cded506bba,NCT03512756,NCT03512756-C1,group,consistent,mismatch,Direct,mismatch,1,538,1.0575472000055015
+llama3.1:8b,80dd52cded506bba,NCT03512756,NCT03512756-C1,group,consistent,mismatch,Select,consistent,1,857,1.2929880000010598
+llama3.1:8b,80dd52cded506bba,NCT03512756,NCT03512756-C1,group,consistent,mismatch,Select + Direct,consistent,2,1395,2.3505352000065614
+llama3.1:8b,80dd52cded506bba,NCT03512756,NCT03512756-C1,group,consistent,mismatch,Ambiguity first + Direct,consistent,2,1395,2.3505352000065614
+llama3.1:8b,a26cee208d250638,NCT04808362,NCT04808362-C2,category,mismatch,mismatch,Direct,mismatch,1,483,0.936558999994304
+llama3.1:8b,a26cee208d250638,NCT04808362,NCT04808362-C2,category,mismatch,mismatch,Select,unclear,1,739,1.0941187999997055
+llama3.1:8b,a26cee208d250638,NCT04808362,NCT04808362-C2,category,mismatch,mismatch,Select + Direct,mismatch,2,1222,2.0306777999940095
+llama3.1:8b,a26cee208d250638,NCT04808362,NCT04808362-C2,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1222,2.0306777999940095
+llama3.1:8b,8e30e4467752294f,NCT03122106,NCT03122106-C1,category,consistent,mismatch,Direct,mismatch,1,773,1.1598558999976376
+llama3.1:8b,8e30e4467752294f,NCT03122106,NCT03122106-C1,category,consistent,mismatch,Select,consistent,1,1612,1.1013643000042066
+llama3.1:8b,8e30e4467752294f,NCT03122106,NCT03122106-C1,category,consistent,mismatch,Select + Direct,consistent,2,2385,2.261220200001844
+llama3.1:8b,8e30e4467752294f,NCT03122106,NCT03122106-C1,category,consistent,mismatch,Ambiguity first + Direct,consistent,2,2385,2.261220200001844
+llama3.1:8b,8f2afae4381a67f9,NCT05546411,NCT05546411-C1,group,consistent,consistent,Direct,consistent,1,560,0.7468678000004729
+llama3.1:8b,8f2afae4381a67f9,NCT05546411,NCT05546411-C1,group,consistent,consistent,Select,consistent,1,695,1.3843877999897813
+llama3.1:8b,8f2afae4381a67f9,NCT05546411,NCT05546411-C1,group,consistent,consistent,Select + Direct,consistent,2,1255,2.1312555999902543
+llama3.1:8b,8f2afae4381a67f9,NCT05546411,NCT05546411-C1,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1255,2.1312555999902543
+llama3.1:8b,402b4e88e2cd8814,NCT03637491,NCT03637491-C1,group,consistent,consistent,Direct,consistent,1,674,0.8508691000024555
+llama3.1:8b,402b4e88e2cd8814,NCT03637491,NCT03637491-C1,group,consistent,consistent,Select,consistent,1,1058,1.433576899988111
+llama3.1:8b,402b4e88e2cd8814,NCT03637491,NCT03637491-C1,group,consistent,consistent,Select + Direct,consistent,2,1732,2.2844459999905666
+llama3.1:8b,402b4e88e2cd8814,NCT03637491,NCT03637491-C1,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1732,2.2844459999905666
+llama3.1:8b,3a93e371a43b51d6,NCT04985604,NCT04985604-C2,group,consistent,consistent,Direct,consistent,1,1132,0.880936000001384
+llama3.1:8b,3a93e371a43b51d6,NCT04985604,NCT04985604-C2,group,consistent,consistent,Select,consistent,1,2583,1.5367951999942306
+llama3.1:8b,3a93e371a43b51d6,NCT04985604,NCT04985604-C2,group,consistent,consistent,Select + Direct,consistent,2,3715,2.4177311999956146
+llama3.1:8b,3a93e371a43b51d6,NCT04985604,NCT04985604-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,3715,2.4177311999956146
+llama3.1:8b,e8de5d52b6d50d30,NCT01822756,NCT01822756-C1,group,mismatch,consistent,Direct,consistent,1,1623,1.3417845999938436
+llama3.1:8b,e8de5d52b6d50d30,NCT01822756,NCT01822756-C1,group,mismatch,consistent,Select,unclear,1,4556,2.119893299997784
+llama3.1:8b,e8de5d52b6d50d30,NCT01822756,NCT01822756-C1,group,mismatch,consistent,Select + Direct,consistent,2,6179,3.461677899991628
+llama3.1:8b,e8de5d52b6d50d30,NCT01822756,NCT01822756-C1,group,mismatch,consistent,Ambiguity first + Direct,consistent,2,6179,3.461677899991628
+llama3.1:8b,86dd1cb42d9dc09b,NCT03637491,NCT03637491-C1,group,mismatch,consistent,Direct,consistent,1,680,0.8808373999927426
+llama3.1:8b,86dd1cb42d9dc09b,NCT03637491,NCT03637491-C1,group,mismatch,consistent,Select,mismatch,1,1058,1.4161944999941625
+llama3.1:8b,86dd1cb42d9dc09b,NCT03637491,NCT03637491-C1,group,mismatch,consistent,Select + Direct,mismatch,2,1738,2.297031899986905
+llama3.1:8b,86dd1cb42d9dc09b,NCT03637491,NCT03637491-C1,group,mismatch,consistent,Ambiguity first + Direct,mismatch,2,1738,2.297031899986905
+llama3.1:8b,13ffa2e2d4e3045a,NCT04985604,NCT04985604-C1,endpoint,consistent,consistent,Direct,consistent,1,618,0.9925194999959785
+llama3.1:8b,13ffa2e2d4e3045a,NCT04985604,NCT04985604-C1,endpoint,consistent,consistent,Select,unclear,1,367,1.1800139999977546
+llama3.1:8b,13ffa2e2d4e3045a,NCT04985604,NCT04985604-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,985,2.172533499993733
+llama3.1:8b,13ffa2e2d4e3045a,NCT04985604,NCT04985604-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,985,2.172533499993733
+llama3.1:8b,45ef97c76fdd7158,NCT03449030,NCT03449030-C2,group,consistent,consistent,Direct,consistent,1,924,0.9993830000021262
+llama3.1:8b,45ef97c76fdd7158,NCT03449030,NCT03449030-C2,group,consistent,consistent,Select,consistent,1,1987,1.9091343000036431
+llama3.1:8b,45ef97c76fdd7158,NCT03449030,NCT03449030-C2,group,consistent,consistent,Select + Direct,consistent,2,2911,2.9085173000057694
+llama3.1:8b,45ef97c76fdd7158,NCT03449030,NCT03449030-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,2911,2.9085173000057694
+llama3.1:8b,fd0a801e29bcea0e,NCT03099265,NCT03099265-C1,category,mismatch,mismatch,Direct,mismatch,1,371,0.6253521000035107
+llama3.1:8b,fd0a801e29bcea0e,NCT03099265,NCT03099265-C1,category,mismatch,mismatch,Select,mismatch,1,491,0.8445333999989089
+llama3.1:8b,fd0a801e29bcea0e,NCT03099265,NCT03099265-C1,category,mismatch,mismatch,Select + Direct,mismatch,2,862,1.4698855000024196
+llama3.1:8b,fd0a801e29bcea0e,NCT03099265,NCT03099265-C1,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,862,1.4698855000024196
+llama3.1:8b,097ed93efae7e799,NCT05451849,NCT05451849-C1,endpoint,consistent,consistent,Direct,consistent,1,529,0.7319495999981882
+llama3.1:8b,097ed93efae7e799,NCT05451849,NCT05451849-C1,endpoint,consistent,consistent,Select,consistent,1,551,1.0611541999969631
+llama3.1:8b,097ed93efae7e799,NCT05451849,NCT05451849-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,1080,1.7931037999951513
+llama3.1:8b,097ed93efae7e799,NCT05451849,NCT05451849-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,1080,1.7931037999951513
+llama3.1:8b,c2f0399cc7ff8116,NCT03621982,NCT03621982-C2,group,mismatch,consistent,Direct,consistent,1,3274,1.6135445999971125
+llama3.1:8b,c2f0399cc7ff8116,NCT03621982,NCT03621982-C2,group,mismatch,consistent,Select,unclear,1,10242,3.3941128000005847
+llama3.1:8b,c2f0399cc7ff8116,NCT03621982,NCT03621982-C2,group,mismatch,consistent,Select + Direct,consistent,2,13516,5.007657399997697
+llama3.1:8b,c2f0399cc7ff8116,NCT03621982,NCT03621982-C2,group,mismatch,consistent,Ambiguity first + Direct,consistent,2,13516,5.007657399997697
+llama3.1:8b,26e39ab800c224ed,NCT05070247,NCT05070247-C2,group,mismatch,mismatch,Direct,mismatch,1,1175,1.607115699996939
+llama3.1:8b,26e39ab800c224ed,NCT05070247,NCT05070247-C2,group,mismatch,mismatch,Select,mismatch,1,2549,1.614425099993241
+llama3.1:8b,26e39ab800c224ed,NCT05070247,NCT05070247-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,3724,3.22154079999018
+llama3.1:8b,26e39ab800c224ed,NCT05070247,NCT05070247-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,3724,3.22154079999018
+llama3.1:8b,4db5c8a6191d28fb,NCT03512756,NCT03512756-C1,group,mismatch,mismatch,Direct,mismatch,1,527,0.9225430999940727
+llama3.1:8b,4db5c8a6191d28fb,NCT03512756,NCT03512756-C1,group,mismatch,mismatch,Select,mismatch,1,858,1.2930174000066472
+llama3.1:8b,4db5c8a6191d28fb,NCT03512756,NCT03512756-C1,group,mismatch,mismatch,Select + Direct,mismatch,2,1385,2.21556050000072
+llama3.1:8b,4db5c8a6191d28fb,NCT03512756,NCT03512756-C1,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1385,2.21556050000072
+llama3.1:8b,ddc0d33c548e16b1,NCT02839343,NCT02839343-C2,group,mismatch,consistent,Direct,consistent,1,486,0.6350081999989925
+llama3.1:8b,ddc0d33c548e16b1,NCT02839343,NCT02839343-C2,group,mismatch,consistent,Select,mismatch,1,542,1.018986600000062
+llama3.1:8b,ddc0d33c548e16b1,NCT02839343,NCT02839343-C2,group,mismatch,consistent,Select + Direct,mismatch,2,1028,1.6539947999990545
+llama3.1:8b,ddc0d33c548e16b1,NCT02839343,NCT02839343-C2,group,mismatch,consistent,Ambiguity first + Direct,mismatch,2,1028,1.6539947999990545
+llama3.1:8b,47754a84c1404f3f,NCT03122106,NCT03122106-C2,category,consistent,mismatch,Direct,mismatch,1,740,0.7749461000057636
+llama3.1:8b,47754a84c1404f3f,NCT03122106,NCT03122106-C2,category,consistent,mismatch,Select,consistent,1,1613,1.0793942000018433
+llama3.1:8b,47754a84c1404f3f,NCT03122106,NCT03122106-C2,category,consistent,mismatch,Select + Direct,consistent,2,2353,1.8543403000076069
+llama3.1:8b,47754a84c1404f3f,NCT03122106,NCT03122106-C2,category,consistent,mismatch,Ambiguity first + Direct,consistent,2,2353,1.8543403000076069
+llama3.1:8b,b6c13f97c1e29341,NCT03490760,NCT03490760-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,547,0.7361579999997048
+llama3.1:8b,b6c13f97c1e29341,NCT03490760,NCT03490760-C1,endpoint,mismatch,mismatch,Select,mismatch,1,520,1.0466165999969235
+llama3.1:8b,b6c13f97c1e29341,NCT03490760,NCT03490760-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1067,1.7827745999966282
+llama3.1:8b,b6c13f97c1e29341,NCT03490760,NCT03490760-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1067,1.7827745999966282
+llama3.1:8b,3eaacfa41b21edc3,NCT04808362,NCT04808362-C2,category,consistent,mismatch,Direct,mismatch,1,578,1.7010077999875648
+llama3.1:8b,3eaacfa41b21edc3,NCT04808362,NCT04808362-C2,category,consistent,mismatch,Select,unclear,1,739,1.0621729999984382
+llama3.1:8b,3eaacfa41b21edc3,NCT04808362,NCT04808362-C2,category,consistent,mismatch,Select + Direct,mismatch,2,1317,2.763180799986003
+llama3.1:8b,3eaacfa41b21edc3,NCT04808362,NCT04808362-C2,category,consistent,mismatch,Ambiguity first + Direct,mismatch,2,1317,2.763180799986003
+llama3.1:8b,56478d6f78d6ca5d,NCT01822756,NCT01822756-C2,category,consistent,consistent,Direct,consistent,1,1577,0.8577057000075001
+llama3.1:8b,56478d6f78d6ca5d,NCT01822756,NCT01822756-C2,category,consistent,consistent,Select,consistent,1,4562,2.1141678000130923
+llama3.1:8b,56478d6f78d6ca5d,NCT01822756,NCT01822756-C2,category,consistent,consistent,Select + Direct,consistent,2,6139,2.9718735000205925
+llama3.1:8b,56478d6f78d6ca5d,NCT01822756,NCT01822756-C2,category,consistent,consistent,Ambiguity first + Direct,consistent,2,6139,2.9718735000205925
+llama3.1:8b,d4bbb4998df51da1,NCT04985604,NCT04985604-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,689,1.6699728999956278
+llama3.1:8b,d4bbb4998df51da1,NCT04985604,NCT04985604-C1,endpoint,mismatch,mismatch,Select,unclear,1,367,1.1833585999993375
+llama3.1:8b,d4bbb4998df51da1,NCT04985604,NCT04985604-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1056,2.8533314999949653
+llama3.1:8b,d4bbb4998df51da1,NCT04985604,NCT04985604-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1056,2.8533314999949653
+llama3.1:8b,284b0c769ed636e5,NCT02020252,NCT02020252-C1,category,mismatch,mismatch,Direct,mismatch,1,774,0.9885696999990614
+llama3.1:8b,284b0c769ed636e5,NCT02020252,NCT02020252-C1,category,mismatch,mismatch,Select,mismatch,1,1487,1.2152590000041528
+llama3.1:8b,284b0c769ed636e5,NCT02020252,NCT02020252-C1,category,mismatch,mismatch,Select + Direct,mismatch,2,2261,2.203828700003214
+llama3.1:8b,284b0c769ed636e5,NCT02020252,NCT02020252-C1,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2261,2.203828700003214
+llama3.1:8b,5987a60ff4b6bc53,NCT03122106,NCT03122106-C2,category,mismatch,consistent,Direct,consistent,1,739,0.773515499997302
+llama3.1:8b,5987a60ff4b6bc53,NCT03122106,NCT03122106-C2,category,mismatch,consistent,Select,mismatch,1,1613,1.0777944000001298
+llama3.1:8b,5987a60ff4b6bc53,NCT03122106,NCT03122106-C2,category,mismatch,consistent,Select + Direct,mismatch,2,2352,1.8513098999974318
+llama3.1:8b,5987a60ff4b6bc53,NCT03122106,NCT03122106-C2,category,mismatch,consistent,Ambiguity first + Direct,mismatch,2,2352,1.8513098999974318
+llama3.1:8b,1ce3a6faba7cc16a,NCT02715804,NCT02715804-C1,endpoint,consistent,consistent,Direct,consistent,1,901,0.9426212000107625
+llama3.1:8b,1ce3a6faba7cc16a,NCT02715804,NCT02715804-C1,endpoint,consistent,consistent,Select,consistent,1,1078,1.5153106000070693
+llama3.1:8b,1ce3a6faba7cc16a,NCT02715804,NCT02715804-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,1979,2.457931800017832
+llama3.1:8b,1ce3a6faba7cc16a,NCT02715804,NCT02715804-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,1979,2.457931800017832
+llama3.1:8b,5835bfc4bfeb30be,NCT05546411,NCT05546411-C1,group,mismatch,mismatch,Direct,mismatch,1,585,0.8642818000080297
+llama3.1:8b,5835bfc4bfeb30be,NCT05546411,NCT05546411-C1,group,mismatch,mismatch,Select,mismatch,1,695,1.3562410000013188
+llama3.1:8b,5835bfc4bfeb30be,NCT05546411,NCT05546411-C1,group,mismatch,mismatch,Select + Direct,mismatch,2,1280,2.2205228000093484
+llama3.1:8b,5835bfc4bfeb30be,NCT05546411,NCT05546411-C1,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1280,2.2205228000093484
+llama3.1:8b,b53ecfe4627f5c16,NCT03490760,NCT03490760-C1,endpoint,consistent,consistent,Direct,consistent,1,566,0.8242752000078326
+llama3.1:8b,b53ecfe4627f5c16,NCT03490760,NCT03490760-C1,endpoint,consistent,consistent,Select,consistent,1,520,1.0239484999910928
+llama3.1:8b,b53ecfe4627f5c16,NCT03490760,NCT03490760-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,1086,1.8482236999989254
+llama3.1:8b,b53ecfe4627f5c16,NCT03490760,NCT03490760-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,1086,1.8482236999989254
+llama3.1:8b,be839cc98021c5d3,NCT06528093,NCT06528093-C2,group,consistent,mismatch,Direct,mismatch,1,849,1.2253158000094118
+llama3.1:8b,be839cc98021c5d3,NCT06528093,NCT06528093-C2,group,consistent,mismatch,Select,unclear,1,1884,1.681642900002771
+llama3.1:8b,be839cc98021c5d3,NCT06528093,NCT06528093-C2,group,consistent,mismatch,Select + Direct,mismatch,2,2733,2.906958700012183
+llama3.1:8b,be839cc98021c5d3,NCT06528093,NCT06528093-C2,group,consistent,mismatch,Ambiguity first + Direct,mismatch,2,2733,2.906958700012183
+llama3.1:8b,c777312f194cb1b5,NCT03449030,NCT03449030-C1,endpoint,consistent,consistent,Direct,consistent,1,1228,0.9343590999924345
+llama3.1:8b,c777312f194cb1b5,NCT03449030,NCT03449030-C1,endpoint,consistent,consistent,Select,consistent,1,2836,1.6982061000016984
+llama3.1:8b,c777312f194cb1b5,NCT03449030,NCT03449030-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,4064,2.632565199994133
+llama3.1:8b,c777312f194cb1b5,NCT03449030,NCT03449030-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,4064,2.632565199994133
+llama3.1:8b,b0bfeb35cfbaee33,NCT04808362,NCT04808362-C1,category,mismatch,mismatch,Direct,mismatch,1,468,0.7875801999907708
+llama3.1:8b,b0bfeb35cfbaee33,NCT04808362,NCT04808362-C1,category,mismatch,mismatch,Select,mismatch,1,741,1.110463399993023
+llama3.1:8b,b0bfeb35cfbaee33,NCT04808362,NCT04808362-C1,category,mismatch,mismatch,Select + Direct,mismatch,2,1209,1.8980435999837937
+llama3.1:8b,b0bfeb35cfbaee33,NCT04808362,NCT04808362-C1,category,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1209,1.8980435999837937
+llama3.1:8b,6e9c6d9417778b4f,NCT05070247,NCT05070247-C2,group,consistent,consistent,Direct,consistent,1,1171,1.1971548000001349
+llama3.1:8b,6e9c6d9417778b4f,NCT05070247,NCT05070247-C2,group,consistent,consistent,Select,consistent,1,2549,1.6293080000032205
+llama3.1:8b,6e9c6d9417778b4f,NCT05070247,NCT05070247-C2,group,consistent,consistent,Select + Direct,consistent,2,3720,2.8264628000033554
+llama3.1:8b,6e9c6d9417778b4f,NCT05070247,NCT05070247-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,3720,2.8264628000033554
+llama3.1:8b,d825ff13c99f8e5e,NCT02020252,NCT02020252-C2,category,consistent,mismatch,Direct,mismatch,1,759,0.8012638999935007
+llama3.1:8b,d825ff13c99f8e5e,NCT02020252,NCT02020252-C2,category,consistent,mismatch,Select,consistent,1,1481,1.2288355999917258
+llama3.1:8b,d825ff13c99f8e5e,NCT02020252,NCT02020252-C2,category,consistent,mismatch,Select + Direct,consistent,2,2240,2.0300994999852264
+llama3.1:8b,d825ff13c99f8e5e,NCT02020252,NCT02020252-C2,category,consistent,mismatch,Ambiguity first + Direct,consistent,2,2240,2.0300994999852264
+llama3.1:8b,c25927f0370169b3,NCT01784861,NCT01784861-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,577,0.930150500003947
+llama3.1:8b,c25927f0370169b3,NCT01784861,NCT01784861-C1,endpoint,mismatch,mismatch,Select,mismatch,1,508,0.9706080000032671
+llama3.1:8b,c25927f0370169b3,NCT01784861,NCT01784861-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1085,1.900758500007214
+llama3.1:8b,c25927f0370169b3,NCT01784861,NCT01784861-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1085,1.900758500007214
+llama3.1:8b,664adc510fc2208a,NCT05070247,NCT05070247-C1,endpoint,consistent,consistent,Direct,consistent,1,1860,1.0816873000003397
+llama3.1:8b,664adc510fc2208a,NCT05070247,NCT05070247-C1,endpoint,consistent,consistent,Select,consistent,1,3853,1.8889371000113897
+llama3.1:8b,664adc510fc2208a,NCT05070247,NCT05070247-C1,endpoint,consistent,consistent,Select + Direct,consistent,2,5713,2.9706244000117294
+llama3.1:8b,664adc510fc2208a,NCT05070247,NCT05070247-C1,endpoint,consistent,consistent,Ambiguity first + Direct,consistent,2,5713,2.9706244000117294
+llama3.1:8b,2d1e6a785321557c,NCT02839343,NCT02839343-C2,group,consistent,consistent,Direct,consistent,1,551,1.216037399994093
+llama3.1:8b,2d1e6a785321557c,NCT02839343,NCT02839343-C2,group,consistent,consistent,Select,consistent,1,542,1.0897098000132246
+llama3.1:8b,2d1e6a785321557c,NCT02839343,NCT02839343-C2,group,consistent,consistent,Select + Direct,consistent,2,1093,2.3057472000073176
+llama3.1:8b,2d1e6a785321557c,NCT02839343,NCT02839343-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1093,2.3057472000073176
+llama3.1:8b,ddc091ce7009cf93,NCT02020252,NCT02020252-C1,category,consistent,mismatch,Direct,mismatch,1,766,0.8111850999994203
+llama3.1:8b,ddc091ce7009cf93,NCT02020252,NCT02020252-C1,category,consistent,mismatch,Select,consistent,1,1487,1.2413712999987183
+llama3.1:8b,ddc091ce7009cf93,NCT02020252,NCT02020252-C1,category,consistent,mismatch,Select + Direct,consistent,2,2253,2.0525563999981387
+llama3.1:8b,ddc091ce7009cf93,NCT02020252,NCT02020252-C1,category,consistent,mismatch,Ambiguity first + Direct,consistent,2,2253,2.0525563999981387
+llama3.1:8b,7c75dec80d56d781,NCT03621982,NCT03621982-C2,group,consistent,mismatch,Direct,mismatch,1,3260,0.980614100000821
+llama3.1:8b,7c75dec80d56d781,NCT03621982,NCT03621982-C2,group,consistent,mismatch,Select,unclear,1,10598,7.2577832999959355
+llama3.1:8b,7c75dec80d56d781,NCT03621982,NCT03621982-C2,group,consistent,mismatch,Select + Direct,mismatch,2,13858,8.238397399996757
+llama3.1:8b,7c75dec80d56d781,NCT03621982,NCT03621982-C2,group,consistent,mismatch,Ambiguity first + Direct,mismatch,2,13858,8.238397399996757
+llama3.1:8b,1d5c5fdca0a0fee1,NCT03449030,NCT03449030-C2,group,mismatch,consistent,Direct,consistent,1,957,1.5039678000030108
+llama3.1:8b,1d5c5fdca0a0fee1,NCT03449030,NCT03449030-C2,group,mismatch,consistent,Select,mismatch,1,1987,1.9673822000040673
+llama3.1:8b,1d5c5fdca0a0fee1,NCT03449030,NCT03449030-C2,group,mismatch,consistent,Select + Direct,mismatch,2,2944,3.471350000007078
+llama3.1:8b,1d5c5fdca0a0fee1,NCT03449030,NCT03449030-C2,group,mismatch,consistent,Ambiguity first + Direct,mismatch,2,2944,3.471350000007078
+llama3.1:8b,cbed35c19a971300,NCT05451849,NCT05451849-C1,endpoint,mismatch,mismatch,Direct,mismatch,1,525,0.7636844999942696
+llama3.1:8b,cbed35c19a971300,NCT05451849,NCT05451849-C1,endpoint,mismatch,mismatch,Select,mismatch,1,551,1.0914512000017567
+llama3.1:8b,cbed35c19a971300,NCT05451849,NCT05451849-C1,endpoint,mismatch,mismatch,Select + Direct,mismatch,2,1076,1.8551356999960262
+llama3.1:8b,cbed35c19a971300,NCT05451849,NCT05451849-C1,endpoint,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1076,1.8551356999960262
+llama3.1:8b,980f510d0565d9c7,NCT01784861,NCT01784861-C2,group,mismatch,mismatch,Direct,mismatch,1,747,1.1169602000009036
+llama3.1:8b,980f510d0565d9c7,NCT01784861,NCT01784861-C2,group,mismatch,mismatch,Select,mismatch,1,1483,1.9047514999983832
+llama3.1:8b,980f510d0565d9c7,NCT01784861,NCT01784861-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,2230,3.021711699999287
+llama3.1:8b,980f510d0565d9c7,NCT01784861,NCT01784861-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2230,3.021711699999287
+llama3.1:8b,300451f61dcdcaed,NCT01834235,NCT01834235-C1,group,consistent,consistent,Direct,consistent,1,770,2.8270363000046927
+llama3.1:8b,300451f61dcdcaed,NCT01834235,NCT01834235-C1,group,consistent,consistent,Select,consistent,1,694,1.4769055000069784
+llama3.1:8b,300451f61dcdcaed,NCT01834235,NCT01834235-C1,group,consistent,consistent,Select + Direct,consistent,2,1464,4.303941800011671
+llama3.1:8b,300451f61dcdcaed,NCT01834235,NCT01834235-C1,group,consistent,consistent,Ambiguity first + Direct,consistent,2,1464,4.303941800011671
+llama3.1:8b,8d7cf9b62cb937cf,NCT04808362,NCT04808362-C1,category,consistent,mismatch,Direct,mismatch,1,476,0.8398698000091827
+llama3.1:8b,8d7cf9b62cb937cf,NCT04808362,NCT04808362-C1,category,consistent,mismatch,Select,consistent,1,740,1.0811007999873254
+llama3.1:8b,8d7cf9b62cb937cf,NCT04808362,NCT04808362-C1,category,consistent,mismatch,Select + Direct,consistent,2,1216,1.920970599996508
+llama3.1:8b,8d7cf9b62cb937cf,NCT04808362,NCT04808362-C1,category,consistent,mismatch,Ambiguity first + Direct,consistent,2,1216,1.920970599996508
+llama3.1:8b,667a5b939183abb5,NCT01834235,NCT01834235-C2,group,mismatch,consistent,Direct,consistent,1,592,0.9364181000128156
+llama3.1:8b,667a5b939183abb5,NCT01834235,NCT01834235-C2,group,mismatch,consistent,Select,mismatch,1,710,1.4276263999927323
+llama3.1:8b,667a5b939183abb5,NCT01834235,NCT01834235-C2,group,mismatch,consistent,Select + Direct,mismatch,2,1302,2.364044500005548
+llama3.1:8b,667a5b939183abb5,NCT01834235,NCT01834235-C2,group,mismatch,consistent,Ambiguity first + Direct,mismatch,2,1302,2.364044500005548
+llama3.1:8b,584c40b970d97e61,NCT02715804,NCT02715804-C2,group,consistent,consistent,Direct,consistent,1,1792,1.2376456999918446
+llama3.1:8b,584c40b970d97e61,NCT02715804,NCT02715804-C2,group,consistent,consistent,Select,consistent,1,4454,2.3323875999922166
+llama3.1:8b,584c40b970d97e61,NCT02715804,NCT02715804-C2,group,consistent,consistent,Select + Direct,consistent,2,6246,3.570033299984061
+llama3.1:8b,584c40b970d97e61,NCT02715804,NCT02715804-C2,group,consistent,consistent,Ambiguity first + Direct,consistent,2,6246,3.570033299984061
+llama3.1:8b,81b834fd8af38c86,NCT03449030,NCT03449030-C1,endpoint,mismatch,consistent,Direct,consistent,1,1228,0.8120759999874281
+llama3.1:8b,81b834fd8af38c86,NCT03449030,NCT03449030-C1,endpoint,mismatch,consistent,Select,mismatch,1,2836,1.6672455000079935
+llama3.1:8b,81b834fd8af38c86,NCT03449030,NCT03449030-C1,endpoint,mismatch,consistent,Select + Direct,mismatch,2,4064,2.4793214999954216
+llama3.1:8b,81b834fd8af38c86,NCT03449030,NCT03449030-C1,endpoint,mismatch,consistent,Ambiguity first + Direct,mismatch,2,4064,2.4793214999954216
+llama3.1:8b,d6d0a57ea0413b42,NCT06528093,NCT06528093-C2,group,mismatch,mismatch,Direct,mismatch,1,849,1.1897144000104163
+llama3.1:8b,d6d0a57ea0413b42,NCT06528093,NCT06528093-C2,group,mismatch,mismatch,Select,unclear,1,1883,1.7139114000019617
+llama3.1:8b,d6d0a57ea0413b42,NCT06528093,NCT06528093-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,2732,2.903625800012378
+llama3.1:8b,d6d0a57ea0413b42,NCT06528093,NCT06528093-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,2732,2.903625800012378
+llama3.1:8b,8dc8dd551a09ee4a,NCT05546411,NCT05546411-C2,group,mismatch,mismatch,Direct,mismatch,1,511,0.8908658999862382
+llama3.1:8b,8dc8dd551a09ee4a,NCT05546411,NCT05546411-C2,group,mismatch,mismatch,Select,mismatch,1,734,1.52140060000238
+llama3.1:8b,8dc8dd551a09ee4a,NCT05546411,NCT05546411-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,1245,2.4122664999886183
+llama3.1:8b,8dc8dd551a09ee4a,NCT05546411,NCT05546411-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1245,2.4122664999886183
+llama3.1:8b,4568aa6dccd0b9a2,NCT02839343,NCT02839343-C1,endpoint,consistent,mismatch,Direct,mismatch,1,682,1.154169900008128
+llama3.1:8b,4568aa6dccd0b9a2,NCT02839343,NCT02839343-C1,endpoint,consistent,mismatch,Select,unclear,1,749,1.0497291999927256
+llama3.1:8b,4568aa6dccd0b9a2,NCT02839343,NCT02839343-C1,endpoint,consistent,mismatch,Select + Direct,mismatch,2,1431,2.2038991000008537
+llama3.1:8b,4568aa6dccd0b9a2,NCT02839343,NCT02839343-C1,endpoint,consistent,mismatch,Ambiguity first + Direct,mismatch,2,1431,2.2038991000008537
+llama3.1:8b,b7582afb821d63e8,NCT05451849,NCT05451849-C2,category,consistent,mismatch,Direct,mismatch,1,818,1.1269898000027752
+llama3.1:8b,b7582afb821d63e8,NCT05451849,NCT05451849-C2,category,consistent,mismatch,Select,consistent,1,1372,1.4744800000044052
+llama3.1:8b,b7582afb821d63e8,NCT05451849,NCT05451849-C2,category,consistent,mismatch,Select + Direct,consistent,2,2190,2.6014698000071803
+llama3.1:8b,b7582afb821d63e8,NCT05451849,NCT05451849-C2,category,consistent,mismatch,Ambiguity first + Direct,consistent,2,2190,2.6014698000071803
+llama3.1:8b,538b0c4b3e52156e,NCT03512756,NCT03512756-C2,group,mismatch,mismatch,Direct,mismatch,1,613,0.9858222999901045
+llama3.1:8b,538b0c4b3e52156e,NCT03512756,NCT03512756-C2,group,mismatch,mismatch,Select,mismatch,1,901,1.3678145000012591
+llama3.1:8b,538b0c4b3e52156e,NCT03512756,NCT03512756-C2,group,mismatch,mismatch,Select + Direct,mismatch,2,1514,2.3536367999913637
+llama3.1:8b,538b0c4b3e52156e,NCT03512756,NCT03512756-C2,group,mismatch,mismatch,Ambiguity first + Direct,mismatch,2,1514,2.3536367999913637

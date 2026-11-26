@@ -1,0 +1,98 @@
+{
+  "id": "7fff7fac17fc9c41",
+  "model": "llama3.1:8b",
+  "method": "select",
+  "service": "0.40.17",
+  "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Verify each stated outcome against numbered trial rows. Source outcome values are withheld during selection. Select rows by the group, endpoint, statistic, unit and every stated reporting condition, never by the outcome value. For each stated outcome return the chosen row_id (integer, 0 for no match, -1 for ambiguity), the numeric result as a string and value_quote copied exactly from the claim. Also copy the entire stated time, population, denominator and category as exact substrings from the claim, omitting field labels like \"time frame:\"; use an empty string for each absent condition. List all numerical outcomes separately, not participant counts used as denominators. Set complete false if the claim cannot be represented or any relation was missed. Output JSON only."
+      },
+      {
+        "role": "user",
+        "content": "{\"statement\": \"For Patients With Borderline Resectable Pancreatic Adenocarcinoma, the reported COUNT_OF_PARTICIPANTS for Number of Participants: Overall Survival was 6 Participants (time frame: Up to 2 years; denominator: Participants: 9; category: Deceased).\", \"rows\": [{\"row_id\": 1, \"group\": \"Patients With Borderline Resectable Pancreatic Adenocarcinoma\", \"endpoint\": \"Number of Participants: Overall Survival\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 2 years\", \"population\": \"\", \"denominator\": \"Participants: 9\", \"category\": \"Deceased\"}, {\"row_id\": 2, \"group\": \"Patients With Borderline Resectable Pancreatic Adenocarcinoma\", \"endpoint\": \"Number of Participants: Overall Survival\", \"unit\": \"Participants\", \"statistic\": \"COUNT_OF_PARTICIPANTS\", \"time\": \"Up to 2 years\", \"population\": \"\", \"denominator\": \"Participants: 9\", \"category\": \"Not Deceased\"}]}"
+      }
+    ],
+    "format": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "row_id": {
+                "type": "integer"
+              },
+              "value": {
+                "type": "string"
+              },
+              "value_quote": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "population": {
+                "type": "string"
+              },
+              "denominator": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "row_id",
+              "value",
+              "value_quote",
+              "time",
+              "population",
+              "denominator",
+              "category"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "relations"
+      ],
+      "additionalProperties": false
+    },
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 17,
+      "num_ctx": 16384,
+      "num_predict": 768
+    },
+    "keep_alive": "10m"
+  },
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-21T16:27:50.8572677Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"complete\": true,\n  \"relations\": [\n    {\n      \"row_id\": 1,\n      \"value\": \"6\",\n      \"value_quote\": \"6 Participants\",\n      \"time\": \"Up to 2 years\",\n      \"population\": \"\",\n      \"denominator\": \"Participants: 9\",\n      \"category\": \"Deceased\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 843014400,
+    "load_duration": 3142200,
+    "prompt_eval_count": 410,
+    "prompt_eval_cached_count": 2,
+    "prompt_eval_duration": 85282000,
+    "eval_count": 81,
+    "eval_duration": 742916000
+  },
+  "seconds": 0.8521642999985488
+}

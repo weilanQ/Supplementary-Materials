@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-11-19T18:25:01.3423073Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. The value for Arm I is 7.7, which indicates that patients in Arm I were on antibiotics for some days."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 264997700,
+    "load_duration": 5364100,
+    "prompt_eval_count": 213,
+    "prompt_eval_cached_count": 199,
+    "prompt_eval_duration": 14714000,
+    "eval_count": 28,
+    "eval_duration": 233554000
+  },
+  "text": "True. The value for Arm I is 7.7, which indicates that patients in Arm I were on antibiotics for some days.",
+  "request": {
+    "model": "llama3.1:8b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 2: Improved Antibiotic Stewardship - Number of Antibiotics\nDescription: Assessed by the total number of antibiotics administered.\nTime frame: Up to 90 days\nAnalysis population: To determine whether use of Oxford Nanopore sequencing improved antibiotic stewardship we compared the total number of antibiotics administered to Arm II patients compared to the total number of antibiotics administered to Arm I patients. We also compared the number of days patients were on antibiotics\nStatistic: MEAN\nUnit of measure: Antibiotics Administered\nGroup: Arm I (Biospecimen Collection, Routine Testing)\nCategory: \nDenominator: Participants: 3\nValue: 7.7\nGroup: Arm II (Biospecimen, Nanopore Sequencing, Routine Testing)\nCategory: \nDenominator: Participants: 5\nValue: 5.4\n\nInput: Patients in Arm I were on antibiotics for some days. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "seconds": 0.26995200000237674,
+  "call_id": "f7ab39ca46d1cf6c47f26c1b16b53c275f0282a100c1401ac0ba4be3e8101b22"
+}

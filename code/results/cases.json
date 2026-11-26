@@ -1,0 +1,395 @@
+[
+  {
+    "kind": "valid JSON with missing identity",
+    "id": "30110659f9d529aa",
+    "model": "qwen2.5_7b",
+    "claim": "The table gives 5 participants as the NUMBER for Number of Participants With Stable Disease in Autologous TIL (time frame: 6 weeks, 12 weeks; denominator: Participants: 16; category: Stable Disease at 6 weeks).",
+    "rows": [
+      {
+        "endpoint": "Number of Participants With Stable Disease",
+        "time": "6 weeks, 12 weeks",
+        "population": "",
+        "statistic": "NUMBER",
+        "unit": "participants",
+        "description": "Participants will be evaluated at 6 and 12 weeks for response.",
+        "group": "Autologous TIL",
+        "category": "Stable Disease at 6 weeks",
+        "denominator": "Participants: 16",
+        "spans": [
+          {
+            "start": 0,
+            "end": 53,
+            "quote": "Outcome 2: Number of Participants With Stable Disease"
+          },
+          {
+            "start": 54,
+            "end": 129,
+            "quote": "Description: Participants will be evaluated at 6 and 12 weeks for response."
+          },
+          {
+            "start": 130,
+            "end": 159,
+            "quote": "Time frame: 6 weeks, 12 weeks"
+          },
+          {
+            "start": 160,
+            "end": 181,
+            "quote": "Analysis population: "
+          },
+          {
+            "start": 182,
+            "end": 199,
+            "quote": "Statistic: NUMBER"
+          },
+          {
+            "start": 200,
+            "end": 229,
+            "quote": "Unit of measure: participants"
+          },
+          {
+            "start": 230,
+            "end": 251,
+            "quote": "Group: Autologous TIL"
+          },
+          {
+            "start": 252,
+            "end": 287,
+            "quote": "Category: Stable Disease at 6 weeks"
+          },
+          {
+            "start": 288,
+            "end": 317,
+            "quote": "Denominator: Participants: 16"
+          },
+          {
+            "start": 318,
+            "end": 327,
+            "quote": "Value: 10"
+          }
+        ],
+        "value": "10"
+      },
+      {
+        "endpoint": "Number of Participants With Stable Disease",
+        "time": "6 weeks, 12 weeks",
+        "population": "",
+        "statistic": "NUMBER",
+        "unit": "participants",
+        "description": "Participants will be evaluated at 6 and 12 weeks for response.",
+        "group": "Autologous TIL",
+        "category": "Stable Disease at 12 weeks",
+        "denominator": "Participants: 16",
+        "spans": [
+          {
+            "start": 0,
+            "end": 53,
+            "quote": "Outcome 2: Number of Participants With Stable Disease"
+          },
+          {
+            "start": 54,
+            "end": 129,
+            "quote": "Description: Participants will be evaluated at 6 and 12 weeks for response."
+          },
+          {
+            "start": 130,
+            "end": 159,
+            "quote": "Time frame: 6 weeks, 12 weeks"
+          },
+          {
+            "start": 160,
+            "end": 181,
+            "quote": "Analysis population: "
+          },
+          {
+            "start": 182,
+            "end": 199,
+            "quote": "Statistic: NUMBER"
+          },
+          {
+            "start": 200,
+            "end": 229,
+            "quote": "Unit of measure: participants"
+          },
+          {
+            "start": 328,
+            "end": 349,
+            "quote": "Group: Autologous TIL"
+          },
+          {
+            "start": 350,
+            "end": 386,
+            "quote": "Category: Stable Disease at 12 weeks"
+          },
+          {
+            "start": 387,
+            "end": 416,
+            "quote": "Denominator: Participants: 16"
+          },
+          {
+            "start": 417,
+            "end": 425,
+            "quote": "Value: 5"
+          }
+        ],
+        "value": "5"
+      }
+    ],
+    "extraction": {
+      "complete": true,
+      "records": [
+        {
+          "group": "Number of Participants With Stable Disease",
+          "endpoint": "Autologous TIL",
+          "unit": "",
+          "statistic": "count",
+          "time": "6 weeks, 12 weeks",
+          "population": "",
+          "denominator": "Participants: 16",
+          "category": "Stable Disease at 6 weeks",
+          "value": 5,
+          "quotes": [
+            "The table gives 5 participants as the NUMBER for Number of Participants With Stable Disease in Autologous TIL (time frame: 6 weeks, 12 weeks; denominator: Participants: 16; category: Stable Disease at 6 weeks)"
+          ]
+        }
+      ]
+    },
+    "raw_selected": "{\n  \"complete\": true,\n  \"relations\": [\n    {\n      \"row_id\": 1,\n      \"value\": \"5\",\n      \"value_quote\": \"5 participants\",\n      \"time\": \"6 weeks, 12 weeks\",\n      \"population\": \"\",\n      \"denominator\": \"Participants: 16\",\n      \"category\": \"Stable Disease at 6 weeks\"\n    }\n  ]\n}",
+    "diagnosis": {
+      "model": "qwen2.5_7b",
+      "id": "30110659f9d529aa",
+      "trial": "NCT03610490",
+      "gold": "mismatch",
+      "original_first": "missing_identity",
+      "repaired_first": "missing_identity",
+      "mechanical_bytes_changed": false,
+      "old_field_differences": null,
+      "selection_stage": "decided",
+      "json_valid": true,
+      "valid": true,
+      "one_positive_id": true,
+      "returned_ids": [
+        1
+      ],
+      "compatible_ids": [
+        1
+      ],
+      "exact_selection": true,
+      "selected_prediction": "mismatch",
+      "direct": "consistent",
+      "claim": "The table gives 5 participants as the NUMBER for Number of Participants With Stable Disease in Autologous TIL (time frame: 6 weeks, 12 weeks; denominator: Participants: 16; category: Stable Disease at 6 weeks)."
+    }
+  },
+  {
+    "kind": "extra selected relation",
+    "id": "239c89fe7cc44f1e",
+    "model": "llama3.1_8b",
+    "claim": "For Autologous TIL, the reported MEDIAN for Progression-free Survival (PFS) and Overall Survival (OS) was 18.86 months (time frame: 44.8 months; denominator: Participants: 16; category: OS).",
+    "rows": [
+      {
+        "endpoint": "Progression-free Survival (PFS) and Overall Survival (OS)",
+        "time": "44.8 months",
+        "population": "",
+        "statistic": "MEDIAN",
+        "unit": "months",
+        "description": "",
+        "group": "Autologous TIL",
+        "category": "PFS",
+        "denominator": "Participants: 16",
+        "spans": [
+          {
+            "start": 0,
+            "end": 68,
+            "quote": "Outcome 3: Progression-free Survival (PFS) and Overall Survival (OS)"
+          },
+          {
+            "start": 69,
+            "end": 82,
+            "quote": "Description: "
+          },
+          {
+            "start": 83,
+            "end": 106,
+            "quote": "Time frame: 44.8 months"
+          },
+          {
+            "start": 107,
+            "end": 128,
+            "quote": "Analysis population: "
+          },
+          {
+            "start": 129,
+            "end": 146,
+            "quote": "Statistic: MEDIAN"
+          },
+          {
+            "start": 147,
+            "end": 170,
+            "quote": "Unit of measure: months"
+          },
+          {
+            "start": 171,
+            "end": 192,
+            "quote": "Group: Autologous TIL"
+          },
+          {
+            "start": 193,
+            "end": 206,
+            "quote": "Category: PFS"
+          },
+          {
+            "start": 207,
+            "end": 236,
+            "quote": "Denominator: Participants: 16"
+          },
+          {
+            "start": 237,
+            "end": 248,
+            "quote": "Value: 2.53"
+          }
+        ],
+        "value": "2.53"
+      },
+      {
+        "endpoint": "Progression-free Survival (PFS) and Overall Survival (OS)",
+        "time": "44.8 months",
+        "population": "",
+        "statistic": "MEDIAN",
+        "unit": "months",
+        "description": "",
+        "group": "Autologous TIL",
+        "category": "OS",
+        "denominator": "Participants: 16",
+        "spans": [
+          {
+            "start": 0,
+            "end": 68,
+            "quote": "Outcome 3: Progression-free Survival (PFS) and Overall Survival (OS)"
+          },
+          {
+            "start": 69,
+            "end": 82,
+            "quote": "Description: "
+          },
+          {
+            "start": 83,
+            "end": 106,
+            "quote": "Time frame: 44.8 months"
+          },
+          {
+            "start": 107,
+            "end": 128,
+            "quote": "Analysis population: "
+          },
+          {
+            "start": 129,
+            "end": 146,
+            "quote": "Statistic: MEDIAN"
+          },
+          {
+            "start": 147,
+            "end": 170,
+            "quote": "Unit of measure: months"
+          },
+          {
+            "start": 249,
+            "end": 270,
+            "quote": "Group: Autologous TIL"
+          },
+          {
+            "start": 271,
+            "end": 283,
+            "quote": "Category: OS"
+          },
+          {
+            "start": 284,
+            "end": 313,
+            "quote": "Denominator: Participants: 16"
+          },
+          {
+            "start": 314,
+            "end": 326,
+            "quote": "Value: 18.86"
+          }
+        ],
+        "value": "18.86"
+      }
+    ],
+    "extraction": {
+      "complete": true,
+      "records": [
+        {
+          "group": "Autologous TIL",
+          "endpoint": "Progression-free Survival (PFS)",
+          "unit": "months",
+          "statistic": "median",
+          "time": "44.8 months",
+          "population": "",
+          "denominator": "Participants: 16",
+          "category": "OS",
+          "value": 18.86,
+          "quotes": [
+            "For Autologous TIL, the reported MEDIAN for Progression-free Survival (PFS) and Overall Survival (OS) was 18.86 months (time frame: 44.8 months; denominator: Participants: 16; category: OS)"
+          ]
+        },
+        {
+          "group": "Autologous TIL",
+          "endpoint": "Overall Survival (OS)",
+          "unit": "months",
+          "statistic": "median",
+          "time": "44.8 months",
+          "population": "",
+          "denominator": "Participants: 16",
+          "category": "OS",
+          "value": 18.86,
+          "quotes": [
+            "For Autologous TIL, the reported MEDIAN for Progression-free Survival (PFS) and Overall Survival (OS) was 18.86 months (time frame: 44.8 months; denominator: Participants: 16; category: OS)"
+          ]
+        }
+      ]
+    },
+    "raw_selected": "{\n  \"complete\": true,\n  \"relations\": [\n    {\n      \"row_id\": 2,\n      \"value\": \"18.86\",\n      \"value_quote\": \"18.86 months\",\n      \"time\": \"44.8 months\",\n      \"population\": \"\",\n      \"denominator\": \"Participants: 16\",\n      \"category\": \"OS\"\n    },\n    {\n      \"row_id\": 1,\n      \"value\": \"18.86\",\n      \"value_quote\": \"18.86 months\",\n      \"time\": \"44.8 months\",\n      \"population\": \"\",\n      \"denominator\": \"Participants: 16\",\n      \"category\": \"PFS\"\n    }\n  ]\n}",
+    "diagnosis": {
+      "model": "llama3.1_8b",
+      "id": "239c89fe7cc44f1e",
+      "trial": "NCT03610490",
+      "gold": "consistent",
+      "original_first": "no_compatible_row",
+      "repaired_first": "no_compatible_row",
+      "mechanical_bytes_changed": false,
+      "old_field_differences": [
+        "relation count"
+      ],
+      "selection_stage": "decided",
+      "json_valid": true,
+      "valid": true,
+      "one_positive_id": false,
+      "returned_ids": [
+        2,
+        1
+      ],
+      "compatible_ids": [
+        2
+      ],
+      "exact_selection": false,
+      "selected_prediction": "mismatch",
+      "direct": "mismatch",
+      "claim": "For Autologous TIL, the reported MEDIAN for Progression-free Survival (PFS) and Overall Survival (OS) was 18.86 months (time frame: 44.8 months; denominator: Participants: 16; category: OS)."
+    }
+  },
+  {
+    "kind": "denominator lookup abstains",
+    "id": "c696a7c518d11bb1",
+    "paired_id": "a66b8a1808ccc153",
+    "claim": "For group \"Erlotinib Plus Gemcitabine\", the mean for \"Score in Participant Questionnaire: Quality of Life\" was 2.9 scores on a scale (time frame \"At Weeks 4, 8, 9 and 16\"; analysis population \"Safety population included all participants who received at least one treatment with study medication.\"; category \"Week 8\"; denominator \"Participants: 338\").",
+    "evidence": "Outcome 13: Score in Participant Questionnaire: Quality of Life\nDescription: Participant assessment of life quality under therapy. Assessment ranged from 1 (very good) to 6 (very bad). Questionnaire scores were assessed at several time points during the study.\nTime frame: At Weeks 4, 8, 9 and 16\nAnalysis population: Safety population included all participants who received at least one treatment with study medication.\nOutcome-level participant count for Erlotinib Plus Gemcitabine: Participants: 338\nStatistic: MEAN\nUnit of measure: scores on a scale\nGroup: Erlotinib Plus Gemcitabine\nCategory: Week 4\nDenominator: Participants: 180\nValue: 2.9\nGroup: Erlotinib Plus Gemcitabine\nCategory: Week 8\nDenominator: Participants: 140\nValue: 2.9\nGroup: Erlotinib Plus Gemcitabine\nCategory: Week 9\nDenominator: Participants: 1\nValue: 1.0\nGroup: Erlotinib Plus Gemcitabine\nCategory: Week 16\nDenominator: Participants: 94\nValue: 2.9",
+    "key": {
+      "id": "c696a7c518d11bb1",
+      "trial": "NCT01782690",
+      "kind": "scoped denominator",
+      "pair": "0c5dcb91cc9d2f5407171ef978c2581d246cc0868debcd56ceb2c56fd69b5e30",
+      "gold": "mismatch",
+      "target": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/12/classes/1/categories/0/measurements/0/value",
+      "donor": "/resultsSection/outcomeMeasuresModule/outcomeMeasures/12/classes/1/categories/0/measurements/0/value"
+    }
+  }
+]

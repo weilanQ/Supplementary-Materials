@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "raw": {
+    "model": "qwen2.5:7b",
+    "created_at": "2026-11-19T18:20:37.916165Z",
+    "message": {
+      "role": "assistant",
+      "content": "True. According to the given context, participants who did not have a follow-up CT scan were excluded from this outcome measure."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 243374400,
+    "load_duration": 5177000,
+    "prompt_eval_count": 340,
+    "prompt_eval_cached_count": 312,
+    "prompt_eval_duration": 16324000,
+    "eval_count": 26,
+    "eval_duration": 209285000
+  },
+  "text": "True. According to the given context, participants who did not have a follow-up CT scan were excluded from this outcome measure.",
+  "request": {
+    "model": "qwen2.5:7b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Answer the question based on the given context.\n\nOutcome 5: Time to Tumor Progression (TTP)\nDescription: * Time to tumor progression is defined as the days from start of treatment until progressive disease.\n* Progression is defined as at least a 20% increase in the sum of the diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. (Note: the appearance of one or more new lesions is also considered progressions).\nTime frame: Up to 2 years\nAnalysis population: Participants who did not have a follow-up CT scan were excluded from this outcome measure. The 2 participants analyzed in the Dose Expansion Arm received 450 mg BVD-523.\nStatistic: MEDIAN\nUnit of measure: days\nGroup: Dose De-escalation: BVD-523/Nab-paclitaxel/Gemcitabine\nCategory: \nDenominator: Participants: 5\nValue: 85\nGroup: Dose Expansion: BVD-523/Nab-paclitaxel/Gemcitabine\nCategory: \nDenominator: Participants: 2\nValue: 39.5\n\nInput: Participants who did not have a follow-up CT scan were excluded from this outcome measure. True or False?\nOutput:"
+      }
+    ],
+    "stream": false,
+    "keep_alive": "30m",
+    "options": {
+      "temperature": 0,
+      "seed": 20261027,
+      "num_predict": 256,
+      "num_ctx": 16384
+    }
+  },
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "seconds": 0.24881289999757428,
+  "call_id": "4fd2e252623e6563e817aa14179ec8eeec6dafee6a3bd3d0bfebd045899943ae"
+}
